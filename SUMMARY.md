@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
-* [Interface](interface.md)
+* [Overview](overview.md)
 
 ## Insights
   * [Recommendations](insights/recommendations/README.md)
