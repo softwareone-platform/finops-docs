@@ -43,4 +43,4 @@
   * [Why does the pricing in FinOps not match the SoftwareOne invoice?](faqs/why-does-the-pricing-in-finops-not-match-the-softwareone-invoice.md)
 
 ## Help and Support
-* [Release Notes](release-notes.md)
+* [Release Notes](help-and-support/release-notes.md)
