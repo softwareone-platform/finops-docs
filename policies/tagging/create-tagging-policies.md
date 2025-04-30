@@ -4,7 +4,7 @@ in FinOps for Cloud, you can create multiple tagging policies. For example, you 
 
 New policies can be created using the **Add** option on the **Tagging policies** page.
 
-<figure><img src="../../../../.gitbook/assets/ffc_tagging.png" alt=""><figcaption><p>Add option on the Tagging policies page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ffc_tagging.png" alt=""><figcaption><p>Add option on the Tagging policies page</p></figcaption></figure>
 
 To create a new tagging policy:
 
