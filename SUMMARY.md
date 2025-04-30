@@ -40,6 +40,7 @@
   * [Settings](system/settings.md)
 
 ## Help and Support
+* [Contact Support](help-and-support/contact-support.md)
 * [FAQs](help-and-support/faqs/README.md)
   * [Why does the pricing in FinOps not match the SoftwareOne invoice?](help-and-support/faqs/why-does-the-pricing-in-finops-not-match-the-softwareone-invoice.md)
 * [Release Notes](help-and-support/release-notes.md)
