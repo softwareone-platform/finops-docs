@@ -2,7 +2,7 @@
 
 If you have the **Organization manager** role, you can create a new quota or budget policy using the **Add** option on the **Quota and Budgets** page.
 
-<figure><img src="../../../../.gitbook/assets/ffc_quotasandbudgets.png" alt=""><figcaption><p>Add option on the Quotas and Budgets page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ffc_quotasandbudgets.png" alt=""><figcaption><p>Add option on the Quotas and Budgets page</p></figcaption></figure>
 
 To create a new policy:
 
