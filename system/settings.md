@@ -4,7 +4,7 @@ The **Settings** page in FinOps for Cloud lets you view and manage your organiza
 
 You can access the page from the sidebar.
 
-<figure><img src="../../../.gitbook/assets/ffc_settings.png" alt=""><figcaption><p>Settings page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ffc_settings.png" alt=""><figcaption><p>Settings page</p></figcaption></figure>
 
 The **Settings** page contains the following tabs:
 
