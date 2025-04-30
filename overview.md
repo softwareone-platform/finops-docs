@@ -2,7 +2,7 @@
 
 FinOps for Cloud is split into different sections for ease of navigation and usability:
 
-<figure><img src="../../.gitbook/assets/ffc_homepage.png" alt=""><figcaption><p>Home page</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ffc_homepage.png" alt=""><figcaption><p>Home page</p></figcaption></figure>
 
 ## Sidebar
 
