@@ -3,7 +3,7 @@
 * [Home](README.md)
 * [Interface](interface.md)
 
-  ## Insights
+## Insights
   * [Recommendations](insights/recommendations/README.md)
     * [Savings Optimization Recommendations](insights/recommendations/savings-optimization-recommendations.md)
     * [Security Recommendations](insights/recommendations/security-recommendations.md)
@@ -17,6 +17,7 @@
     * [Delete Pools](insights/pools/delete-a-pool.md)
     * [Pool Constraint Policies](insights/pools/pool-constraint-policies.md)
   * [Cost Explorer](insights/cost-explorer.md)
+
 ## Policies
   * [Anomaly Detection](policies/anomaly-detection/README.md)
     * [Create Anomaly Detection Policies](policies/anomaly-detection/create-anomaly-detection-policies.md)
@@ -24,6 +25,7 @@
     * [Create Quota or Budget Policies](policies/quotas-and-budgets/create-quotas-or-budget-policies.md)
   * [Tagging Policies](policies/tagging/README.md)
     * [Create Tagging Policies](policies/tagging/create-tagging-policies.md)
+
 ## System
   * [User Management](system/user-management.md)
   * [Data Sources](system/data-sources/README.md)
@@ -36,6 +38,9 @@
     * [Microsoft Azure](system/data-sources/microsoft-azure.md)
   * [Events](system/events.md)
   * [Settings](system/settings.md)
+
 ## FAQs
   * [Why does the pricing in FinOps not match the SoftwareOne invoice?](faqs/why-does-the-pricing-in-finops-not-match-the-softwareone-invoice.md)
+
+## Help and Support
 * [Release Notes](release-notes.md)
