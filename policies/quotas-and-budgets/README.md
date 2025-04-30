@@ -6,7 +6,7 @@ Setting budgets and quotas is a core feature that allows you to control cloud sp
 
 You can access **Quotas and Budgets** from the **Policies** section in the sidebar.
 
-<figure><img src="../../../../.gitbook/assets/ffc_quotasandbudgets.png" alt=""><figcaption><p>Quotas and Budgets page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ffc_quotasandbudgets.png" alt=""><figcaption><p>Quotas and Budgets page</p></figcaption></figure>
 
 The **Name**, **Status**, **Description**, and **Filters** columns show information about your existing quotas or budgets. The type of budget can be easily detected by the description:
 
