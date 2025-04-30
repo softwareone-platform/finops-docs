@@ -2,7 +2,7 @@
 
 This topic describes how to connect your Google Cloud Platform (GCP) account to SoftwareOne's FinOps for Cloud. When connecting your account, you will need to provide the billing data details, such as the dataset name and table name.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/ffc_gcp.png" alt=""><figcaption><p>Google Cloud data source</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ffc_gcp.png" alt=""><figcaption><p>Google Cloud data source</p></figcaption></figure>
 
 ## Enabling billing export <a href="#enable-billing-export" id="enable-billing-export"></a>
 
@@ -12,7 +12,7 @@ After you have enabled billing data export, a new table is displayed in your Big
 
 Note the names of the dataset and the table. You'll need these details when connecting your cloud account to FinOps for Cloud.
 
-<figure><img src="../../../../.gitbook/assets/gcp_billingdata_export.png" alt=""><figcaption><p>Billing export</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gcp_billingdata_export.png" alt=""><figcaption><p>Billing export</p></figcaption></figure>
 
 ## Creating a role for FinOps for Cloud <a href="#prepare-a-role-for-optscale" id="prepare-a-role-for-optscale"></a>
 
@@ -95,4 +95,4 @@ The service account API key will be downloaded as a JSON file. Use this file whe
 
 Use the newly downloaded service account credentials JSON file with the billing dataset details to connect your GCP cloud account. Next, click **Connect** to complete the setup.
 
-<figure><img src="../../../../.gitbook/assets/GCP.png" alt=""><figcaption><p>Google Cloud data source</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/GCP.png" alt=""><figcaption><p>Google Cloud data source</p></figcaption></figure>
