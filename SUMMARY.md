@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Home](README.md)
+
+## FinOps for Cloud
 * [Overview](overview.md)
 
 ## Insights
