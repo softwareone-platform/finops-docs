@@ -4,7 +4,7 @@ The **Tagging Policies** page allows you to view and manage your tagging policie
 
 You can access the **Tagging Policies** page from the sidebar.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/ffc_tagging.png" alt=""><figcaption><p>Tagging in FinOps for Cloud</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ffc_tagging.png" alt=""><figcaption><p>Tagging in FinOps for Cloud</p></figcaption></figure>
 
 You can view all policies along with their status and [create a new tagging policy](create-tagging-policies.md) from this page.
 
