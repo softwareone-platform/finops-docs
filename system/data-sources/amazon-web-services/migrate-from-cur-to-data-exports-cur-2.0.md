@@ -10,19 +10,19 @@ To create a new Data Export with CUR 2.0 schema:
 2. Select **Create** and then select **Standard data export** export type.
 3. Enter the export name. The name is required when updating an AWS Data Source in FinOps for Cloud.
 
-<figure><img src="../../../../../.gitbook/assets/aws_standard_data_export.png" alt=""><figcaption><p>Create export</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aws_standard_data_export.png" alt=""><figcaption><p>Create export</p></figcaption></figure>
 
 4. In **Data table content settings**, do the following:
    1. Select **CUR 2.0**.
    2. Select the **Include resource IDs** checkbox.
    3. Choose the time granularity for how you want the line items in the export to be aggregated.
 
-<figure><img src="../../../../../.gitbook/assets/cur2.0_include_resource_ids.png" alt=""><figcaption><p>Data table content settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cur2.0_include_resource_ids.png" alt=""><figcaption><p>Data table content settings</p></figcaption></figure>
 
 5. In **Data export delivery options**, select **Overwrite existing data export file**. Select the compression type.
 6. In **Data export storage settings**, configure a new bucket. You'll need to provide the **S3 path prefix** and **S3 bucket name** when updating an AWS Data Source in FinOps.
 
-<figure><img src="../../../../../.gitbook/assets/aws_configure_S3_bucket.png" alt=""><figcaption><p>Configure S3 bucket</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aws_configure_S3_bucket.png" alt=""><figcaption><p>Configure S3 bucket</p></figcaption></figure>
 
 7. Confirm export creation. AWS will prepare Data Export within 24 hours.
 8. Select the existing AWS Data Source on the Data Source page in FinOps for Cloud. The page with detailed information opens.&#x20;
@@ -45,16 +45,16 @@ Use this case if you have already connected an AWS Data Source (on Legacy CUR ex
    2. Select the **Include resource IDs** checkbox.
    3. Choose the time granularity for how you want the line items in the export to be aggregated.
 
-<figure><img src="../../../../../.gitbook/assets/cur2.0_settings.png" alt=""><figcaption><p><strong>Data ta</strong>ble content settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cur2.0_settings.png" alt=""><figcaption><p><strong>Data ta</strong>ble content settings</p></figcaption></figure>
 
 5. In **Data export delivery options**, select **Overwrite existing data export file.** Select compression type.
 6. In **Data export storage settings**, select **Configure** and then select **Select existing bucket**.
 
-<figure><img src="../../../../../.gitbook/assets/aws_configure_bucket.png" alt=""><figcaption><p><strong>Data</strong> export storage settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aws_configure_bucket.png" alt=""><figcaption><p><strong>Data</strong> export storage settings</p></figcaption></figure>
 
 7. Enter the new **S3 path prefix**.
 
-<figure><img src="../../../../../.gitbook/assets/aws_path_prefix.png" alt=""><figcaption><p>Path prefix</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aws_path_prefix.png" alt=""><figcaption><p>Path prefix</p></figcaption></figure>
 
 8. Select the existing AWS Data Source on the Data Source page in FinOps for Cloud. The page with detailed information opens.
 9. Click **Update credentials** to update the Data Source credentials.&#x20;
