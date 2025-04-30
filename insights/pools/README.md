@@ -10,7 +10,7 @@ FinOps for Cloud allows you to manage assignment rules by viewing, creating, edi
 
 The **Configure assignment rules** option on the **Pools** page displays the **Assignment Rules** page.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/assignment_rules.png" alt=""><figcaption><p>Assignment rules page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/assignment_rules.png" alt=""><figcaption><p>Assignment rules page</p></figcaption></figure>
 
 From this page, you can [add new assignment rules](add-assignment-rules.md) and view all the existing rules along with the following details:&#x20;
 
@@ -44,7 +44,7 @@ It shows how resources are assigned and managed within the pool, ensuring transp
 
 To find a list of assignment rules associated with the selected pool, open the pool details page and select the **Assignment rules** tab:
 
-<figure><img src="../../../../.gitbook/assets/pool_related_assignment_rules.png" alt=""><figcaption><p>Assignment rules</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/pool_related_assignment_rules.png" alt=""><figcaption><p>Assignment rules</p></figcaption></figure>
 
 Each rule entry includes the rule's **Name**, **Owner**, and **Conditions**, providing a clear overview of the rule configurations.
 
