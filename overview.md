@@ -1,4 +1,4 @@
-# Interface
+# Overview
 
 FinOps for Cloud is split into different sections for ease of navigation and usability:
 
