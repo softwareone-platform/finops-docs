@@ -6,7 +6,7 @@ To start tracking a new data source in your account:
 
 1. On the **Data Sources** page, select **Add**.
 
-<figure><img src="../../../../.gitbook/assets/ffc_data_source (1).png" alt=""><figcaption><p>Data Sources page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ffc_data_source (1).png" alt=""><figcaption><p>Data Sources page</p></figcaption></figure>
 
 2. On the **Connect data source** page, select the source you want to connect and enter the credentials. The credentials vary depending on the type of source.&#x20;
    * For AWS data sources, see [Amazon Web Services](amazon-web-services/).
