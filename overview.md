@@ -18,7 +18,7 @@ The sidebar is your entry point for accessing the following pages:
 
 ## Main dashboard
 
-The dashboard displays your organization’s current spending and projected expenses for the upcoming month. It has various sections, each displaying the most popular pages. You can access the main page of any section by selecting the forward arrow<img src="../../.gitbook/assets/icon_arrow.png" alt="<svg xmlns=&#x22;http://www.w3.org/2000/svg&#x22; height=&#x22;24px&#x22; viewBox=&#x22;0 -960 960 960&#x22; width=&#x22;24px&#x22; fill=&#x22;#472AFF&#x22;><path d=&#x22;m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z&#x22;/></svg>" data-size="line">. The main page is where further detailed information is available.
+The dashboard displays your organization’s current spending and projected expenses for the upcoming month. It has various sections, each displaying the most popular pages. You can access the main page of any section by selecting the forward arrow<img src=".gitbook/assets/icon_arrow.png" alt="<svg xmlns=&#x22;http://www.w3.org/2000/svg&#x22; height=&#x22;24px&#x22; viewBox=&#x22;0 -960 960 960&#x22; width=&#x22;24px&#x22; fill=&#x22;#472AFF&#x22;><path d=&#x22;m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z&#x22;/></svg>" data-size="line">. The main page is where further detailed information is available.
 
 * **Organization expenses** - Displays the total expenses of the previous month, the expenses of the current month, and this month's forecast. The red line on the chart shows the expense limit.
 * **Top resource expenses for the last 30 days** - Displays the resources with the highest expenses. You can view the expenses in **Perspectives** or select a resource name to open the details page of the resource.
@@ -36,6 +36,6 @@ To see an overview of all organizations and key information for each organizatio
 
 You can find the following options in the header:
 
-<img src="../../.gitbook/assets/icon_menu_book.png" alt="" data-size="line"> - Select to access the documentation for FinOps for Cloud. You'll then be redirected to a detailed documentation page.&#x20;
+<img src=".gitbook/assets/icon_menu_book.png" alt="" data-size="line"> - Select to access the documentation for FinOps for Cloud. You'll then be redirected to a detailed documentation page.&#x20;
 
-<img src="../../.gitbook/assets/icon_account.png" alt="" data-size="line"> - Select to sign out of your account.&#x20;
+<img src=".gitbook/assets/icon_account.png" alt="" data-size="line"> - Select to sign out of your account.&#x20;
