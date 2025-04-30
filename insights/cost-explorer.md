@@ -4,7 +4,7 @@ The Cost Explorer in FinOps for Cloud offers tools and options for analyzing cos
 
 The page displays the total expenses for the selected period and allows you to compare them with the total expenses from the previous period.
 
-<figure><img src="../../../.gitbook/assets/ffc_cost_explorer.png" alt=""><figcaption><p>Cost explorer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ffc_cost_explorer.png" alt=""><figcaption><p>Cost explorer</p></figcaption></figure>
 
 Use the comparison to help understand your overall spending and identify any trends or changes in your spending patterns. The Cost Explorer page contains the following options that you can use to view a breakdown of your expenses:
 
