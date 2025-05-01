@@ -160,29 +160,31 @@ Make sure to include the following policy for FinOps for Cloud to be able to par
 {% code lineNumbers="true" %}
 ```json
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "FinOpsforCloudOperations",
-            "Effect": "Allow",
-            "Action": [
-                "s3:GetBucketPublicAccessBlock",
-                "s3:GetBucketPolicyStatus",
-                "s3:GetBucketTagging",
-                "iam:GetAccessKeyLastUsed",
-                "cloudwatch:GetMetricStatistics",
-                "s3:GetBucketAcl",
-                "ec2:Describe*",
-                "s3:ListAllMyBuckets",
-                "iam:ListUsers",
-                "s3:GetBucketLocation",
-                "iam:GetLoginProfile",
-                "cur:DescribeReportDefinitions",
-                "iam:ListAccessKeys"
-            ],
-            "Resource": "*"
-        }
-    ]
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "FinOpsforCloudOperations",
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetBucketPublicAccessBlock",
+				"s3:GetBucketPolicyStatus",
+				"s3:GetBucketTagging",
+				"iam:GetAccessKeyLastUsed",
+				"cloudwatch:GetMetricStatistics",
+				"s3:GetBucketAcl",
+				"ec2:Describe*",
+				"s3:ListAllMyBuckets",
+				"iam:ListUsers",
+				"s3:GetBucketLocation",
+				"iam:GetLoginProfile",
+				"cur:DescribeReportDefinitions",
+				"iam:ListAccessKeys",
+				"elasticloadbalancing:DescribeLoadBalancers",
+				"elasticloadbalancing:DescribeTags"
+			],
+			"Resource": "*"
+		}
+	]
 }
 ```
 {% endcode %}
