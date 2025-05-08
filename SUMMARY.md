@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
+* [Open Source](open-source.md)
 
 ## FinOps for Cloud
 * [Overview](overview.md)
