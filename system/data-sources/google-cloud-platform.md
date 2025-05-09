@@ -23,10 +23,7 @@ You can create a role using Google Cloud CLI or Google Cloud Console:
 To assign the role via [gcloud CLI](https://cloud.google.com/sdk/gcloud), run the following command:
 
 ```
-gcloud iam roles create
-optscale_connection_role \
---project=hystaxcom \
---permissions=bigquery.jobs.create,bigquery.tables.getData,compute.addresses.list,compute.addresses.setLabels,compute.disks.list,compute.disks.setLabels,compute.firewalls.list,compute.globalAddresses.list,compute.instances.list,compute.instances.setLabels,compute.images.list,compute.images.setLabels,compute.machineTypes.get,compute.machineTypes.list,compute.networks.list,compute.regions.list,compute.snapshots.list,compute.snapshots.setLabels,compute.zones.list,iam.serviceAccounts.list,monitoring.timeSeries.list,storage.buckets.get,storage.buckets.getIamPolicy,storage.buckets.list,storage.buckets.update
+gcloud iam roles create optscale_connection_role --project=hystaxcom --permissions=bigquery.jobs.create,bigquery.tables.getData,compute.addresses.list,\compute.addresses.setLabels,compute.disks.list,compute.disks.setLabels,compute.firewalls.list,compute.globalAddresses.list,compute.instances.list,compute.instances.setLabels,compute.images.list,compute.images.setLabels,compute.machineTypes.get,compute.machineTypes.list,compute.networks.list,compute.regions.list,compute.snapshots.list,compute.snapshots.setLabels,compute.zones.list,iam.serviceAccounts.list,monitoring.timeSeries.list,storage.buckets.get,storage.buckets.getIamPolicy,storage.buckets.list,storage.buckets.update
 ```
 {% endtab %}
 
