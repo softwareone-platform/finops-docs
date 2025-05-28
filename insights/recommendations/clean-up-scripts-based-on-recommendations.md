@@ -30,7 +30,7 @@ The script deletes all recommended resources (based on the downloadable JSON fil
 {% endtab %}
 
 {% tab title="Implementation" %}
-### Azure Azure CLI
+#### Azure Azure CLI
 
 1. Install the requirements on a machine running Linux OS.
 2. Sign in with the Azure CLI.
@@ -38,7 +38,7 @@ The script deletes all recommended resources (based on the downloadable JSON fil
 4. From the same page, download the JSON file containing a list of all resources that are recommended for deletion.
 5. Run the script as follows: `bash <script_name> <path to json file>`.
 
-### Azure Shell
+#### Azure Shell
 
 1. Open [Azure Cloud Shell](https://portal.azure.com/#cloudshell/).
 2. Download the script and the JSON file from the corresponding subsection of the Recommendations page.

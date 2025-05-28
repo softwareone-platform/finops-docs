@@ -8,7 +8,7 @@ The Root account (payer) is the only one with access to collective data related 
 If you connect the root account but don't connect linked accounts, all expenses from the unconnected linked accounts are ignored, even if they exist in the data export file. To retrieve expenses from both linked and root accounts, connect all AWS accounts (not just the root). FinOps for Cloud ignores data from unconnected linked accounts.
 {% endhint %}
 
-To track a new AWS Data Source in your account, select **AWS Root** on the **Connect Data Source** page:&#x20;
+To track a new AWS Data Source in your account, select **AWS Root** on the **Connect Data Source** page:
 
 <figure><img src="../../../.gitbook/assets/ffc_aws_edit.png" alt=""><figcaption><p>AWS Root option on the Connect Data Source page</p></figcaption></figure>
 
@@ -22,7 +22,7 @@ Make sure that data export is configured for your cloud account. If data export 
 
 {% stepper %}
 {% step %}
-### Update bucket policy
+#### Update bucket policy
 
 1. Navigate to the **Permissions** tab of your AWS S3 bucket and select **Bucket Policy**.
 2. Replace `<bucket_name>` with the name of the bucket.
@@ -67,7 +67,7 @@ Make sure that data export is configured for your cloud account. If data export 
 {% endstep %}
 
 {% step %}
-### Create a user policy for read-only access
+#### Create a user policy for read-only access
 
 1. Go to **Identity and Access Management (IAM)** > **Policies**.
 2. Create a new user policy for read-only access to the bucket (`<bucket_name>` must be replaced in the policy):
@@ -111,7 +111,7 @@ Make sure that data export is configured for your cloud account. If data export 
 {% endstep %}
 
 {% step %}
-### Create user and grant policies
+#### Create user and grant policies
 
 1. Go to **Identity and Access Management (IAM)** > **Users** to create a new user.
 
@@ -122,7 +122,7 @@ Make sure that data export is configured for your cloud account. If data export 
 <figure><img src="../../../.gitbook/assets/policy_attach.png" alt=""><figcaption><p>Set permissions</p></figcaption></figure>
 
 3. Confirm the creation of the user.
-4. Create the access key for the user (**Identity and Access Management (IAM)** > **Users** > **Created user** > **Create access key**):&#x20;
+4. Create the access key for the user (**Identity and Access Management (IAM)** > **Users** > **Created user** > **Create access key**):
 
 <figure><img src="../../../.gitbook/assets/aws_create_access_key.png" alt=""><figcaption></figcaption></figure>
 
@@ -130,9 +130,9 @@ Make sure that data export is configured for your cloud account. If data export 
 {% endstep %}
 
 {% step %}
-### Create Data Source in FinOps for Cloud:
+#### Create Data Source in FinOps for Cloud:
 
-1. Open FinOps for Cloud and register as a new user.&#x20;
+1. Open FinOps for Cloud and register as a new user.
 2. Sign in as a registered user.
 3. Create a data source.
    1. Provide the credentials, like AWS access key ID and AWS secret access key.
@@ -189,4 +189,4 @@ Make sure to include the following policy for FinOps for Cloud to be able to par
 ```
 {% endcode %}
 
-Your AWS Data Source is ready for integration with FinOps for Cloud. Contact [Marketplace Platform Support](../../../../../help-and-support/contact-support.md) if you have any questions regarding the configuration flow.
+Your AWS Data Source is ready for integration with FinOps for Cloud. Contact [Marketplace Platform Support](../../../help-and-support/contact-support.md) if you have any questions regarding the configuration flow.

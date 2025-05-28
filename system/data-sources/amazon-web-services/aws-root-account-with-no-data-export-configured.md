@@ -1,6 +1,6 @@
 # AWS Root Account With No Data Export Configured
 
-FinOps for Cloud supports the AWS Organizations service that allows linking several Data Sources to centrally manage the data of multiple users while receiving all billing reports within a single invoice.&#x20;
+FinOps for Cloud supports the AWS Organizations service that allows linking several Data Sources to centrally manage the data of multiple users while receiving all billing reports within a single invoice.
 
 The root account (payer) will be the only one with access to collective data related to cloud spending. When registering this type of profile in FinOps, you'll have the option for Data Exports to be created automatically.
 
@@ -16,7 +16,7 @@ To track a new AWS Data Source in your FinOps for Cloud account, select **AWS Ro
 
 {% stepper %}
 {% step %}
-### Create a user policy for the bucket and export creation access
+#### Create a user policy for the bucket and export creation access
 
 Go to **Identity and Access Management (IAM)** > **Policies**. Create a new policy for fully automatic configuration (both bucket and export are created) (`<bucket_name>` must be replaced in the policy):
 
@@ -78,9 +78,9 @@ Go to **Identity and Access Management (IAM)** > **Policies**. Create a new poli
 {% endstep %}
 
 {% step %}
-### Create the user and grant policies
+#### Create the user and grant policies
 
-1. Go to **Identity and Access Management (IAM)** > **Users** to create a new user.&#x20;
+1. Go to **Identity and Access Management (IAM)** > **Users** to create a new user.
 2. Attach the created policy to the user.
 3. Confirm the creation of the user.
 4. Create an access key for the user (**Identity and Access Management (IAM)** > **Users** > **Created user** > **Create access key**).
@@ -88,7 +88,7 @@ Go to **Identity and Access Management (IAM)** > **Policies**. Create a new poli
 {% endstep %}
 
 {% step %}
-### Create a data source in FinOps for Cloud
+#### Create a data source in FinOps for Cloud
 
 1. Go to FinOps for Cloud and register as a new user.
 2. Sign in as a registered user.
@@ -98,7 +98,7 @@ Go to **Identity and Access Management (IAM)** > **Policies**. Create a new poli
      * AWS Secret access key
    * Select Export type.
    * Select **Create new Data Export**.
-   * Provide the parameters with which the bucket and Data Export will be created: **Export Name**, **Export S3 Bucket Name** (\<new bucket name from user policy from step 1>), and **Export path prefix**.&#x20;
+   * Provide the parameters with which the bucket and Data Export will be created: **Export Name**, **Export S3 Bucket Name** (\<new bucket name from user policy from step 1>), and **Export path prefix**.
 
 <figure><img src="../../../.gitbook/assets/aws_root (1).png" alt=""><figcaption><p>Connect data source</p></figcaption></figure>
 
@@ -148,7 +148,7 @@ Your AWS Data Source is ready for integration with FinOps for Cloud.
 
 ## Creating a data export manually in AWS <a href="#create-data-export-in-aws-manually" id="create-data-export-in-aws-manually"></a>
 
-To utilize automatic or manual billing data import in FinOps, you must create a Data Export in AWS. To learn about Data Exports, see [What is AWS Data Exports?](https://docs.aws.amazon.com/cur/latest/userguide/what-is-data-exports.html)&#x20;
+To utilize automatic or manual billing data import in FinOps, you must create a Data Export in AWS. To learn about Data Exports, see [What is AWS Data Exports?](https://docs.aws.amazon.com/cur/latest/userguide/what-is-data-exports.html)
 
 To create a Data Export, navigate to **AWS Billing and Cost Management** > **Data Exports**. Choose **Create Export**.
 
