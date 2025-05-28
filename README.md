@@ -44,7 +44,7 @@ Resource discovery is done using the Discovery API. For reference, see the follo
 {% tab title="Google Cloud Platform" %}
 The billing information is retrieved from the BigQuery service.
 
-Cloud's Monitoring service is used as the source of all monitoring data. For more details, see [Google Cloud Platform](./#google-cloud-platform).
+Cloud's Monitoring service is used as the source of all monitoring data. For more details, see [Google Cloud Platform](system/data-sources/google-cloud-platform.md).
 
 Resource discovery is done using the Discovery API. For reference, see the following pages in Google Cloud documentation:
 
