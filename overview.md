@@ -14,7 +14,7 @@ The sidebar is your entry point for accessing the following pages:
 * **Pools** - View pools with limits or projected expenses. Resources can be categorized into a hierarchy of pools manually or using assignment rules. See [Pools](insights/pools/) for information on how to set TTL rules or budget limits for individual resources and all the resources in a pool.
 * **Cost explorer** - View a breakdown chart that visualizes your expenses over time and get a visual or analytical representation of costs. See [Cost Explorer](insights/cost-explorer.md) to learn more.
 * **Policies** - Identify and respond to unusual patterns or deviations from normal behavior, control costs and manage resources efficiently, implement robust tagging policies, and manage the resource lifecycle and automated power on/off schedules effectively. See [Anomaly Detection](policies/anomaly-detection/), [Quotas and Budgets](policies/quotas-and-budgets/), and [Tagging Policies](policies/tagging/) for details.
-* **System** - Invite your team members and assign roles through [User Managemen](system/user-management.md)t, view [system events](system/events.md), and manage [organization settings](system/settings.md). To start with cost management, connect a billing [data source](system/data-sources/) of your cloud account to FinOps for Cloud.
+* **System** - Invite your team members and assign roles through [User Management](system/user-management.md), view [system events](system/events.md), and manage [organization settings](system/settings.md). To start with cost management, connect a billing [data source](system/data-sources/) of your cloud account to FinOps for Cloud.
 
 ## Main dashboard
 

@@ -2,9 +2,9 @@
 
 ## Inactive IAM users <a href="#inactive-iam-users" id="inactive-iam-users"></a>
 
-Users who have been inactive for more than **90 days** are considered obsolete and subject to deletion. This is due to the security risks they produce for the organization as they can be compromised and become access points for malicious users.&#x20;
+Users who have been inactive for more than **90 days** are considered obsolete and subject to deletion. This is due to the security risks they produce for the organization as they can be compromised and become access points for malicious users.
 
-The number of days is a custom parameter. Use [Settings](./#settings) to change it. You can also download a list of inactive users as JSON or XLSX by selecting the download icon <img src="../../.gitbook/assets/icon_cloud_download.png" data-size="line">.
+The number of days is a custom parameter. Use **Settings** to change it. You can also download a list of inactive users as JSON or XLSX by selecting the download icon <img src="../../.gitbook/assets/icon_cloud_download.png" alt="" data-size="line">.
 
 <figure><img src="../../.gitbook/assets/inactive_IAM_users.png" alt=""><figcaption><p>Inactive IAM users</p></figcaption></figure>
 
@@ -42,7 +42,7 @@ You can download the list of insecure Security Groups as JSON for subsequent aut
 
 The active IAM users that have console access turned on, but have not used it for more than **90 days** are in the list. Consider revoking console access to increase security.
 
-Note that the number of days is a custom parameter. Use [Settings](./#settings) to change it.
+Note that the number of days is a custom parameter. Use **Settings** to change it.
 
 ## Public S3 buckets <a href="#public-s3-buckets" id="public-s3-buckets"></a>
 

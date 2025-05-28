@@ -4,15 +4,15 @@ Strong resource assignment improves efficiency, reduces costs, enhances accounta
 
 Newly created resources are distributed among pools based on assignment rules. If they have certain tags, they will immediately be assigned to the appropriate pool as soon as they are first discovered. If they don't belong to any pool, they will be assigned to the data source pool. The data source pool is created when the data source is connected.
 
-FinOps for Cloud allows you to manage assignment rules by viewing, creating, editing, and changing their priority.&#x20;
+FinOps for Cloud allows you to manage assignment rules by viewing, creating, editing, and changing their priority.
 
 ## Assignment rules page
 
-The **Configure assignment rules** option on the **Pools** page displays the **Assignment Rules** page.&#x20;
+The **Configure assignment rules** option on the **Pools** page displays the **Assignment Rules** page.
 
 <figure><img src="../../.gitbook/assets/assignment_rules.png" alt=""><figcaption><p>Assignment rules page</p></figcaption></figure>
 
-From this page, you can [add new assignment rules](add-assignment-rules.md) and view all the existing rules along with the following details:&#x20;
+From this page, you can [add new assignment rules](add-assignment-rules.md) and view all the existing rules along with the following details:
 
 * **Name** - Displays the name of the rule.
 * **Assign to** - Displays the pool and the owner to whom the resource is assigned.
@@ -26,21 +26,21 @@ From this page, you can [add new assignment rules](add-assignment-rules.md) and 
   * ![edit](https://hystax.com/documentation/optscale/_static/screens/assign_resources/edit.png) - _edit_ - Allows modification of an existing rule. You can adjust conditions and assignment details, ensuring that the rule remains accurate and up to date with changing requirements. A rule can be enabled or disabled by selecting the **Active** checkbox. Active rules are marked with green dots next to their names, inactive ones are marked with grey dots.
   * ![delete](https://hystax.com/documentation/optscale/_static/screens/assign_resources/delete.png) - _delete_ - Removes the rule from the list.
 
-From this page, you can do the following:&#x20;
+From this page, you can do the following:
 
-* Add a new automatic resource assignment rule. See [Adding assignment rules](./#add-assignment-rule) for instructions.
-* Re-apply the ruleset to the current ruleset to all resources in the selected pool, even if they were explicitly assigned earlier. See [Re-applying a ruleset](./#re-apply-ruleset) for instructions.
+* Add a new automatic resource assignment rule. See [Configure Assignment Rules](add-assignment-rules.md) for instructions.
+* Reapply the ruleset to the current ruleset to all resources in the selected pool, even if they were explicitly assigned earlier. See [Re-applying a ruleset](re-apply-ruleset.md) for instructions.
 * Search for a specific rule based on criteria such as Name, Assigned to, Conditions, and Priority.
 
 {% hint style="info" %}
-FinOps assigns newly detected resources automatically according to the listed rules. Rules are evaluated according to priority. You can also force re-apply them for the whole organization or a specific pool if you need to reflect allocation policy changes immediately.
+FinOps assigns newly detected resources automatically according to the listed rules. Rules are evaluated according to priority. You can also force reapply them for the whole organization or a specific pool if you need to reflect allocation policy changes immediately.
 {% endhint %}
 
 ## Pool-related assignment rules <a href="#pool-related-assignment-rules" id="pool-related-assignment-rules"></a>
 
-This feature provides quick access to the assignment rules that apply to a given pool.&#x20;
+This feature provides quick access to the assignment rules that apply to a given pool.
 
-It shows how resources are assigned and managed within the pool, ensuring transparency and simplifying rule verification and modification by centralizing relevant rules in one place.&#x20;
+It shows how resources are assigned and managed within the pool, ensuring transparency and simplifying rule verification and modification by centralizing relevant rules in one place.
 
 To find a list of assignment rules associated with the selected pool, open the pool details page and select the **Assignment rules** tab:
 

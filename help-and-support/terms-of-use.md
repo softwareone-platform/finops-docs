@@ -4,8 +4,6 @@ description: Please read these terms of use carefully.
 
 # Terms of Use
 
-***
-
 Welcome to SoftwareOne’s FinOps for Cloud! Please read this agreement (**“Agreement”**) carefully before using the FinOps for Cloud Services or website. The FinOps for Cloud Software as a Service (**“SaaS”**) license granted by this Agreement is conditioned upon the organization identified within the Interface (**“Company”**) having executed a software purchase or other service agreement (**“Contract”**) with SoftwareOne AG or one of its affiliates (**“SoftwareOne”**) and allows Company to use the Services, associated software, and Interface for the purposes stated in this Agreement and the Contracts.
 
 If your Company does not have a Contract with SoftwareOne, then your Company does not have a license to the Services. If you or your Company has been provided access to the Services without a Contract with SoftwareOne, then do not use the Services and contact SoftwareOne immediately using the information found at [https://www.softwareone.com/en/contact-us](https://www.softwareone.com/en/contact-us).

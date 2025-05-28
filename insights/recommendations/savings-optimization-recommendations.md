@@ -1,12 +1,12 @@
 # Savings Optimization Recommendations
 
 {% hint style="info" %}
-All parameters in **bold** are custom parameters. You can change the parameters by selecting<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAw9JREFUeF7tnMuNE0EQhqs6Bx4ZIMGBAOAA0zbIhABEAAJiYREbwUIIrMDugQMEwAEkMuCRwxQarediCTHdas3fZf0+rrq6Zr6va3ddU7YKX1ACCs3O5EIB4ENAARQAJgBOzwqgADABcHpWAAWACYDTswIoAEwAnJ4VQAFgAuD0rAAKABMAp2cFUEAega7rNiKyCSFcM7ObY7Sqfh2G4YeInPd9f563I3a1qwqIMZ6JyKP/IHuTUnqMxTo/uxsBMUabf1siKSUX9+biImOMz0XkZY4AEXmRUjrJjFl8efMC1uv1rWEYPpeQCSHc3m63X0pil4ppXkCM8bWIPCkEcppSeloYu0iYBwEfReROIY1PKaW7hbGLhDUvoOu636p6qYSGmf3p+/5ySexSMc0LiDH+FJErhUB+pZSuFsYuEta8gNVq9d7M7pXQUNUPu93ufknsUjHNC+i67kRVn5UAMbNXfd+P/8I2+/IgYKOq70oImtmD1lsTzQsYwc9sQRw6ctGScCFgL4GtiJJfAzVjZrYkXLQgJi5uKmC64H1r4qGIXDezG+PPVfWbiHwPIbxtvfVweCDdCahZUS3sRQFgCxRAAWAC4PSsAAoAEwCnZwVQAJgAOL27CuBcEPDEzGzKuWjCuWtFcC4Ie/I5F4Tiz7kgFPl9Xs4F4QVwLgjpgHNBSPoXz4M5F4R0wLkgJH0R4VwQXgDngsAOOBeEFjDmZyuiAQucC2pAAueCGpBwTJfg7oHMMcEf74UCwEYpgALABMDpWQEUACYATs8KoIA8ApwLyuNVdTXngqrizNuMzbg8XlVXz2zCHeZ08WG95v8Icy6o6lnO34xzQfnMqkbEGDkXVJVo5macC8oEVns554JqE83cj3NBmcBqL+dcUG2imfuNrQd+X1AmtNrLZ7YgDtO6+KhS82/EJqpsRdQ+1gX7zWxJuGhBTLfvpgKmC+ZcUMHJZci/CbirgGOTSQFgoxRAAWAC4PSsAAoAEwCnZwVQAJgAOD0rgALABMDpWQEUACYATs8KoAAwAXB6VgBYwF/mZEdwBsiwPwAAAABJRU5ErkJggg==" alt="<svg xmlns=&#x22;http://www.w3.org/2000/svg&#x22; height=&#x22;24px&#x22; viewBox=&#x22;0 -960 960 960&#x22; width=&#x22;24px&#x22; fill=&#x22;#434343&#x22;><path d=&#x22;M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z&#x22;/></svg>" data-size="line">on the card and selecting [Settings](./#settings).&#x20;
+All parameters in **bold** are custom parameters. You can change the parameters by selecting<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAw9JREFUeF7tnMuNE0EQhqs6Bx4ZIMGBAOAA0zbIhABEAAJiYREbwUIIrMDugQMEwAEkMuCRwxQarediCTHdas3fZf0+rrq6Zr6va3ddU7YKX1ACCs3O5EIB4ENAARQAJgBOzwqgADABcHpWAAWACYDTswIoAEwAnJ4VQAFgAuD0rAAKABMAp2cFUEAega7rNiKyCSFcM7ObY7Sqfh2G4YeInPd9f563I3a1qwqIMZ6JyKP/IHuTUnqMxTo/uxsBMUabf1siKSUX9+biImOMz0XkZY4AEXmRUjrJjFl8efMC1uv1rWEYPpeQCSHc3m63X0pil4ppXkCM8bWIPCkEcppSeloYu0iYBwEfReROIY1PKaW7hbGLhDUvoOu636p6qYSGmf3p+/5ySexSMc0LiDH+FJErhUB+pZSuFsYuEta8gNVq9d7M7pXQUNUPu93ufknsUjHNC+i67kRVn5UAMbNXfd+P/8I2+/IgYKOq70oImtmD1lsTzQsYwc9sQRw6ctGScCFgL4GtiJJfAzVjZrYkXLQgJi5uKmC64H1r4qGIXDezG+PPVfWbiHwPIbxtvfVweCDdCahZUS3sRQFgCxRAAWAC4PSsAAoAEwCnZwVQAJgAOL27CuBcEPDEzGzKuWjCuWtFcC4Ie/I5F4Tiz7kgFPl9Xs4F4QVwLgjpgHNBSPoXz4M5F4R0wLkgJH0R4VwQXgDngsAOOBeEFjDmZyuiAQucC2pAAueCGpBwTJfg7oHMMcEf74UCwEYpgALABMDpWQEUACYATs8KoIA8ApwLyuNVdTXngqrizNuMzbg8XlVXz2zCHeZ08WG95v8Icy6o6lnO34xzQfnMqkbEGDkXVJVo5macC8oEVns554JqE83cj3NBmcBqL+dcUG2imfuNrQd+X1AmtNrLZ7YgDtO6+KhS82/EJqpsRdQ+1gX7zWxJuGhBTLfvpgKmC+ZcUMHJZci/CbirgGOTSQFgoxRAAWAC4PSsAAoAEwCnZwVQAJgAOD0rgALABMDpWQEUACYATs8KoAAwAXB6VgBYwF/mZEdwBsiwPwAAAABJRU5ErkJggg==" alt="<svg xmlns=&#x22;http://www.w3.org/2000/svg&#x22; height=&#x22;24px&#x22; viewBox=&#x22;0 -960 960 960&#x22; width=&#x22;24px&#x22; fill=&#x22;#434343&#x22;><path d=&#x22;M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z&#x22;/></svg>" data-size="line">on the card and selecting **Settings**.
 {% endhint %}
 
 ## Abandoned instances <a href="#abandoned-instances" id="abandoned-instances"></a>
 
-Instances that have an average CPU consumption of less than **5%** and network traffic below **1000 bytes/s** for the last **7 days**. We recommend terminating these instances to reduce expenses.&#x20;
+Instances that have an average CPU consumption of less than **5%** and network traffic below **1000 bytes/s** for the last **7 days**. We recommend terminating these instances to reduce expenses.
 
 ## Obsolete images <a href="#obsolete-images" id="obsolete-images"></a>
 
@@ -15,7 +15,7 @@ Images that haven't been used for a while might be subject to deletion, which wo
 * The image creation date was more than 1 week ago.
 * No instances have been created from/related to this image in the past **7 days**.
 
-You can download the list of obsolete images as JSON for subsequent automated processing with the help of [Cleanup Scripts](clean-up-scripts-based-on-recommendations.md).&#x20;
+You can download the list of obsolete images as JSON for subsequent automated processing with the help of [Cleanup Scripts](clean-up-scripts-based-on-recommendations.md).
 
 ## Obsolete snapshots <a href="#obsolete-snapshots" id="obsolete-snapshots"></a>
 
@@ -39,7 +39,7 @@ Obsolete IPs can be tracked for Azure and AWS clouds to reduce expenses. The fol
 
 Notification about volumes that haven't been attached for more than one day. These are considered to be forgotten or no longer relevant. We recommend that you delete such resources.
 
-You can download the list of unattached volumes as JSON for subsequent automated processing with the help of [Cleanup Scripts](clean-up-scripts-based-on-recommendations.md).&#x20;
+You can download the list of unattached volumes as JSON for subsequent automated processing with the help of [Cleanup Scripts](clean-up-scripts-based-on-recommendations.md).
 
 ## Underutilized instances <a href="#underutilized-instances" id="underutilized-instances"></a>
 
@@ -75,7 +75,7 @@ This list contains instances that:
 
 * Are running for the last **3 days**.
 * Have existed for less than **6 hours**.
-* Were not created as Spot (or Preemptible) Instances. Consider using Spot (Preemptible) Instances.&#x20;
+* Were not created as Spot (or Preemptible) Instances. Consider using Spot (Preemptible) Instances.
 
 ## Underutilized RDS instances <a href="#underutilized-rds-instances" id="underutilized-rds-instances"></a>
 
@@ -83,7 +83,7 @@ An underutilized instance is one average CPU consumption of less than **80%** fo
 
 ## Obsolete snapshot chains <a href="#obsolete-snapshot-chains" id="obsolete-snapshot-chains"></a>
 
-Some snapshot chains don't have source volumes or images created from their snapshots and have not been used for volume creation for the last **3 days**. Consider their deletion to save on snapshot storage expenses.&#x20;
+Some snapshot chains don't have source volumes or images created from their snapshots and have not been used for volume creation for the last **3 days**. Consider their deletion to save on snapshot storage expenses.
 
 ## Instances with subscription opportunities <a href="#instances-with-subscription-opportunities" id="instances-with-subscription-opportunities"></a>
 
@@ -93,7 +93,7 @@ The instances in the list are active and have been identified as sustained compu
 
 Detection of inactive, non-deallocated machines that have not been running for more than **1 day** and are still billed by the cloud.
 
-You can download the list of non-deallocated VMs as JSON for subsequent automated processing with the help of [Cleanup Scripts](clean-up-scripts-based-on-recommendations.md).&#x20;
+You can download the list of non-deallocated VMs as JSON for subsequent automated processing with the help of [Cleanup Scripts](clean-up-scripts-based-on-recommendations.md).
 
 ## Instances eligible for generation upgrade <a href="#instances-eligible-for-generation-upgrade" id="instances-eligible-for-generation-upgrade"></a>
 
@@ -101,6 +101,6 @@ Upgrade older generation instances to the latest generation within the same fami
 
 ## Abandoned Amazon S3 buckets <a href="#abandoned-amazon-s3-buckets" id="abandoned-amazon-s3-buckets"></a>
 
-A bucket is abandoned if the average data size is less than **1024 megabytes**, the Tier1 request quantity is less than **100**, and the `GET`request quantity is less than **2000** for the last **7 days**.
+A bucket is abandoned if the average data size is less than **1024 megabytes**, the Tier1 request quantity is less than **100**, and the `GET` request quantity is less than **2000** for the last **7 days**.
 
 We recommend that you delete it to reduce expenses. Change the check period and other parameters in the card's **Settings**.
