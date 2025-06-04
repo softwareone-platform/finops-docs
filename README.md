@@ -1,5 +1,7 @@
 # Home
 
+<figure><img src=".gitbook/assets/FinOps Home Image.png" alt=""><figcaption></figcaption></figure>
+
 FinOps for Cloud is a solution designed to enhance the cloud usage experience by providing detailed insights and management capabilities without actively interfering with processes in your environment.
 
 It utilizes billing information, resource state monitoring, and cloud monitoring data to provide actionable recommendations for optimizing cloud resource usage and reducing costs. The platform performs resource discovery using APIs from cloud providers like AWS and Microsoft Azure, ensuring that all resources are accounted for and managed effectively.
