@@ -24,7 +24,7 @@ To generate the application ID (client ID):
 3. Provide a name for the application, for example, Optscale.
 4. Select **Register**.&#x20;
 
-After the application is successfully registered, the application ID is displayed. Make a note of the value. You'll need to enter it in the **Directory (Tenant) ID** field within FinOps.&#x20;
+After the application is successfully registered, the application ID is displayed. Make a note of the value. You'll need to enter it in the **Application (client) ID** field within FinOps.&#x20;
 
 After registering the application, you must also explicitly grant it permissions using Role Assignment to work with the current Azure subscription. See [Performing role assignment](microsoft-azure.md#performing-role-assignment) for details.
 
