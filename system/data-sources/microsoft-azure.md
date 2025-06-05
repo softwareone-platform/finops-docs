@@ -26,7 +26,7 @@ To generate the application ID (client ID):
 
 After the application is successfully registered, the application ID is displayed. Make a note of the value. You'll need to enter it in the **Directory (Tenant) ID** field within FinOps.&#x20;
 
-After registering the application, you must also explicitly grant it permissions using Role Assignment to work with the current Azure subscription. See [Assigning Azure roles](microsoft-azure.md#assigning-azure-roles) for details.
+After registering the application, you must also explicitly grant it permissions using Role Assignment to work with the current Azure subscription. See [Performing role assignment](microsoft-azure.md#performing-role-assignment) for details.
 
 <figure><img src="../../.gitbook/assets/app_registration.png" alt=""><figcaption></figcaption></figure>
 
@@ -62,7 +62,7 @@ A subscription ID is a unique string that identifies your subscription.&#x20;
 
 To find the ID in the Microsoft Azure portal, search for **Subscriptions**. You'll see a list of all subscriptions associated with your Azure account. The list will include a subscription ID for each subscription.&#x20;
 
-### Assigning the Reader role
+### Performing role assignment
 
 To assign the reader role to the subscription you've provisioned to be linked to FinOps:
 
