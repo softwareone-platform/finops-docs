@@ -20,7 +20,7 @@ FinOps for Cloud requires Read-Only rights for the connected cloud account, whic
 {% tab title="Amazon Web Services (AWS)" %}
 The billing information is retrieved from the Data Exports located in a designated S3 bucket in the cloud. See [GetObject](https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObject.html) in the AWS documentation to see how it works.
 
-Amazon CloudWatch is the source of monitoring data. For more details, see [Automatic billing data import in AWS](system/data-sources/amazon-web-services/aws-root-account-with-data-export-already-configured.md#automatic-billing-data-import-in-aws).
+Amazon CloudWatch is the source of monitoring data. For more details, see [Automatic billing data import in AWS](broken-reference).
 
 Resource discovery is done using the Discovery API. For reference, see the following pages in AWS documentation:
 
