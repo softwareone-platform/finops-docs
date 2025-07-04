@@ -18,7 +18,7 @@ In the AWS Console, create an export of CUR 2.0 with its new schema.
 
 See [Creating reports](https://docs.aws.amazon.com/cur/latest/userguide/cur-create.html) in the AWS Data Exports User Guide for the necessary steps.&#x20;
 
-When creating the report, use the recommended settings provided in [Creating a Cost and Usage Report (CUR)](migrate-from-legacy-cur-to-cur-2.0.md#creating-a-cost-and-usage-report-cur).&#x20;
+When creating the report, use the recommended settings in [Create Cost and Usage Reports](create-cost-and-usage-reports.md).&#x20;
 {% endstep %}
 
 {% step %}

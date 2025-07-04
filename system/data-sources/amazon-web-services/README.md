@@ -20,7 +20,7 @@ If you have access to create a Cost and Usage Report (CUR) and Identity and Acce
 
 To add your management account:
 
-1. [Create a Cost and Usage Report in AWS](create-a-cost-and-usage-report.md).
+1. [Create a Cost and Usage Report in AWS](create-cost-and-usage-reports.md).
 2. [Create the `FinOpsForCloudBillingImport` ](configure-aws-access.md#create-a-policy-for-billing-imports)[IAM policy](configure-aws-access.md#create-a-policy-for-billing-imports).
 3. [Create the `FinOpsForCloudResourceDiscovery` IAM policy](configure-aws-access.md#creating-a-policy-for-resource-discovery).
 4. [Create the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-a-user-for-finops-for-cloud).
@@ -49,7 +49,7 @@ If you don't have access to your management account, you can create individual C
 
 To add your member account to FinOps as an **AWS Root** account:
 
-1. [Create a Cost and Usage report in AWS.](create-a-cost-and-usage-report.md)
+1. [Create a Cost and Usage report in AWS.](create-cost-and-usage-reports.md)
 2. [Create the `FinOpsForCloudBillingImport` IAM policy](configure-aws-access.md#create-a-policy-for-billing-imports).
 3. [Create the `FinOpsForCloudResourceDiscovery` IAM policy](configure-aws-access.md#creating-a-policy-for-resource-discovery).
 4. [Create the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-a-user-for-finops-for-cloud).
@@ -60,7 +60,7 @@ To add your member account to FinOps as an **AWS Root** account:
 
 To add a standalone AWS account:
 
-1. [Create a Cost and Usage report in AWS.](create-a-cost-and-usage-report.md)
+1. [Create a Cost and Usage report in AWS.](create-cost-and-usage-reports.md)
 2. [Create the `FinOpsForCloudBillingImport` IAM policy](configure-aws-access.md#create-a-policy-for-billing-imports).
 3. [Create the `FinOpsForCloudResourceDiscovery` IAM policy](configure-aws-access.md#creating-a-policy-for-resource-discovery).
 4. [Create the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-a-user-for-finops-for-cloud).

@@ -36,7 +36,7 @@
 * [User Management](system/user-management.md)
 * [Data Sources](system/data-sources/README.md)
   * [Amazon Web Services](system/data-sources/amazon-web-services/README.md)
-    * [Create a Cost and Usage Report](system/data-sources/amazon-web-services/create-a-cost-and-usage-report.md)
+    * [Create Cost and Usage Reports](system/data-sources/amazon-web-services/create-cost-and-usage-reports.md)
     * [Configure AWS Access](system/data-sources/amazon-web-services/configure-aws-access.md)
     * [Migrate from Legacy CUR to CUR 2.0](system/data-sources/amazon-web-services/migrate-from-legacy-cur-to-cur-2.0.md)
     * [Request Historical Data](system/data-sources/amazon-web-services/request-historical-data.md)
