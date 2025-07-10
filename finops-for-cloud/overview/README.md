@@ -4,7 +4,7 @@ SoftwareOne's FinOps for Cloud helps businesses optimize cloud spending by provi
 
 FinOps integrates with public cloud providers, including Amazon Web Services, Microsoft Azure, and Google Cloud.
 
-Built on the open-source OptScale platform from Hystax, the FinOps platform contains several features that enhance your cloud usage experience by providing detailed insights and management capabilities without actively interfering with your environment.
+Built on the [open-source OptScale platform from Hystax](../../help-and-support/open-source.md), the FinOps platform contains several features that enhance your cloud usage experience by providing detailed insights and management capabilities without actively interfering with your environment.
 
 Here are some of the key features:
 
