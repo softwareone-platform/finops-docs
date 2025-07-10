@@ -1,12 +1,12 @@
 # User Management
 
-The **Users** page in FinOps for Cloud lets you view the current members in your account and invite new ones to join your organization. You can access this page from the sidebar. &#x20;
+The **Users** page within FinOps for Cloud lets you view the current members in your organization and invite new members to your organization. You can access this page from the sidebar.
 
-From this page, you can also remove a member from your account.
+From this page, you can also remove a member from your organization.
 
 ## Sending an email invite
 
-To invite new members to your organization:&#x20;
+To invite new members to your organization:
 
 1. On the **Users** page, select **Invite** to open the **Invite users** page.
 2. In **Email**, enter the email addresses of the member you want to invite. You can enter multiple email addresses at once.
@@ -16,13 +16,13 @@ To invite new members to your organization:&#x20;
    * **Engineer** - This role is assigned at the resource level and has read-only access to the other functionalities. Engineers can manage their resources, ensuring they are used efficiently and effectively. However, they can't create new pools or sub-pools.
    * **Member** - Members have read-only access to all system functionalities. They can view information and stay updated on notifications, but they can't make any changes or manage resources.
    * **Pool** - Specify the pool you want to use. All pools and sub-pools that exist within your environment are displayed. A member with **Manager** and **Engineer** roles can belong to several different pools.
-4. Select **Invite**. &#x20;
+4. Select **Invite**.
 
-An invitation email will be sent to the individual. Once the invite has been sent, you can view the invitation status on the **Invitations** tab within the **Settings** page.&#x20;
+An invitation email will be sent to the individual. Once the invite has been sent, you can view the invitation status on the **Invitations** tab within the **Settings** page.
 
 ## Deleting users
 
-You can delete an individual from FinOps using the **Delete** option on the **Users** page.&#x20;
+You can delete an individual from FinOps using the **Delete** option on the **Users** page.
 
 Before deleting an individual, you must choose another member who will take over all the assets of the individual you want to delete.
 
@@ -31,4 +31,4 @@ To delete an individual:
 1. On the **Users** page, locate the individual you want to remove from the account.
 2. In the **Actions** column, select the delete icon.
 3. In **Delete user**, select the new user who will take over all the assets of the user you want to delete.
-4. Select **Delete**.&#x20;
+4. Select **Delete**.

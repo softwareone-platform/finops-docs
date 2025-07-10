@@ -1,72 +1,38 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # Home
 
 <figure><img src=".gitbook/assets/FinOps Home Image.png" alt=""><figcaption></figcaption></figure>
 
-FinOps for Cloud is a solution designed to enhance the cloud usage experience by providing detailed insights and management capabilities without actively interfering with processes in your environment.
-
-It utilizes billing information, resource state monitoring, and cloud monitoring data to provide actionable recommendations for optimizing cloud resource usage and reducing costs. The platform performs resource discovery using APIs from cloud providers like AWS and Microsoft Azure, ensuring that all resources are accounted for and managed effectively.
+FinOps for Cloud is SoftwareOne's cloud financial management platform designed to help organizations gain visibility into and optimize their spending across platforms like Amazon Web Services, Microsoft Azure, and Google Cloud.
 
 With FinOps for Cloud, you can explore and analyze your cloud expenses, monitor resource usage, and implement policies to ensure efficient and cost-effective cloud management. The platform's user-friendly interface and robust features empower organizations to achieve greater visibility and control over cloud infrastructure, enabling smarter decision-making and improved financial planning.
 
-## How it works
+## Get started <a href="#featured-resources" id="featured-resources"></a>
 
-FinOps for Cloud requires Read-Only rights for the connected cloud account, which serves as the primary data source for all recommendations. The following data is utilized:
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Overview</strong></td><td>Discover key features of FinOps for Cloud.</td><td><a href="finops-for-cloud/overview/">overview</a></td></tr><tr><td><strong>Access Your Organization</strong></td><td>Get started by signing in to your organization.</td><td><a href="finops-for-cloud/getting-started/access-your-organization.md">access-your-organization.md</a></td></tr><tr><td><strong>Navigate the User Interface</strong></td><td>Become familiar with the user interface.</td><td><a href="finops-for-cloud/getting-started/overview.md">overview.md</a></td></tr><tr><td><strong>Add Data Sources</strong></td><td>Add your AWS, Azure, or Google data sources.</td><td><a href="finops-for-cloud/getting-started/data-sources.md">data-sources.md</a></td></tr></tbody></table>
 
-* Billing information - all details regarding cloud expenses.
-* The state of resources (for actively discoverable types) in the cloud. This is essential for implementing [constraints ](insights/resources/resources-constraint-policies.md)like TTL, Expense limits, and [Recommendations](insights/recommendations/).
-* The monitoring data from the cloud is used to identify underutilized instances.
+## Monitor costs
 
-{% tabs %}
-{% tab title="Amazon Web Services (AWS)" %}
-The billing information is retrieved from the Data Exports located in a designated S3 bucket in the cloud. See [GetObject](https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObject.html) in the AWS documentation to see how it works.
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Anomaly Detection</strong></td><td>Review anomalies for your organization.</td><td><a href="policies/anomaly-detection/">anomaly-detection</a></td></tr><tr><td><strong>Quotas and Budgets</strong></td><td>Create quotas and budgets and set up alerts.</td><td><a href="policies/quotas-and-budgets/">quotas-and-budgets</a></td></tr><tr><td><strong>Tagging Policies</strong></td><td>Create, manage and monitor tagging policies.</td><td><a href="policies/tagging/">tagging</a></td></tr></tbody></table>
 
-Amazon CloudWatch is the source of monitoring data. For more details, see [Automatic billing data import in AWS](broken-reference).
+## Optimize and control costs <a href="#optimize_and_control_costs" id="optimize_and_control_costs"></a>
 
-Resource discovery is done using the Discovery API. For reference, see the following pages in AWS documentation:
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Recommendations</strong></td><td>View savings and security recommendations to reduce costs.</td><td><a href="insights/recommendations/">recommendations</a></td></tr><tr><td><strong>Resources</strong></td><td>Monitor and manage your cloud resources effectively.</td><td><a href="insights/resources/">resources</a></td></tr><tr><td><strong>Pools</strong></td><td>Group your cloud resources to maximize efficiency.</td><td><a href="insights/pools/">pools</a></td></tr></tbody></table>
 
-* [DescribeInstances](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeInstances.html)
-* [DescribeVolumes](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeVolumes.html)
-* [DescribeSnapshots](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeSnapshots.html)
-* [ListBuckets](https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListBuckets.html)
-{% endtab %}
+## Manage your organization
 
-{% tab title="Microsoft Azure" %}
-The billing information is retrieved from the Billing API. See [Usage Details - List](https://learn.microsoft.com/en-us/rest/api/consumption/usage-details/list?view=rest-consumption-2024-08-01\&tabs=HTTP) in Microsoft documentation to see how it works.
-
-Cloud's Monitoring service is used as the source of all monitoring data. For more details, see [Microsoft Azure](system/data-sources/microsoft-azure.md).
-
-Resource discovery is done using the Discovery API. For reference, see the following pages in Microsoft documentation:
-
-* [Virtual Machines - List All](https://docs.microsoft.com/en-us/rest/api/compute/virtual-machines/list-all)
-* [Disks - List](https://docs.microsoft.com/en-us/rest/api/compute/disks/list)
-* [Snapshots - List](https://docs.microsoft.com/en-us/rest/api/compute/snapshots/list)
-* [Storage Accounts - List](https://docs.microsoft.com/en-us/rest/api/storagerp/storage-accounts/list)
-{% endtab %}
-
-{% tab title="Google Cloud Platform" %}
-The billing information is retrieved from the BigQuery service.
-
-Cloud's Monitoring service is used as the source of all monitoring data. For more details, see [Google Cloud Platform](system/data-sources/google-cloud-platform.md).
-
-Resource discovery is done using the Discovery API. For reference, see the following pages in Google Cloud documentation:
-
-* [Method: instances.list](https://cloud.google.com/compute/docs/reference/rest/v1/instances/list)
-* [Method: disks.list](https://cloud.google.com/compute/docs/reference/rest/v1/disks/list)
-* [Method: snapshots.list](https://cloud.google.com/compute/docs/reference/rest/v1/snapshots/list)
-* [Buckets: list](https://cloud.google.com/storage/docs/json_api/v1/buckets/list)
-* [Method: addresses.list](https://cloud.google.com/compute/docs/reference/rest/v1/addresses/list)
-{% endtab %}
-{% endtabs %}
-
-## First-time login
-
-When setting up your FinOps for Cloud account, you'll typically receive an invitation email with a link to join your organization's account.
-
-Open the invitation email and follow these steps to complete the sign-in process:
-
-1. In your invitation email, select the link to open the FinOps tool.
-2. On the sign-up page, enter your first and last name and choose a password for your account.
-3. Retype the password in the **Confirm password** field and select **Register**. You'll receive a verification code by email.
-4. Enter the confirmation code on the sign-in page and select **Confirm**. You'll be signed in to the tool.
-
-Use the same credentials to sign in to FinOps for Cloud each time. If you forget your password, use the **Forgot password** option on the sign-in page. We will send you an email with instructions to reset your password.
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>User Management</strong></td><td>Add or remove members from your organization. </td><td><a href="system/user-management.md">user-management.md</a></td></tr><tr><td><strong>Settings</strong></td><td>View and manage your settings.</td><td><a href="system/settings.md">settings.md</a></td></tr></tbody></table>

@@ -1,4 +1,4 @@
-# Create a Cost and Usage Report
+# Create Cost and Usage Reports
 
 You can create a new Cost and Usage Report (CUR) from the AWS console. For details, see [Creating reports](https://docs.aws.amazon.com/cur/latest/userguide/cur-create.html) in the AWS Data Exports User Guide.
 
@@ -17,4 +17,4 @@ When creating the report, use the following settings:
 
 The following image displays the recommended CUR settings:
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Cost and Usage Report settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aws_create_export.png" alt=""><figcaption><p>Cost and Usage Report settings</p></figcaption></figure>

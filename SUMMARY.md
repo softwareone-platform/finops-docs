@@ -4,7 +4,15 @@
 
 ## FinOps for Cloud
 
-* [Overview](overview.md)
+* [Overview](finops-for-cloud/overview/README.md)
+  * [How FinOps for Cloud Works](finops-for-cloud/overview/how-finops-for-cloud-works.md)
+  * [Comparing FinOps for Cloud and Spend Management](finops-for-cloud/overview/comparing-finops-for-cloud-and-spend-management.md)
+* [Getting Started](finops-for-cloud/getting-started/README.md)
+  * [Access Your Organization](finops-for-cloud/getting-started/access-your-organization.md)
+  * [Navigate the User Interface](finops-for-cloud/getting-started/overview.md)
+  * [Add Data Sources](finops-for-cloud/getting-started/data-sources.md)
+  * [Invite Users to Your Organization](finops-for-cloud/getting-started/invite-users-to-your-organization.md)
+  * [View Costs in Cost Explorer](finops-for-cloud/getting-started/cost-explorer.md)
 
 ## Insights
 
@@ -20,7 +28,6 @@
   * [Re-apply Ruleset](insights/pools/re-apply-ruleset.md)
   * [Delete Pools](insights/pools/delete-a-pool.md)
   * [Pool Constraint Policies](insights/pools/pool-constraint-policies.md)
-* [Cost Explorer](insights/cost-explorer.md)
 
 ## Policies
 
@@ -40,8 +47,8 @@
     * [Configure AWS Access](system/data-sources/amazon-web-services/configure-aws-access.md)
     * [Migrate from Legacy CUR to CUR 2.0](system/data-sources/amazon-web-services/migrate-from-legacy-cur-to-cur-2.0.md)
     * [Request Historical Data](system/data-sources/amazon-web-services/request-historical-data.md)
-  * [Google Cloud Platform](system/data-sources/google-cloud-platform.md)
   * [Microsoft Azure](system/data-sources/microsoft-azure.md)
+  * [Google Cloud Platform](system/data-sources/google-cloud-platform.md)
 * [Events](system/events.md)
 * [Settings](system/settings.md)
 
@@ -49,8 +56,8 @@
 
 * [Contact Support](help-and-support/contact-support.md)
 * [FAQs](help-and-support/faqs/README.md)
-  * [What is the difference between FinOps for Cloud and PyraCloud?](help-and-support/faqs/what-is-the-difference-between-finops-for-cloud-and-pyracloud.md)
   * [Why does the pricing in FinOps not match the SoftwareOne invoice?](help-and-support/faqs/why-does-the-pricing-in-finops-not-match-the-softwareone-invoice.md)
+  * [Can I rename my organization?](help-and-support/faqs/can-i-rename-my-organization.md)
 * [Release Notes](help-and-support/release-notes.md)
 * [Terms of Use](help-and-support/terms-of-use.md)
 * [Open Source](help-and-support/open-source.md)
