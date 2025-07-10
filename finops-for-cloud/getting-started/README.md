@@ -2,7 +2,7 @@
 
 FinOps for Cloud is a SaaS product that is built on top of Optscale [open source](../../help-and-support/open-source.md).&#x20;
 
-It enables you to optimize cloud spending by providing real-time insights, budget tracking, and cost management. You can also allocate resources, control expenses, and drive financial accountability across cloud environments. To learn more, see [our demo video on YouTube](https://youtu.be/O49trgK7Oeg?si=TJSyz_LHNkK0O5th).
+It enables you to optimize cloud spending by providing real-time insights, budget tracking, and cost management. You can also allocate resources, control expenses, and drive financial accountability across cloud environments.&#x20;
 
 See the following links to get started:
 
@@ -26,7 +26,7 @@ See the following links to get started:
 [cost-explorer.md](cost-explorer.md)
 {% endcontent-ref %}
 
-## Additional Resources
+## Additional resources
 
 Once your organization is set up within FinOps for Cloud and a data source is connected, you can perform several tasks to optimize your cloud spending and manage overall costs.&#x20;
 
