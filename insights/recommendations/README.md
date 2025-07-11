@@ -6,7 +6,7 @@ To receive recommendations, it's essential to [add a data source](../../finops-f
 
 Currently, FinOps for Cloud performs a check every 3 hours and displays recommendations, but **Organization Managers** can initialize a force check to immediately run the data sources' evaluation sequence.
 
-All recommendations can be analyzed on the **Recommendations** page, which displays a summary of each recommendation and suggests actions to help you make informed decisions.&#x20;
+All recommendations can be analyzed on the **Recommendations** page, which displays a summary of each recommendation [across different categories](recommendation-categories/) and suggests actions to help you make informed decisions.&#x20;
 
 <figure><img src="../../.gitbook/assets/recommendations.png" alt=""><figcaption><p>Recommendations page in FinOps for Cloud</p></figcaption></figure>
 
@@ -18,7 +18,7 @@ All recommendations include a description and details, and one of the following 
 * A green symbol <img src="../../.gitbook/assets/ffc_icon.png" alt="" data-size="line"> indicates that there are no recommendations or that potential savings are zero.
 * An orange symbol <img src="../../.gitbook/assets/icon_warning (1).png" alt="" data-size="line"> appears when certain items require attention.
 
-The content of the last summary card or recommendation varies, depending on the condition. For instance, the card might show AWS S3 duplicates found during the last check, checks that did not start or finish successfully, and so on.&#x20;
+The content of the last summary card or recommendation varies, depending on the condition. For instance, the card might show AWS S3 duplicates found during the last check, checks that did not start or finish successfully, and so on. See [Savings Optimization Recommendations](recommendation-categories/savings-optimization-recommendations.md) and [Security Recommendations](recommendation-categories/security-recommendations.md) for details on specific recommendations.&#x20;
 
 Selecting a recommendation opens a summary page, which shows a table containing all checks and the option for you to initiate a new check.&#x20;
 
