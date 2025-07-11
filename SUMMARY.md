@@ -17,10 +17,12 @@
 ## Insights
 
 * [Recommendations](insights/recommendations/README.md)
-  * [Savings Optimization Recommendations](insights/recommendations/savings-optimization-recommendations.md)
-  * [Security Recommendations](insights/recommendations/security-recommendations.md)
+  * [Recommendation categories](insights/recommendations/recommendation-categories/README.md)
+    * [Savings Optimization Recommendations](insights/recommendations/recommendation-categories/savings-optimization-recommendations.md)
+    * [Security Recommendations](insights/recommendations/recommendation-categories/security-recommendations.md)
+  * [View Recommendations](insights/recommendations/view-recommendations.md)
+  * [Customize Recommendations](insights/recommendations/customize-recommendations.md)
   * [Clean-up Scripts Based on Recommendations](insights/recommendations/clean-up-scripts-based-on-recommendations.md)
-  * [Archived Recommendations](insights/recommendations/archived-recommendations.md)
 * [Resources](insights/resources/README.md)
   * [Constraints](insights/resources/resources-constraint-policies.md)
 * [Pools](insights/pools/README.md)
