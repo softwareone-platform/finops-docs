@@ -6,9 +6,7 @@ The **User management** page lets you view current members and invite new ones t
 
 In FinOps for Cloud, you can assign roles when you are [inviting a user to your organization](../../finops-for-cloud/getting-started/invite-users-to-your-organization.md). &#x20;
 
-We recommend assigning the Organization Manager role only to those individuals who need the highest level of access and permission to perform actions without any restrictions.&#x20;
-
-By default, the Member role is assigned to allow the individual to have read-only access. You can select other roles and assign them at the pool level.
+By default, the Member role is assigned to allow the individual to have read-only access. You can select other roles and assign them at the pool level. When assigning roles, we recommend assigning the Organization Manager role only to those individuals who need the highest level of access and permission to perform actions without any restrictions.&#x20;
 
 The following table lists the predefined roles available in FinOps for Cloud. These roles cannot be edited, and you cannot create new ones.
 
