@@ -35,4 +35,4 @@ With FinOps for Cloud, you can explore and analyze your cloud expenses, monitor 
 
 ## Manage your organization
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>User Management</strong></td><td>Add or remove members from your organization. </td><td><a href="system/user-management.md">user-management.md</a></td></tr><tr><td><strong>Settings</strong></td><td>View and manage your settings.</td><td><a href="system/settings.md">settings.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>User Management</strong></td><td>Add or remove members from your organization. </td><td><a href="system/user-management/">user-management</a></td></tr><tr><td><strong>Settings</strong></td><td>View and manage your settings.</td><td><a href="system/settings.md">settings.md</a></td></tr></tbody></table>

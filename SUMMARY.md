@@ -42,7 +42,8 @@
 
 ## System
 
-* [User Management](system/user-management.md)
+* [User Management](system/user-management/README.md)
+  * [View and Manage Users](system/user-management/view-and-manage-users.md)
 * [Data Sources](system/data-sources/README.md)
   * [Amazon Web Services](system/data-sources/amazon-web-services/README.md)
     * [Create Cost and Usage Reports](system/data-sources/amazon-web-services/create-cost-and-usage-reports.md)

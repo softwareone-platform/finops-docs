@@ -1,6 +1,6 @@
 # Access Your Organization
 
-To use FinOps for Cloud, you need an account. This account is different from your Marketplace Platform account.&#x20;
+To use [FinOps for Cloud](https://portal.finops.softwareone.com/), you need an account. This account is different from your Marketplace Platform account.&#x20;
 
 When you order a [FinOps for Cloud subscription from the SoftwareOne Marketplace](https://docs.platform.softwareone.com/extensions/finops-for-cloud/order-finops-for-cloud-from-marketplace), we will process your order and create an organization for you. This organization represents your account.
 

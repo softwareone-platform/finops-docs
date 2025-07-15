@@ -27,7 +27,7 @@ The sidebar on the left is the main navigation menu containing these options:
 * [Anomaly detection](../../policies/anomaly-detection/) - Allows you to identify and respond to unusual patterns or deviations from normal behavior, control costs, and manage resources efficiently.&#x20;
 * [Quotas and budgets](../../policies/quotas-and-budgets/) - Lets you create quotas and budgets.
 * [Tagging policies](../../policies/tagging/) - Allows you to add new tagging policies and manage the existing ones.
-* [User management](../../system/user-management.md) - Lets you invite new members to your organization and manage existing members.
+* [User management](../../system/user-management/) - Lets you invite new members to your organization and manage existing members.
 * [Data sources](../../system/data-sources/) - Enables you to add your billing data sources to FinOps for Cloud.
 * [Events ](../../system/events.md)- Lets you see all events that have occurred within your organization. The events include infomational messgaes, warnings, and error messages.
 * [Settings ](../../system/settings.md)- Allows you to view organization details, view pending invitations, and manage email notifications.&#x20;
