@@ -2,7 +2,23 @@
 
 This topic describes how to add your AWS data sources to the FinOps platform. FinOps for Cloud supports both AWS organizations and individual AWS standalone accounts.&#x20;
 
-## AWS organization <a href="#aws-organizations" id="aws-organizations"></a>
+## Terminology
+
+The following terminology applies to AWS data sources.
+
+### AWS Terminology
+
+<table><thead><tr><th width="200" valign="top">Term</th><th valign="top">Definition</th></tr></thead><tbody><tr><td valign="top">Management account</td><td valign="top"><p><em>A management account</em> is the AWS account you use to create your AWS Organization. The owner of the <em>management account</em> is responsible for paying for all usage, data, and resources used by the accounts in the organization.</p><p></p><p>You may hear the <em>management account</em> referred to as the "root account", "master account", "billing account", or "payer account".</p><p></p><p>For the purposes of this article, these terms all mean the same thing.</p></td></tr><tr><td valign="top">Member account</td><td valign="top"><p>A <em>member account</em> is an AWS account, other than the management account, that is part of an AWS Organization. The management account is responsible for paying for all <em>member accounts</em> in the organization.</p><p></p><p>You may hear a <em>member account</em> referred to as a "linked account", "child account", "usage account", or "sub-account".</p><p></p><p>For the purposes of this article, these terms all mean the same thing</p></td></tr><tr><td valign="top">Standalone account</td><td valign="top"><p>A <em>standalone account</em> in AWS refers to an account that is not part of an AWS Organization — it stands on its own, without being linked to any other accounts for consolidated billing, management, or policy control.</p><p></p><p>You may hear a <em>standalone account</em> referred to as an "individual account", "non-organizational account", or "unlinked account".</p><p></p><p>For the purposes of this article, these terms all mean the same thing.</p></td></tr></tbody></table>
+
+### FinOps for Cloud Terminology <a href="#aws-organizations" id="aws-organizations"></a>
+
+The following terminology is used in FinOps for Cloud when adding an AWS data source.
+
+<table><thead><tr><th width="200" valign="top">Term</th><th valign="top">Usage</th></tr></thead><tbody><tr><td valign="top">Root</td><td valign="top"><p>Use this option when:</p><ol><li>Adding an AWS organizations <a href="./#with-access-to-the-management-account"><em>management account</em></a>.</li><li>Adding an AWS organizations member account (<a href="./#without-access-to-the-management-account">when you do not have access to the management account</a>)</li><li>Adding an AWS <a href="./#aws-standalone-accounts">standalone account</a>.</li></ol></td></tr><tr><td valign="top">Linked</td><td valign="top"><p>Use this option when:</p><ol><li>Adding an AWS organizations member account (<a href="./#with-access-to-the-management-account">and the management account is already added</a>)</li></ol></td></tr></tbody></table>
+
+## Configuring your AWS accounts <a href="#aws-organizations" id="aws-organizations"></a>
+
+### AWS organizations <a href="#aws-organizations" id="aws-organizations"></a>
 
 Depending on the access to your management account and other member accounts, there are different ways to add AWS data sources to FinOps for Cloud.&#x20;
 
@@ -10,7 +26,7 @@ Depending on the access to your management account and other member accounts, th
 If you connect the root account but don't connect the linked accounts, all expenses from the unconnected linked accounts are ignored, even if they exist in the data export file. To retrieve expenses from both linked and root accounts, connect all AWS accounts (not just the root). FinOps for Cloud ignores data from unconnected linked accounts.
 {% endhint %}
 
-### With access to the management account <a href="#with-access-to-the-management-account" id="with-access-to-the-management-account"></a>
+#### With access to the management account <a href="#with-access-to-the-management-account" id="with-access-to-the-management-account"></a>
 
 If you have access to create a Cost and Usage Report (CUR) and Identity and Access Management (IAM) users in your management account, follow these steps:
 
@@ -25,7 +41,7 @@ To add your management account:
 3. [Create the `FinOpsForCloudResourceDiscovery` IAM policy](configure-aws-access.md#creating-a-policy-for-resource-discovery).
 4. [Create the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-a-user-for-finops-for-cloud).
 5. [Create an access key for the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-an-access-key-for-finops-for-cloud).
-6. [Add the management account to your FinOps for Cloud data sources as an AWS Root account.](../../../finops-for-cloud/getting-started/data-sources.md)&#x20;
+6. [Add the management account to your FinOps for Cloud data sources as an AWS **Root** account.](../../../finops-for-cloud/getting-started/data-sources.md)&#x20;
 {% endstep %}
 
 {% step %}
@@ -36,14 +52,14 @@ To add your member accounts:
 1. [Create the `FinOpsForCloudResourceDiscovery` IAM policy](configure-aws-access.md#creating-a-policy-for-resource-discovery).
 2. [Create the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-a-user-for-finops-for-cloud).
 3. [Create an access key for the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-an-access-key-for-finops-for-cloud).
-4. [Add the member account to your FinOps for Cloud data sources as an AWS-linked account. ](../../../finops-for-cloud/getting-started/data-sources.md)
+4. [Add the member account to your FinOps for Cloud data sources as an AWS **Linked** account. ](../../../finops-for-cloud/getting-started/data-sources.md)
 5. Repeat steps 1 - 4 for each member account you want to add.
 {% endstep %}
 {% endstepper %}
 
 When the member accounts are added, FinOps for Cloud automatically identifies the management account and uses the imported cost and usage data from that account.
 
-### Without access to the management account <a href="#without-access-to-the-management-account" id="without-access-to-the-management-account"></a>
+#### Without access to the management account <a href="#without-access-to-the-management-account" id="without-access-to-the-management-account"></a>
 
 If you don't have access to your management account, you can create individual CURs in each member account and add them to FinOps for Cloud as if they were AWS Root Accounts.
 
@@ -54,9 +70,9 @@ To add your member account to FinOps as an **AWS Root** account:
 3. [Create the `FinOpsForCloudResourceDiscovery` IAM policy](configure-aws-access.md#creating-a-policy-for-resource-discovery).
 4. [Create the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-a-user-for-finops-for-cloud).
 5. [Create an access key for the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-an-access-key-for-finops-for-cloud).
-6. [Add the member account to your FinOps for Cloud data sources as an AWS Root account](../../../finops-for-cloud/getting-started/data-sources.md).
+6. [Add the member account to your FinOps for Cloud data sources as an AWS **Root** account](../../../finops-for-cloud/getting-started/data-sources.md).
 
-## AWS standalone accounts <a href="#aws-standalone-accounts" id="aws-standalone-accounts"></a>
+### AWS standalone accounts <a href="#aws-standalone-accounts" id="aws-standalone-accounts"></a>
 
 To add a standalone AWS account:
 
@@ -65,4 +81,4 @@ To add a standalone AWS account:
 3. [Create the `FinOpsForCloudResourceDiscovery` IAM policy](configure-aws-access.md#creating-a-policy-for-resource-discovery).
 4. [Create the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-a-user-for-finops-for-cloud).
 5. [Create an access key for the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-an-access-key-for-finops-for-cloud).
-6. [Add the standalone account to your FinOps for Cloud data sources as an AWS Root account.](../../../finops-for-cloud/getting-started/data-sources.md)
+6. [Add the standalone account to your FinOps for Cloud data sources as an AWS **Root** account.](../../../finops-for-cloud/getting-started/data-sources.md)
