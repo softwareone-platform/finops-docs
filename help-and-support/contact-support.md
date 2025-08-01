@@ -1,20 +1,30 @@
 # Contact Support
 
-If you need any assistance with your FinOps for Cloud subscription, you can contact Marketplace Platform Support.&#x20;
+If you experience an issue with FinOps for Cloud, you can contact Marketplace Platform Support.
 
-There are two ways to get support. You can reach out to us through email or create a ticket from the Marketplace Platform.&#x20;
+Our support team is here to assist you with any technical issues and troubleshoot errors you may encounter while using FinOps for Cloud.
 
-Note that you might need to provide your organization ID when you are communicating with Marketplace Platform Support. You can find your organization ID on the [Settings ](../system/settings.md)page.
+## Describing your issue <a href="#describing-your-issue" id="describing-your-issue"></a>
 
-## Contacting support
+When contacting Marketplace Platform Support, provide as much detail as possible to help us understand your issue.
 
-To ensure we can assist you effectively, please write to us in English.&#x20;
+Include relevant context about the problem you are experiencing and share details so we can diagnose the issue quickly. Here are some important points to include in your support request:
 
-To contact us by email, use this email address: [marketplace-support@softwareone.com](mailto:marketplace-support@softwareone.com).
+* The date and time when the issue started.
+* The number of people affected by the issue.
+* Your expected outcome.
+* Your organization ID (available on the [Settings](../system/settings.md) page).
+* If applicable, a screenshot of the error message or the full text. You can also include a screen recording.
 
-To create a support ticket:
+## Contacting Marketplace Platform Support <a href="#contacting-marketplace-platform-support" id="contacting-marketplace-platform-support"></a>
 
-1. [Sign in to your Marketplace Platform account](https://portal.platform.softwareone.com).
+Marketplace Platform Support is available Monday to Friday, from 05:30 to 19:30 UTC. You can contact us by email or create a support case.&#x20;
+
+To send us an email, use this email address: [marketplace-support@softwareone.com](mailto:marketplace-support@softwareone.com)
+
+To create a support case:
+
+1. [Sign in to your Marketplace account](https://portal.platform.softwareone.com/).
 2. Select the **Help** icon <img src="../.gitbook/assets/icon_support.png" alt="" data-size="line"> in the header and choose **Support**.
 
 <figure><img src="../.gitbook/assets/contact_support.png" alt=""><figcaption><p>Support option in the Help menu within SoftwareOne Marketplace</p></figcaption></figure>
@@ -24,3 +34,11 @@ To create a support ticket:
 5. Select **Send**.
 
 A confirmation message is displayed stating that your ticket has been created. If the **Send** button is unavailable, make sure you've entered the required information.
+
+We aim to acknowledge all support cases on the same day as they are submitted, within our core business hours. However, the response time may vary during busy periods.
+
+## Additional help resources
+
+The [SoftwareOne Platform YouTube Channel ](https://www.youtube.com/@MarketplacePlatform)contains videos that you can use to learn more about FinOps for Cloud and how to use it effectively.
+
+For the Marketplace Platform documentation, see this URL: [https://docs.platform.softwareone.com/](https://docs.platform.softwareone.com/).
