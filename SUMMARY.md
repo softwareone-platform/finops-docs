@@ -27,9 +27,11 @@
   * [Constraints](insights/resources/resources-constraint-policies.md)
 * [Pools](insights/pools/README.md)
   * [Configure Assignment Rules](insights/pools/add-assignment-rules.md)
-  * [Re-apply Ruleset](insights/pools/re-apply-ruleset.md)
+  * [View and Manage Assignment Rules](insights/pools/view-and-manage-assignment-rules.md)
+  * [Reapply Ruleset](insights/pools/re-apply-ruleset.md)
+  * [Create Pool Constraint Policies](insights/pools/pool-constraint-policies.md)
+  * [View Pool Assignment Rules](insights/pools/view-pool-assignment-rules.md)
   * [Delete Pools](insights/pools/delete-a-pool.md)
-  * [Pool Constraint Policies](insights/pools/pool-constraint-policies.md)
 
 ## Policies
 
