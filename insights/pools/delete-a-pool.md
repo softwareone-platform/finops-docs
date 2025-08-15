@@ -2,7 +2,7 @@
 
 If you no longer need a pool, you can delete it. However, a pool can only be deleted if it doesn't contain any sub-pools. If the pool you want to delete contains subpools, you must first delete all subpools.
 
-Note that to delete a pool, you must have the Manager role in the parent of the pool you want to delete.
+Note that to delete a pool, you must have the **Manager** role in the parent of the pool you want to delete.
 
 ## Deleting a pool <a href="#pool-deletion" id="pool-deletion"></a>
 

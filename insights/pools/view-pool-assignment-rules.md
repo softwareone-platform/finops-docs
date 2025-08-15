@@ -1,6 +1,8 @@
 # View Pool Assignment Rules
 
-You can view the assignment rules associated with a selected pool from the **Assignment rules** tab on the pool's details page. This view provides insight into how resources are assigned and managed within the pool, ensuring transparency and making it easier to verify or update rules by centralizing them in one place.
+You can view the assignment rules associated with a selected pool from the **Assignment rules** tab on the pool's details page.&#x20;
+
+This view provides insight into how resources are assigned and managed within the pool, ensuring transparency and making it easier to verify or update rules by centralizing them in one place.
 
 Each rule displays key information, including its **Name**, **Owner**, and **Conditions**. The **Conditions** column offers a detailed summary of the criteria defined for each rule, such as **Name/ID contains**, **Tag is**, or **Source is**.
 
