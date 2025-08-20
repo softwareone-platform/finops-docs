@@ -55,7 +55,8 @@
   * [Microsoft Azure](system/data-sources/microsoft-azure.md)
   * [Google Cloud Platform](system/data-sources/google-cloud-platform.md)
 * [Events](system/events.md)
-* [Settings](system/settings.md)
+* [Settings](system/settings/README.md)
+  * [Manage Email Notifications](system/settings/manage-email-notifications.md)
 
 ## Help and Support
 

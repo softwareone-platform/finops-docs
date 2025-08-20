@@ -13,7 +13,7 @@ Include relevant context about the problem you are experiencing and share detail
 * The date and time when the issue started.
 * The number of people affected by the issue.
 * Your expected outcome.
-* Your organization ID (available on the [Settings](../system/settings.md) page).
+* Your organization ID (available on the [Settings](../system/settings/) page).
 * If applicable, a screenshot of the error message or the full text. You can also include a screen recording.
 
 ## Contacting Marketplace Platform Support <a href="#contacting-marketplace-platform-support" id="contacting-marketplace-platform-support"></a>

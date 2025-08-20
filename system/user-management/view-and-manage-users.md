@@ -8,11 +8,13 @@ For each user, you can also view the following information:
 * The last time the user accessed the organization.
 * The user's email address.
 
-From this page, you can find a specific user using the **Search** option and remove users who no longer need access to your organization.&#x20;
+From this page, you can find a specific user using the **Search** option, invite new users, and remove users who no longer need access to your organization.&#x20;
+
+## Inviting users to your organization
+
+You can invite a new user to your FinOps organization by selecting **Invite** on the **Users** **management** page. To learn more, see [Invite Users to Your Organization](../../finops-for-cloud/getting-started/invite-users-to-your-organization.md).
 
 ## Removing a user from your organization
-
-You can remove an individual from your organization using the **Delete** option on the **Users** **management** page.&#x20;
 
 To remove an individual:
 
