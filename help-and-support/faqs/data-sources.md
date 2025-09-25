@@ -68,7 +68,7 @@ This feature allows you to manually reimport your billing data starting from a s
 * You have made configuration or permission-related changes that require reimporting data to reflect those updates.
 * You need historical billing data from months that were not previously imported.
 
-For details on how to perform a billing reimport, see Reimport Billing.
+For details on how to perform a billing reimport, see [Reimport Billing](../../system/data-sources/manage-data-sources/reimport-billing.md).
 
 </details>
 
@@ -78,6 +78,6 @@ For details on how to perform a billing reimport, see Reimport Billing.
 
 The **Disconnect** option on the details page of a data source lets you disconnect and remove a data source from FinOps for Cloud.
 
-To learn more, see Disconnect Data Source.
+To learn more, see [Disconnect Data Source](../../system/data-sources/manage-data-sources/disconnect-data-source.md).
 
 </details>
