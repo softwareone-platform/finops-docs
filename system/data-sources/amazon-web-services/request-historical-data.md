@@ -12,14 +12,15 @@ For information on how to open a support case and the information to include in 
 
 [https://docs.aws.amazon.com/cur/latest/userguide/troubleshooting.html#backfill-data](https://docs.aws.amazon.com/cur/latest/userguide/troubleshooting.html#backfill-data)
 
-### Performing a billing reimport in FinOps <a href="#perform-a-billing-reimport" id="perform-a-billing-reimport"></a>
+## Performing a billing reimport in FinOps <a href="#perform-a-billing-reimport" id="perform-a-billing-reimport"></a>
 
 To perform a billing reimport in FinOps for Cloud:
 
 1. Navigate to the **Data sources** page.
 2. Select the AWS data source containing the updated S3 bucket. Then, select **Billing reimport**.
-3. In **Import from**, choose the start date of your historical billing data and select **Schedule import**.&#x20;
+3. In **Import from**, choose the start date of your historical billing data.
+4. Select **Schedule import**.&#x20;
 
 <figure><img src="../../../.gitbook/assets/aws_billing_reimport.png" alt=""><figcaption><p>Billing reimport</p></figcaption></figure>
 
-Note that the import might take several hours, depending on the amount of historical data.
+Once the import process has been initiated, it might take several hours, depending on the amount of historical data.&#x20;

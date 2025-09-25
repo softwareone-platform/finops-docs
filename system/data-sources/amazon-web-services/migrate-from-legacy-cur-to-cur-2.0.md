@@ -35,6 +35,6 @@ When the report is ready, use the following steps to update your existing AWS da
       2. If you created a new S3 bucket for your CUR 2.0 reports, update the **Export name**, **S3 bucket name**, and **Export path prefix**.
    3. Select **Save** and wait for a new export to import.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Migrate to CUR 2.0 and update credentials</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Migrate to CUR 2.0 and update credentials</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
