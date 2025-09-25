@@ -9,9 +9,9 @@
   * [Comparing FinOps for Cloud and Spend Management](finops-for-cloud/overview/comparing-finops-for-cloud-and-spend-management.md)
 * [Getting Started](finops-for-cloud/getting-started/README.md)
   * [Access Your Organization](finops-for-cloud/getting-started/access-your-organization.md)
+  * [Invite Users to Your Organization](finops-for-cloud/getting-started/invite-users-to-your-organization.md)
   * [Navigate the User Interface](finops-for-cloud/getting-started/overview.md)
   * [Add Data Sources](finops-for-cloud/getting-started/data-sources.md)
-  * [Invite Users to Your Organization](finops-for-cloud/getting-started/invite-users-to-your-organization.md)
   * [View Costs in Cost Explorer](finops-for-cloud/getting-started/cost-explorer.md)
 
 ## Insights
@@ -66,8 +66,9 @@
 
 * [Contact Support](help-and-support/contact-support.md)
 * [FAQs](help-and-support/faqs/README.md)
-  * [Why does the pricing in FinOps not match the SoftwareOne invoice?](help-and-support/faqs/why-does-the-pricing-in-finops-not-match-the-softwareone-invoice.md)
-  * [Can I rename my organization?](help-and-support/faqs/can-i-rename-my-organization.md)
+  * [General](help-and-support/faqs/general.md)
+  * [Billing and Invoicing](help-and-support/faqs/billing-and-invoicing.md)
+  * [Data Sources](help-and-support/faqs/data-sources.md)
 * [Release Notes](help-and-support/release-notes.md)
 * [Terms of Use](help-and-support/terms-of-use.md)
 * [Open Source](help-and-support/open-source.md)
