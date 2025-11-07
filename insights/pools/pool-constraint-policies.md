@@ -14,7 +14,7 @@ To configure pool constraint policies:
 4. Enter values in the **TTL** (Time-to-live) or **Daily expense limit** fields.&#x20;
 5. Select <img src="../../.gitbook/assets/icon_check.png" alt="pencil" data-size="line"> to save your changes. The constraint will apply to the resources within the selected pool or subpool.&#x20;
 
-<figure><img src="../../.gitbook/assets/pool_constraint_policies.png" alt=""><figcaption><p>Pool constraint policies</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/pool_constraint_policies.png" alt=""><figcaption><p>Pool constraint policies.</p></figcaption></figure>
 
 {% hint style="info" %}
 A constraint will not be visible if the related resource has already been deleted from FinOps or if a resource has been tracked only by imported billing data.

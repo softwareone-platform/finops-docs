@@ -2,7 +2,7 @@
 
 After signing in to FinOps for Cloud, the first thing you’ll see is the **Home** page.
 
-<figure><img src="../../.gitbook/assets/ffc_homepage.png" alt=""><figcaption><p>Home page in FinOps for Cloud</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ffc_homepage.png" alt=""><figcaption><p>The Home page in FinOps for Cloud.</p></figcaption></figure>
 
 ## Home page
 
@@ -23,20 +23,20 @@ The sidebar on the left is the main navigation menu containing these options:
 * [Recommendations](../../insights/recommendations/) - Displays all recommendations so you can get the most out of your connected data sources.&#x20;
 * [Resources ](../../insights/resources/)- Allows you to view and allocate your expenses for the cloud resources, monitor their performance, and set constraints. See Resources to learn about organizing and categorizing resources based on your specific requirements.
 * [Pools ](../../insights/pools/)- Displays pools with limits or projected expenses. You can categorize resources into a hierarchy of pools manually or using assignment rules.&#x20;
-* [Cost explorer](cost-explorer.md) - Lets you visualize your expenses.
+* [Cost explorer](cost-explorer.md) - Allows you to visualize your expenses.
 * [Anomaly detection](../../policies/anomaly-detection/) - Allows you to identify and respond to unusual patterns or deviations from normal behavior, control costs, and manage resources efficiently.&#x20;
-* [Quotas and budgets](../../policies/quotas-and-budgets/) - Lets you create quotas and budgets.
+* [Quotas and budgets](../../policies/quotas-and-budgets/) - Allows you to create quotas and budgets.
 * [Tagging policies](../../policies/tagging/) - Allows you to add new tagging policies and manage the existing ones.
-* [User management](../../system/user-management/) - Lets you invite new members to your organization and manage existing members.
+* [User management](../../system/user-management/) - Allows you to invite new members to your organization and manage existing members.
 * [Data sources](../../system/data-sources/) - Enables you to add your billing data sources to FinOps for Cloud.
-* [Events ](../../system/events.md)- Lets you see all events that have occurred within your organization. The events include infomational messgaes, warnings, and error messages.
+* [Events ](../../system/events.md)- Lets you see all events that have occurred within your organization. The events include informational messages, warnings, and error messages.
 * [Settings ](../../system/settings/)- Allows you to view organization details, view pending invitations, and manage email notifications.&#x20;
 
 ## Organization selector <a href="#organization-selector" id="organization-selector"></a>
 
 The **Organization** selector is available in the header.&#x20;
 
-It displays your current organization and lets you switch between organizations if you belong to several organizations in FinOps.
+It displays your current organization and enables you to switch between organizations if you belong to several organizations in FinOps.
 
 You can also select **Organization overview** for an overview of all organizations and key information for each organization. Organizations that require attention and optimization are marked in red.
 

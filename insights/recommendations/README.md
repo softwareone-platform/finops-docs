@@ -8,7 +8,7 @@ Once a data source is added, FinOps for Cloud analyzes it to provide recommendat
 
 Currently, FinOps for Cloud performs a check every 3 hours.
 
-<figure><img src="../../.gitbook/assets/recommendations.png" alt=""><figcaption><p>Recommendations page in FinOps for Cloud</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/recommendations.png" alt=""><figcaption><p>The Recommendations page in FinOps for Cloud.</p></figcaption></figure>
 
 The **Recommendations** page displays a summary of each recommendation [across different categories](https://docs.finops.softwareone.com/insights/recommendations/recommendation-categories) and suggests actions to help you make informed decisions. The summary varies, depending on the condition. For instance, it might show AWS S3 duplicates found during the last check, checks that did not start or finish successfully, and so on.
 

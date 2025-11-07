@@ -2,14 +2,14 @@
 
 The **Events** page in FinOps for Cloud is a read-only page that displays all events that have occurred within your organization.&#x20;
 
-The data on this page is continuously updated, allowing you to monitor and track events in real time. You can view both system-generated as well as user-generated events. The following are some examples of the events you might see:
+The data on this page is continuously updated, allowing you to monitor and track events in real time. You can view both system-generated and user-generated events. The following are examples of events:
 
 * Discovery of new resources for cloud accounts.
 * Automatic assignment of resources to a pool.
 * Invitations sent to new account members.
 * Resource discovery failures.
 
-<figure><img src="../.gitbook/assets/ffc_events_page.png" alt=""><figcaption><p>Events page in FinOps for Cloud</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ffc_events_page.png" alt=""><figcaption><p>The Events page in the FinOps platform.</p></figcaption></figure>
 
 ## Filtering events
 

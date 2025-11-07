@@ -1,11 +1,11 @@
-# Constraints
+# Apply Constraints
 
-To address the ever-dynamic cloud infrastructure where resources are being created and deleted continuously, FinOps for Cloud contains a set of tools to help limit the related expenses and the lifetime of individual assets.&#x20;
+To address the ever-dynamic cloud infrastructure where resources are being created and deleted continuously, FinOps for Cloud contains a set of tools to help limit the related expenses and the lifetime of individual assets.
 
 This is implemented in the form of constraints that you can set for a specific resource or generally for a pool. You can set two types of constraints:
 
-* **TTL** - Represents time to live. A resource must not live for more than the specified period.&#x20;
-  * For a resource, specify a date and time.&#x20;
+* **TTL** - Represents time to live. A resource must not live for more than the specified period.
+  * For a resource, specify a date and time.
   * For a pool, input an integer between 1 and 720 hours.
 * **Daily expenses limit** - The resource spending must not exceed the specified amount in dollars. Input as an integer, min $ 1, 0 - unlimited.
 
@@ -17,16 +17,16 @@ When a resource hits a constraint, both the Manager and Owner of the resource ar
 FinOps for Cloud sends notifications about violated constraints and doesn't interact with the connected source itself to perform any constraint-related adjustments.
 {% endhint %}
 
-## Assigning resource constraints <a href="#resources-constraints" id="resources-constraints"></a>
+### Applying constraints <a href="#resources-constraints" id="resources-constraints"></a>
 
-To assign resource constraints:
+To apply constraints to a resource:
 
 1. On the **Resources** page, select the required resource.
 2. On the resource details page, select the **Constraints** tab.
 
-<figure><img src="../../.gitbook/assets/resources_constraints.png" alt=""><figcaption><p>Constraints tab</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/resources_constraints.png" alt=""><figcaption><p>The Constraints tab on the resource details page.</p></figcaption></figure>
 
-3. Use the slider to enable the required setting. Then, select edit ![pencil](https://hystax.com/documentation/optscale/_static/screens/resource_constraints/pencil.png) to enter the value. When done, select <img src="../../.gitbook/assets/icon_check.png" alt="pencil" data-size="line"> to save your changes.
+3. Use the slider to enable the required setting. Then, select edit to enter the value. When done, select <img src="../../.gitbook/assets/icon_check.png" alt="pencil" data-size="line"> to save your changes.
 
 <figure><img src="../../.gitbook/assets/resources_constraints_tab.png" alt=""><figcaption><p>Available constraint type</p></figcaption></figure>
 

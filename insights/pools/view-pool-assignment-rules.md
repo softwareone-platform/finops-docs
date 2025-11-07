@@ -15,4 +15,4 @@ To view the assignment rules for a pool:
 3. Select the **Assignment rules** tab. All assignment rules that have the given pool as a target are displayed.
 4. (Optional) Select **See all assignment rules** to navigate to the main assignment rules listing page, where you can manage all rules across different pools.
 
-<figure><img src="../../.gitbook/assets/pool_related_assignment_rules.png" alt=""><figcaption><p>Assignment rules for a pool</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/pool_related_assignment_rules.png" alt=""><figcaption><p>Assignment rules for a pool.</p></figcaption></figure>

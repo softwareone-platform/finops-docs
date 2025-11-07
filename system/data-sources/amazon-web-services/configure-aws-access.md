@@ -92,7 +92,7 @@ To create a new IAM user for FinOps for Cloud, see [Create an IAM user in your A
 When creating the user, use the following settings:
 
 1. For **User name**, enter `FinOpsForCloudUser`.
-2. For **Provide user access to the AWS Management Console**, select **No**.
+2. In **Provide user access to the AWS Management Console**, select **No**.
 3. Under **Set permissions**, select **Attach policies directly**.
    1. `FinOpsForCloudResourceDiscovery` (always required)
    2. `FinOpsForCloudBillingImport` (required only for accounts with cost and usage reports buckets)

@@ -26,4 +26,4 @@ To manually trigger a billing data reimport:
 4. Choose the start date from which you want historical data imported, then select **Set**.
 5. Select **Schedule import** to start the reimport process.
 
-<figure><img src="../../../.gitbook/assets/aws_billing_reimport.png" alt=""><figcaption><p>Schedule import</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aws_billing_reimport.png" alt=""><figcaption><p>Schedule import option.</p></figcaption></figure>

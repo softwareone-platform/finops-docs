@@ -20,7 +20,7 @@ To view your archived recommendations:
 
 1. On the **Recommendations** page, select **Archive**.
 
-<figure><img src="../../.gitbook/assets/archive_recommendations.png" alt=""><figcaption><p>Archive option on the Recommendations page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/archive_recommendations.png" alt=""><figcaption><p>The Archive option on the Recommendations page.</p></figcaption></figure>
 
 2. On the **Archived recommendations** page:
    1. (Optional) Use the date selector to use a custom date range, or select any of these options:&#x20;

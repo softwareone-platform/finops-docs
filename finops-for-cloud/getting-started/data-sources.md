@@ -23,7 +23,7 @@ To add a new data source:
 1. From the left sidebar, select **Data sources**.
 2. On the **Data sources** page, select **Add**.
 
-<figure><img src="../../.gitbook/assets/ffc_data_source (1).png" alt=""><figcaption><p>Data Sources page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ffc_data_source (1).png" alt=""><figcaption><p>The Data Sources page  in FinOps for Cloud.</p></figcaption></figure>
 
 3. On the **Connect data source** page, do the following:
    1. Select the data source you want to add, for example, **AWS**, **Azure**, or **GCP**.&#x20;

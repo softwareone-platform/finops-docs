@@ -17,4 +17,4 @@ When creating the report, use the following settings:
 
 The following image displays the recommended CUR settings:
 
-<figure><img src="../../../.gitbook/assets/aws_create_export.png" alt=""><figcaption><p>Cost and Usage Report settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aws_create_export.png" alt=""><figcaption><p>The recommended Cost and Usage Report settings.</p></figcaption></figure>

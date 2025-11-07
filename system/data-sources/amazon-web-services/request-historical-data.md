@@ -21,6 +21,6 @@ To perform a billing reimport in FinOps for Cloud:
 3. In **Import from**, choose the start date of your historical billing data.
 4. Select **Schedule import**.&#x20;
 
-<figure><img src="../../../.gitbook/assets/aws_billing_reimport.png" alt=""><figcaption><p>Billing reimport</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aws_billing_reimport.png" alt=""><figcaption><p>The option to reimport billing data.</p></figcaption></figure>
 
 Once the import process has been initiated, it might take several hours, depending on the amount of historical data.&#x20;

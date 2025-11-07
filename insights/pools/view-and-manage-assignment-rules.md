@@ -11,7 +11,7 @@ You can manage existing rules and search for specific rules using filters such a
 1. Navigate to the **Pools** page.&#x20;
 2. Select **Configure assignment rules**. The list of rules is displayed.&#x20;
 
-<figure><img src="../../.gitbook/assets/assignment_rules.png" alt=""><figcaption><p>Assignment rules page displaying all rules</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/assignment_rules.png" alt=""><figcaption><p>The Assignment rules page displaying all rules.</p></figcaption></figure>
 
 For each rule, you can view the following details:
 

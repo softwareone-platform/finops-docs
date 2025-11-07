@@ -6,9 +6,7 @@ Our support team is here to assist you with any technical issues and troubleshoo
 
 ## Describing your issue <a href="#describing-your-issue" id="describing-your-issue"></a>
 
-When contacting Marketplace Platform Support, provide as much detail as possible to help us understand your issue.
-
-Include relevant context about the problem you are experiencing and share details so we can diagnose the issue quickly. Here are some important points to include in your support request:
+When contacting Marketplace Platform Support, provide as much detail as possible to help us understand your issue. Here are some important points to include in your support request:
 
 * The date and time when the issue started.
 * The number of people affected by the issue.
@@ -27,13 +25,11 @@ To create a support case:
 1. [Sign in to your Marketplace account](https://portal.platform.softwareone.com/).
 2. Select the **Help** icon <img src="../.gitbook/assets/icon_support.png" alt="" data-size="line"> in the header and choose **Support**.
 
-<figure><img src="../.gitbook/assets/contact_support.png" alt=""><figcaption><p>Support option in the Help menu within SoftwareOne Marketplace</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/contact_support.png" alt=""><figcaption><p>The Support option in the Help menu within the Marketplace Platform.</p></figcaption></figure>
 
 3. On the **Help and Support** page, select **Submit a Ticket**.
-4. Fill out the form according to your issue. Optionally, choose **Select files** to upload documentation that might help us understand and resolve your problem quickly.
-5. Select **Send**.
-
-A confirmation message is displayed stating that your ticket has been created. If the **Send** button is unavailable, make sure you've entered the required information.
+4. Complete the form according to your issue. Optionally, choose **Select files** to upload documentation that might help us understand and resolve your problem quickly.
+5. Select **Send** to submit your request. If the **Send** button is unavailable, make sure you have entered the required information.
 
 We aim to acknowledge all support cases on the same day as they are submitted, within our core business hours. However, the response time may vary during busy periods.
 
