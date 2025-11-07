@@ -18,12 +18,12 @@ Additionally, the Cost Explorer view now includes a new breakdown option called 
 A new download option has been introduced to facilitate offline analysis, reporting, and integration with external tools. You can now download data from the following modules in FinOps for Cloud:
 
 * **Resources** - Download your resource data as an Excel spreadsheet or JSON file. You can also download Charts as PNG files.
-* **Cost explorer** - Download the data in PDF format.
-* **User management** - Export your list of users as an Excel spreadsheet or JSON file.
+* **Cost explorer** - Download the data as a PDF.&#x20;
+* **User management** - Export your list of users as an Excel spreadsheet or JSON file.&#x20;
 
 ### New Filters in Resource View
 
-New filtering options are added to the **Resources** module to help you narrow down and analyze cloud assets more effectively. You can now filter resources by:
+New filtering options are added to the [Resources](../insights/resources/) page to help you narrow down and analyze cloud assets more effectively. You can now filter resources by:
 
 * **Multi-select fields** - This allows you to select multiple values across key dimensions for more flexible filtering.
 * **First seen date** - This allows you to identify newly discovered resources.
