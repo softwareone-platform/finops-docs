@@ -15,7 +15,7 @@
 
 ## Analysis
 
-* [Costs Explorer](analysis/cost-explorer.md)
+* [Cost Explorer](analysis/cost-explorer.md)
 * [Cost Map](analysis/cost-map/README.md)
   * [View Cost Map](analysis/cost-map/view-cost-map.md)
 
