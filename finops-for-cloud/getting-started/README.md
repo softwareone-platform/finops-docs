@@ -22,8 +22,8 @@ See the following links to get started:
 [invite-users-to-your-organization.md](invite-users-to-your-organization.md)
 {% endcontent-ref %}
 
-{% content-ref url="cost-explorer.md" %}
-[cost-explorer.md](cost-explorer.md)
+{% content-ref url="../../analysis/cost-explorer.md" %}
+[cost-explorer.md](../../analysis/cost-explorer.md)
 {% endcontent-ref %}
 
 ## Additional resources

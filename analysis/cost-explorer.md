@@ -1,10 +1,10 @@
-# View Costs in Cost Explorer
+# Costs Explorer
 
 The **Cost explorer** feature contains tools and options to help you analyze costs and understand the cost structure for your organization.&#x20;
 
-With **Cost explorer**, you can view your total expenses for the selected period and compare them with the total expenses from the previous period. You can also view a chart of your expense data. Use the comparison to help understand your overall spending and identify any trends or changes in your spending patterns.
+Using this feature, you can view your total expenses for the selected period and compare them with the total expenses from the previous period. You can also view a chart of your expense data to understand your overall spending and identify any trends or changes in your spending patterns.
 
-<figure><img src="../../.gitbook/assets/ffc_cost_explorer.png" alt=""><figcaption><p>The Cost Explorer in FinOps for Cloud.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ffc_cost_explorer.png" alt=""><figcaption><p>The Cost Explorer in FinOps for Cloud.</p></figcaption></figure>
 
 The Cost Explorer contains the following options to display a breakdown of your expenses:
 

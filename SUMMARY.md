@@ -12,7 +12,12 @@
   * [Invite Users to Your Organization](finops-for-cloud/getting-started/invite-users-to-your-organization.md)
   * [Navigate the User Interface](finops-for-cloud/getting-started/overview.md)
   * [Add Data Sources](finops-for-cloud/getting-started/data-sources.md)
-  * [View Costs in Cost Explorer](finops-for-cloud/getting-started/cost-explorer.md)
+
+## Analysis
+
+* [Costs Explorer](analysis/cost-explorer.md)
+* [Cost Map](analysis/cost-map/README.md)
+  * [View Cost Map](analysis/cost-map/view-cost-map.md)
 
 ## Insights
 

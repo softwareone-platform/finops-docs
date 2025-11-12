@@ -23,7 +23,7 @@ The sidebar on the left is the main navigation menu containing these options:
 * [Recommendations](../../insights/recommendations/) - Displays all recommendations so you can get the most out of your connected data sources.&#x20;
 * [Resources ](../../insights/resources/)- Allows you to view and allocate your expenses for the cloud resources, monitor their performance, and set constraints. See Resources to learn about organizing and categorizing resources based on your specific requirements.
 * [Pools ](../../insights/pools/)- Displays pools with limits or projected expenses. You can categorize resources into a hierarchy of pools manually or using assignment rules.&#x20;
-* [Cost explorer](cost-explorer.md) - Allows you to visualize your expenses.
+* [Cost explorer](../../analysis/cost-explorer.md) - Allows you to visualize your expenses.
 * [Anomaly detection](../../policies/anomaly-detection/) - Allows you to identify and respond to unusual patterns or deviations from normal behavior, control costs, and manage resources efficiently.&#x20;
 * [Quotas and budgets](../../policies/quotas-and-budgets/) - Allows you to create quotas and budgets.
 * [Tagging policies](../../policies/tagging/) - Allows you to add new tagging policies and manage the existing ones.
