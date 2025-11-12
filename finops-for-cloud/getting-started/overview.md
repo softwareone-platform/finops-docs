@@ -2,7 +2,7 @@
 
 After signing in to FinOps for Cloud, the first thing you’ll see is the **Home** page.
 
-<figure><img src="../../.gitbook/assets/ffc_homepage.png" alt=""><figcaption><p>The Home page in FinOps for Cloud.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ffc_homepage.png" alt=""><figcaption><p>The Home page in SoftwareOne FinOps for Cloud.</p></figcaption></figure>
 
 ## Home page
 
@@ -24,7 +24,8 @@ The sidebar on the left is the main navigation menu containing these options:
 * [Resources ](../../insights/resources/)- Allows you to view and allocate your expenses for the cloud resources, monitor their performance, and set constraints. See Resources to learn about organizing and categorizing resources based on your specific requirements.
 * [Pools ](../../insights/pools/)- Displays pools with limits or projected expenses. You can categorize resources into a hierarchy of pools manually or using assignment rules.&#x20;
 * [Cost explorer](../../analysis/cost-explorer.md) - Allows you to visualize your expenses.
-* [Anomaly detection](../../policies/anomaly-detection/) - Allows you to identify and respond to unusual patterns or deviations from normal behavior, control costs, and manage resources efficiently.&#x20;
+* [Cost map](../../analysis/cost-map/) - Displays a breakdown of expenses and network traffic using an interactive map. You can view expenses by geographic location and service to identify areas of high spending.&#x20;
+* [Anomaly detection](../../policies/anomaly-detection/) - Enables you to identify and respond to unusual patterns or deviations, control costs, and manage resources efficiently.&#x20;
 * [Quotas and budgets](../../policies/quotas-and-budgets/) - Allows you to create quotas and budgets.
 * [Tagging policies](../../policies/tagging/) - Allows you to add new tagging policies and manage the existing ones.
 * [User management](../../system/user-management/) - Allows you to invite new members to your organization and manage existing members.
