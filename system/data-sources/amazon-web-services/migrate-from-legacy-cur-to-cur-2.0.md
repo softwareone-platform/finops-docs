@@ -24,7 +24,7 @@ When creating the report, use the recommended settings in [Create Cost and Usage
 {% step %}
 **Update your existing data source in FinOps for Cloud**
 
-When the report is ready, use the following steps to update your existing AWS data source in FinOps:
+When the report is ready, use the following steps to update your existing AWS data source in FinOps for Cloud:
 
 1. Select the existing AWS data source on the **Data sources** page in FinOps for Cloud. The page with detailed information opens.
 2. Select **Update credentials** to update the data source's credentials.
@@ -35,6 +35,6 @@ When the report is ready, use the following steps to update your existing AWS da
       2. If you created a new S3 bucket for your CUR 2.0 reports, update the **Export name**, **S3 bucket name**, and **Export path prefix**.
    3. Select **Save** and wait for a new export to import.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Migrate to CUR 2.0 and update credentials</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Migrate to CUR 2.0 and update the credentials.</p></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}

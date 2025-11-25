@@ -2,7 +2,7 @@
 
 ## AWS IAM Policies <a href="#aws-iam-policies" id="aws-iam-policies"></a>
 
-FinOps for Cloud requires two policies depending on the type of account being onboarded:
+FinOps for Cloud requires two policies, depending on the type of account being onboarded:
 
 * **Billing import access policy** - This policy allows FinOps for Cloud to read cost and usage data from the configured S3 bucket. This policy is only required when you are onboarding an account that contains a cost and usage report.
 * **Resource discovery access policy** - This policy allows FinOps for Cloud to discover new and changed resources in your AWS account more often than AWS updates the cost and usage reports. This allows FinOps for Cloud to show information about your spend that is more up-to-date than what is contained in the cost and usage report.

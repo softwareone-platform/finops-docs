@@ -17,10 +17,10 @@ For information on how to open a support case and the information to include in 
 To perform a billing reimport in FinOps for Cloud:
 
 1. Navigate to the **Data sources** page.
-2. Select the AWS data source containing the updated S3 bucket. Then, select **Billing reimport**.
+2. Select the AWS data source containing the updated S3 bucket, then select **Billing reimport**.
 3. In **Import from**, choose the start date of your historical billing data.
 4. Select **Schedule import**.&#x20;
 
-<figure><img src="../../../.gitbook/assets/aws_billing_reimport.png" alt=""><figcaption><p>The option to reimport billing data.</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/aws_billing_reimport.png" alt=""><figcaption><p>The option to reimport billing data.</p></figcaption></figure></div>
 
-Once the import process has been initiated, it might take several hours, depending on the amount of historical data.&#x20;
+Once the import process has been initiated, it might take several hours for the process to complete, depending on the amount of historical data.&#x20;
