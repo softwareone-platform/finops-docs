@@ -44,7 +44,7 @@
 ## Policies
 
 * [Anomaly Detection](policies/anomaly-detection/README.md)
-  * [Create New Policies](policies/anomaly-detection/create-anomaly-detection-policies.md)
+  * [Create Anomaly Detection Policies](policies/anomaly-detection/create-anomaly-detection-policies.md)
   * [View and Manage Policies](policies/anomaly-detection/view-and-manage-policies.md)
   * [Export Chart](policies/anomaly-detection/export-chart.md)
 * [Quotas and Budgets](policies/quotas-and-budgets/README.md)
