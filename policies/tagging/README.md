@@ -6,9 +6,9 @@ Tagging policies use custom tags, which are descriptive labels assigned to resou
 
 ### Tagging policies in FinOps for Cloud
 
-In FinOps for Cloud, Organization Managers can create new tagging policies using the Add option on the **Tagging policies** page.&#x20;
+In FinOps for Cloud, Organization Managers can create new tagging policies using the **Add** option on the **Tagging policies** page.&#x20;
 
-When creating a new policy, you can specify the tagging rules applicable to resources when they are tagged. In cases where the policy is violated, FinOps for Cloud sends an email notification to the Organization Manager.&#x20;
+When creating a new policy, you can specify the tagging rules applicable to resources when they are tagged. If the policy is violated, FinOps for Cloud sends an email notification to the Organization Manager.&#x20;
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/tagging_policy.png" alt=""><figcaption><p>Tagging policies in FinOps for Cloud.</p></figcaption></figure></div>
 
