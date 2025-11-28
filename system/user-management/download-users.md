@@ -8,7 +8,7 @@ The downloaded file includes details for each user, such as user ID, first and l
 
 To download a list of users:
 
-1. From the sidebar, navigate to **User management**.
+1. Navigate to the **User management** page.
 2. Select **Download**.
 3. Choose your desired format, XLSX or JSON, to start the download.
 

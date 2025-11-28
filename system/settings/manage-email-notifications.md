@@ -10,7 +10,7 @@ The notifications are organized into various categories, including:
 * **System notifications** - This includes system status or operational messages.
 * **Account management** - This includes notifications related to account invitations.
 
-## Managing email notifications
+### Managing email notifications
 
 To manage your email notifications:
 

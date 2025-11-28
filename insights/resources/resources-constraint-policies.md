@@ -17,7 +17,7 @@ When a resource hits a constraint, both the Manager and Owner of the resource ar
 FinOps for Cloud sends notifications about violated constraints and doesn't interact with the connected source itself to perform any constraint-related adjustments.
 {% endhint %}
 
-### Applying constraints <a href="#resources-constraints" id="resources-constraints"></a>
+### Applying constraints to a resource <a href="#resources-constraints" id="resources-constraints"></a>
 
 To apply constraints to a resource:
 

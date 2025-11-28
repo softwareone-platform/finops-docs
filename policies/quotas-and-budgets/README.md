@@ -1,13 +1,28 @@
 # Quotas and Budgets
 
-FinOps for Cloud lets you manage and optimize cloud costs. It aims to help you manage cloud resources effectively, ensuring cost optimization and compliance with budget constraints.
+Quotas and budgets are two crucial concepts to consider when managing cloud storage. These tools help organizations control costs and manage resources efficiently.&#x20;
 
-Setting budgets and quotas is a core feature that allows you to control cloud spending. Budgets in cloud storage refer to the financial limits an organization sets to manage the costs associated with cloud storage usage. Quotas limit the storage resources a user, application, or department can consume.
+Budgets refer to the financial limits an organization sets to manage the costs associated with cloud storage usage, and quotas limit the storage resources a user, application, or department can consume.
 
-You can access **Quotas and Budgets** from the **Policies** section in the sidebar.
+### Quotas and budgets in FinOps for Cloud
 
-<figure><img src="../../.gitbook/assets/ffc_quotasandbudgets.png" alt=""><figcaption><p>The Quotas and Budgets page in FinOps for Cloud.</p></figcaption></figure>
+In FinOps for Cloud, quotas and budgets are used to create policies that ensure cost optimization and compliance with your budget constraints.&#x20;
 
-The **Name**, **Status**, **Description**, and **Filters** columns show information about your existing quotas or budgets. The type of budget can be easily detected by the description:
+FinOps for Cloud supports three types of policies, including resource quota, recurring budget, and expiring budget. You can define the policy type along with thresholds and filters during policy creation.&#x20;
 
-<table><thead><tr><th width="245">Type of budget</th><th>Description</th></tr></thead><tbody><tr><td>Resource quota</td><td>Resource count must not exceed 10.</td></tr><tr><td>Recurring budget</td><td>Current month expenses must not exceed $100.</td></tr><tr><td>Expiring budget</td><td>Total expenses from 01/01/2024 must not exceed $100.</td></tr></tbody></table>
+Once the policy is created, you can view it on the **Quotas and budgets** page.
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/ffc_quotasandbudgets.png" alt=""><figcaption><p>Quotas and budgets in FinOps for Cloud.</p></figcaption></figure></div>
+
+### Additional actions <a href="#additional-actions" id="additional-actions"></a>
+
+From the **Quotas and budgets** page, you can create a new policy and view your existing quotas or budgets. You can also do the following:
+
+* Select a policy to view detailed policy information, including violations if applicable.
+* View the timestamp of the last check.&#x20;
+* See the current resource count or expense value in the **Status** column. Use the progress bar to understand how close the current value is to the set threshold. The color of the progress bar reflects the ratio of the current value to the quota or budget.
+  * **Red** - Indicates that the resource count or expenses exceed the quota or budget.
+  * **Yellow** - Indicates that the resource count or expenses are approaching the threshold, specifically in the range of 90% and 100%.
+  * **Green** - Indicates that the values are within the limit and don't exceed the quota or budget.
+* View all filters that display the criteria used to select resources for the quota or budget.
+* View resources connected to a quota or budget by selecting the **Show resources** icon in the **Actions** column.

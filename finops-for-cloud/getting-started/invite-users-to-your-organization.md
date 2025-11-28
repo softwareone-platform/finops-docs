@@ -12,8 +12,8 @@ In FinOps for Cloud, you cannot send an invitation to yourself. If you attempt t
 
 To invite new members to your organization:
 
-1. From the left sidebar, select **User management**.
-2. On the **User management** page, select **Invite**.
+1. Navigate to the **User management** page.
+2. Select **Invite**.
 3. On the **Invite users** page, complete the following steps:
    1. **Email** - Enter the email addresses of the members you want to invite. You can enter multiple addresses.&#x20;
    2. **Add role** - Select **Add role** to choose a role. You must also select a pool for each member. All pools and sub-pools existing within your environment are displayed. Note that a member with **Manager** and **Engineer** roles can belong to several different pools.

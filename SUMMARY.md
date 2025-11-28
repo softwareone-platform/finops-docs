@@ -45,12 +45,15 @@
 
 * [Anomaly Detection](policies/anomaly-detection/README.md)
   * [Create Anomaly Detection Policies](policies/anomaly-detection/create-anomaly-detection-policies.md)
-  * [View and Manage Policies](policies/anomaly-detection/view-and-manage-policies.md)
+  * [Manage Anomaly Detection Policies](policies/anomaly-detection/manage-anomaly-detection-policies.md)
   * [Export Chart](policies/anomaly-detection/export-chart.md)
 * [Quotas and Budgets](policies/quotas-and-budgets/README.md)
   * [Create Quota or Budget Policies](policies/quotas-and-budgets/create-quotas-or-budget-policies.md)
+  * [Manage Quota or Budget](policies/quotas-and-budgets/manage-quota-or-budget.md)
+  * [View Policy Violation History](policies/quotas-and-budgets/view-policy-violation-history.md)
 * [Tagging Policies](policies/tagging/README.md)
   * [Create Tagging Policies](policies/tagging/create-tagging-policies.md)
+  * [Edit or Delete Tagging Policies](policies/tagging/edit-or-delete-tagging-policies.md)
 
 ## System
 

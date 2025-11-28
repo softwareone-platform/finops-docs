@@ -28,7 +28,7 @@ The **Summary by region** table on the page lists expenses for each region along
 
 The **Network traffic** cost map is a visual representation of the expenses associated with data transfer between regions. You can use this map to identify geographic locations where transfer costs are high and take steps to minimize those costs.&#x20;
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>The Network traffic cost map in FinOps for Cloud.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/network_traffic.png" alt=""><figcaption><p>The Network traffic cost map in FinOps for Cloud.</p></figcaption></figure></div>
 
 The cost map contains tabs, each representing a different cloud provider. You can switch between these tabs to view the corresponding network traffic details.&#x20;
 
