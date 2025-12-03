@@ -14,6 +14,6 @@ To export the chart as a PNG file:
 2. Select the desired policy.
 3. On the policy details page, do the following:
    1. Select the required category. By default, the **Service** category is selected.
-   2. Choose whether you want the chart to display daily, weekly, or monthly expenses. By default, the **Daily** is selected.
+   2. Choose whether you want the chart to display daily, weekly, or monthly expenses. By default, the **Daily** option is selected.
    3. Use the slider to show or hide legends on the chart.
 4. Select **Export chart** to download the chart to your system.

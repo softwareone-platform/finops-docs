@@ -1,8 +1,8 @@
 # Create Anomaly Detection Policies
 
-Organization Managers can create new anomaly detection policies by defining the policy name and description, and defining the parameters under which anomalies will be identified.&#x20;
+Organization Managers can create new anomaly detection policies by defining the policy name and description, and the parameters under which anomalies will be identified.&#x20;
 
-Two types of anomaly detection policies are supported. These include **Resource count** and **Expense** anomalies. To learn about these policy types, see [Anomaly Detection](./).
+FinOps for Cloud supports two types of anomaly detection policies, including **Resource count** and **Expense**. To learn about these policy types, see [Anomaly Detection](./).
 
 ### Creating a new anomaly detection policy
 

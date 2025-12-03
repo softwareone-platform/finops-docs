@@ -22,6 +22,21 @@ Yes, adding a data source involves certain prerequisites depending on the type o
 
 <details>
 
+<summary>I have connected my data source, but I can't view any cost or usage data.</summary>
+
+This can occur due to a mismatch between the currency you selected when ordering the FinOps for Cloud subscription from the Marketplace and the currency used by your cloud provider for billing.
+
+To avoid discrepancies, your organization currency must match the currency of the data source. Selecting a different currency may prevent the data source from being added or could result in no cost and usage data being displayed.
+
+To resolve this issue, you must cancel your current agreement and create a new one with the correct currency. For more details, see the following links in the SoftwareOne Marketplace Platform documentation:
+
+* [Order FinOps for Cloud from Marketplace](https://docs.platform.softwareone.com/extensions/finops-for-cloud/order-finops-for-cloud-from-marketplace)
+* [Cancel Your FinOps for Cloud Order](https://docs.platform.softwareone.com/extensions/finops-for-cloud/cancel-your-finops-order)
+
+</details>
+
+<details>
+
 <summary>What's the difference between terminating a FinOps for Cloud subscription vs disconnecting a data source?</summary>
 
 If you choose to cancel your FinOps for Cloud subscription, you will no longer be able to sign in to FinOps for Cloud, and all of your data will be permanently deleted. For more details, see [Cancel Your FinOps Order](https://docs.platform.softwareone.com/extensions/finops-for-cloud/cancel-your-finops-order).&#x20;
@@ -62,11 +77,11 @@ To learn more, see [Microsoft Azure](../../system/data-sources/microsoft-azure.m
 
 The **Billing Reimport** option is available on the details page of a data source.
 
-This feature allows you to manually reimport your billing data starting from a specific date into FinOps for Cloud. You can manually reimport data if:
+Using this option, you can manually reimport your billing data starting from a specific date. Data can be reimported only if:
 
-* Your billing data has not been imported as expected.
+* Your billing data has not been imported previously as expected.
 * You have made configuration or permission-related changes that require reimporting data to reflect those updates.
-* You need historical billing data from months that were not previously imported.
+* You need historical billing data from months not previously imported.
 
 For details on how to perform a billing reimport, see [Reimport Billing](../../system/data-sources/manage-data-sources/reimport-billing.md).
 
@@ -76,8 +91,7 @@ For details on how to perform a billing reimport, see [Reimport Billing](../../s
 
 <summary>How do I disconnect a data source?</summary>
 
-The **Disconnect** option on the details page of a data source lets you disconnect and remove a data source from FinOps for Cloud.
-
-To learn more, see [Disconnect Data Source](../../system/data-sources/manage-data-sources/disconnect-data-source.md).
+To remove a data source, use the **Disconnect** option on the details page of a data source you want to remove. To learn more, see [Disconnect Data Source](../../system/data-sources/manage-data-sources/disconnect-data-source.md).
 
 </details>
+

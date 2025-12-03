@@ -86,11 +86,11 @@ These notifications can be managed from the **Settings** page. For more informat
 
 <summary>Can I download data from FinOps for Cloud?</summary>
 
-You can download your resources, charts, and lists of users in various formats depending on the type of data.
+You can download your resources, charts, and lists of users.
 
-* To download your charts, use the **Export chart** option on the **Resources** page. The charts will be downloaded as PNG files.
-* To download your list of users, go to the **User Management** page and use the **Download** option. You can choose to download the list in either XLSX spreadsheet format or JSON format.
-* For your Cost Explorer data, you can download it as a PDF by selecting the **Download** option on the **Cost Explorer** page.
+* To download your charts, use the **Export chart** option on the **Resources** page. The charts will be downloaded as PNG files. To learn more, see [Export chart](../../policies/anomaly-detection/export-chart.md).
+* To download your list of users, use the **Download** option on the **User Management** page. You can download the list as a spreadsheet or a JSON file. To learn more, see [Download Users](../../system/user-management/download-users.md).
+* To download the Cost Explorer data as a PDF, select the **Download** option on the **Cost Explorer** page. To learn more, see [Cost Explorer](../../analysis/cost-explorer.md).
 
 </details>
 
@@ -98,6 +98,6 @@ You can download your resources, charts, and lists of users in various formats d
 
 <summary>Can I rename my FinOps for Cloud organization?</summary>
 
-You can rename your organization from the **Settings** page in FinOps for Cloud. Only **Organization managers** can update the name.&#x20;
+Organization Managers can rename the organization from the **Settings** page in FinOps for Cloud.&#x20;
 
 </details>

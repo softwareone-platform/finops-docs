@@ -2,7 +2,7 @@
 
 The **Anomaly detection** page displays all resource count and expense anomaly policies you have created. You can get detailed information for a policy by selecting the policy name. This includes general information, the date of violation, status, average, and actual counts.&#x20;
 
-From the policy details page, you can edit the policy name. You can also delete the policy, [download the chart as a PNG file](export-chart.md), and view the anomaly history.
+From the policy details page, you can edit the policy name. You can also delete the policy, [download the chart as a PNG file](export-chart.md), and view the violation history.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/anomaly_detection_details.png" alt=""><figcaption><p>The details page of an anomaly detection policy.</p></figcaption></figure></div>
 

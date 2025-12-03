@@ -21,5 +21,5 @@ From the **Tagging Policies** page, you can create new policies and monitor your
   * A red icon indicates that resources violating the tagging rules have been identified.
   * A green icon shows that all resources covered by the policy currently meet its tagging rules.
   * No status information yet means that the policy is newly created and hasn't run an evaluation cycle, or the filters may exclude all current resources, resulting in no data to check.
-* Read a brief **description** of what the policy monitors, including the scope, type, and enforcement timeline.
+* Read a brief description of what the policy monitors, including the scope, type, and enforcement timeline.
 * Access all resources associated with the tagging policy by selecting the **Show resources** icon in the **Actions** column.&#x20;

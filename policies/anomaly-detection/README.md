@@ -10,7 +10,7 @@ Anomaly detection in FinOps for Cloud helps you identify unusual behavior that m
 
 You can create new anomaly detection policies and manage them from the **Anomaly detection** page.
 
-FinOps for Cloud supports two types of anomaly detection policies, including resource-count and cost:
+FinOps for Cloud supports two types of anomaly detection policies, including resource count and cost:
 
 * **Resource count** - These anomalies refer to inconsistencies or unexpected variances in the number of resources being utilized or allocated compared to what is expected or provisioned. Resource count anomalies can occur in various cloud resources, such as virtual machines, storage, network bandwidth, or cloud services, like databases and application servers.&#x20;
 * **Expense** - These anomalies refer to instances where the actual financial expenditure on cloud resources deviates significantly from expected or budgeted costs. Expense anomalies can represent underlying issues, such as inefficient resource utilization, misconfigurations, unauthorized access, or even billing errors from cloud service providers.&#x20;
