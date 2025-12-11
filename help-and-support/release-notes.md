@@ -1,6 +1,22 @@
+---
+description: >-
+  This page includes the latest enhancements, fixes, and new features in
+  SoftwareOne’s FinOps for Cloud.
+---
+
 # Release Notes
 
-This page includes the latest enhancements, fixes, and new features in SoftwareOne’s FinOps for Cloud.
+## Release Date: 12 December 2025 <a href="#release-date-20-february-2025" id="release-date-20-february-2025"></a>
+
+### Download Recommendations
+
+You can now download insights directly from recommendation tiles, making it easier to export and share optimization suggestions.
+
+### Fixes
+
+* Removed all usages of the deprecated ADAL authentication library and upgraded all Microsoft authentication to MSAL. This is Microsoft's recommended library for all new development. Read about this more at [Microsoft Learn](https://learn.microsoft.com/en-us/entra/identity-platform/msal-migration).
+* Minor improvements to **AWS Assumed Role** data source for better reliability.
+* Various stability, reliability, and performance improvements.
 
 ## Release Date: 15 September 2025 <a href="#release-date-20-february-2025" id="release-date-20-february-2025"></a>
 
