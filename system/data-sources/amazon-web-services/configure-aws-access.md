@@ -34,9 +34,11 @@ In the following policy, be sure to replace `<bucket_name>` with a valid name of
             "Sid": "FinOpsForCloudManageBillingBucket",
             "Effect": "Allow",
             "Action": [
-                "s3:PutBucketPolicy",
+                "s3:GetBucketLocation",
                 "s3:ListBucket",
-                "s3:GetBucketLocation"
+                "s3:PutBucketPolicy",
+                "s3:PutObject"
+
             ],
             "Resource": "arn:aws:s3:::<bucket_name>"
         }
@@ -60,21 +62,29 @@ A suggested name for the policy is `FinOpsForCloudResourceDiscovery`.
             "Sid": "FinOpsforCloudGetResources",
             "Effect": "Allow",
             "Action": [
-                "s3:GetBucketPublicAccessBlock",
-                "s3:GetBucketPolicyStatus",
-                "s3:GetBucketTagging",
-                "iam:GetAccessKeyLastUsed",
+                "bcm-data-exports:GetExport",
+                "bcm-data-exports:ListExports"
                 "cloudwatch:GetMetricStatistics",
-                "s3:GetBucketAcl",
-                "ec2:Describe*",
-                "s3:ListAllMyBuckets",
-                "iam:ListUsers",
-                "s3:GetBucketLocation",
-                "iam:GetLoginProfile",
                 "cur:DescribeReportDefinitions",
+                "ec2:Describe",
+                "elasticloadbalancing:Describe",
+                "iam:GetAccessKeyLastUsed",
+                "iam:GetLoginProfile",
                 "iam:ListAccessKeys",
-                "elasticloadbalancing:DescribeLoadBalancers",
-                "elasticloadbalancing:DescribeTags"
+                "iam:ListUsers",
+                "s3:GetAnalyticsConfiguration",
+                "s3:GetBucketAcl",
+                "s3:GetBucketLocation",
+                "s3:GetBucketPolicy",
+                "s3:GetBucketPolicyStatus",
+                "s3:GetBucketPublicAccessBlock",
+                "s3:GetBucketTagging",
+                "s3:GetIntelligentTieringConfiguration",
+                "s3:GetLifecycleConfiguration",
+                "s3:GetMetricsConfiguration",
+                "s3:GetObject",
+                "s3:ListAllMyBuckets",
+                "s3:ListBucket",
             ],
             "Resource": "*"
         }
