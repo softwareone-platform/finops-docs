@@ -66,8 +66,8 @@ A suggested name for the policy is `FinOpsForCloudResourceDiscovery`.
                 "bcm-data-exports:ListExports"
                 "cloudwatch:GetMetricStatistics",
                 "cur:DescribeReportDefinitions",
-                "ec2:Describe",
-                "elasticloadbalancing:Describe",
+                "ec2:Describe*",
+                "elasticloadbalancing:Describe*",
                 "iam:GetAccessKeyLastUsed",
                 "iam:GetLoginProfile",
                 "iam:ListAccessKeys",
