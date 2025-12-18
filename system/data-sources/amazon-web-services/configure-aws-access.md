@@ -7,7 +7,34 @@ FinOps for Cloud requires two policies, depending on the type of account being o
 * **Billing import access policy** - This policy allows FinOps for Cloud to read cost and usage data from the configured S3 bucket. This policy is only required when you are onboarding an account that contains a cost and usage report.
 * **Resource discovery access policy** - This policy allows FinOps for Cloud to discover new and changed resources in your AWS account more often than AWS updates the cost and usage reports. This allows FinOps for Cloud to show information about your spend that is more up-to-date than what is contained in the cost and usage report.
 
-### Creating a policy for billing imports <a href="#create-a-policy-for-billing-imports" id="create-a-policy-for-billing-imports"></a>
+### Create a trust policy for access using assumed role <a href="#create-a-policy-for-billing-imports" id="create-a-policy-for-billing-imports"></a>
+
+The assumed role trust policy is required when using assumed role rather than access keys.
+
+A suggested name for the policy is `FinOpsForCloudAssumeRole`.
+
+Find out more about trust policies and assume role in the [AWS documentation](https://aws.amazon.com/blogs/security/how-to-use-trust-policies-with-iam-roles/).
+
+{% hint style="info" %}
+Using assumed role is the recommend approach to onboarding your AWS accounts
+{% endhint %}
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::654035049067:user/ffc-service-user"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
+```
+
+### Create a role policy for billing imports <a href="#create-a-policy-for-billing-imports" id="create-a-policy-for-billing-imports"></a>
 
 The billing import access policy is only required for accounts with cost and usage reports configured for FinOps for Cloud.
 
@@ -47,7 +74,7 @@ In the following policy, be sure to replace `<bucket_name>` with a valid name of
 ```
 {% endcode %}
 
-### Creating a policy for resource discovery
+### Create a role policy for resource discovery
 
 The resource discovery access policy is required for all accounts.
 
