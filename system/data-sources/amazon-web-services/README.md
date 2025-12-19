@@ -51,14 +51,14 @@ If you have access to create a Cost and Usage Report (CUR) and Identity and Acce
 To add your management account:
 
 1. [Create a Cost and Usage Report in AWS](create-cost-and-usage-reports.md).
-2. [Create the `FinOpsForCloudBillingImport` ](configure-aws-access.md#create-a-policy-for-billing-imports)[IAM role policy](configure-aws-access.md#create-a-policy-for-billing-imports).
-3. [Create the `FinOpsForCloudResourceDiscovery` IAM role policy](configure-aws-access.md#creating-a-policy-for-resource-discovery).
+2. [Create the `FinOpsForCloudBillingImport` ](configure-aws-access.md#create-a-policy-for-billing-imports)[IAM role policy](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#create-a-role-policy-for-billing-imports).
+3. [Create the `FinOpsForCloudResourceDiscovery` IAM role policy](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#create-a-role-policy-for-resource-discovery).
 4. If you are using an assumed role (recommended):
-   1. Create the `FinOpsForCloudAssumeRole` IAM trust policy.
+   1. [Create the `FinOpsForCloudAssumeRole` IAM trust policy](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#create-a-trust-policy-for-access-using-assumed-role).
    2. Create the `FinOpsForCloudAccessRole` IAM role.
 5. If you are using an IAM user with access key:
-   1. [Create the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-a-user-for-finops-for-cloud).
-   2. [Create an access key for the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-an-access-key-for-finops-for-cloud).
+   1. [Create the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-a-new-iam-user).
+   2. [Create an access key for the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-an-access-key-for-finops-for-cloud).
 6. [Add the management account data source to FinOps for Cloud.](../../../finops-for-cloud/getting-started/data-sources.md)&#x20;
 {% endstep %}
 
@@ -71,13 +71,13 @@ When adding a member account, and you have already added the management account,
 
 To add your member accounts:
 
-1. [Create the `FinOpsForCloudResourceDiscovery` IAM policy](configure-aws-access.md#creating-a-policy-for-resource-discovery).
+1. [Create the `FinOpsForCloudResourceDiscovery` IAM policy](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#create-a-role-policy-for-resource-discovery).
 2. If you are using an assumed role (recommended):
-   1. Create the `FinOpsForCloudAssumeRole` IAM trust policy.
+   1. [Create the `FinOpsForCloudAssumeRole` IAM trust policy](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#create-a-trust-policy-for-access-using-assumed-role).
    2. Create the `FinOpsForCloudAccessRole` IAM role.
 3. If you are using an IAM user with access key:
-   1. [Create the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-a-user-for-finops-for-cloud).
-   2. [Create an access key for the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-an-access-key-for-finops-for-cloud).
+   1. [Create the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-a-new-iam-user).
+   2. [Create an access key for the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-an-access-key-for-finops-for-cloud).
 4. [Add the member account data source to FinOps for Cloud.](../../../finops-for-cloud/getting-started/data-sources.md)
 5. Repeat steps 1 - 4 for each member account you want to add.
 {% endstep %}
@@ -98,12 +98,12 @@ To add your member account to FinOps for Cloud, follow the steps below for [AWS 
 To add a standalone AWS account:
 
 1. [Create a Cost and Usage report in AWS.](create-cost-and-usage-reports.md)
-2. [Create the `FinOpsForCloudBillingImport` IAM policy](configure-aws-access.md#create-a-policy-for-billing-imports).
-3. [Create the `FinOpsForCloudResourceDiscovery` IAM policy](configure-aws-access.md#creating-a-policy-for-resource-discovery).
+2. [Create the `FinOpsForCloudBillingImport` IAM policy](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#create-a-role-policy-for-billing-imports).
+3. [Create the `FinOpsForCloudResourceDiscovery` IAM policy](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#create-a-role-policy-for-resource-discovery).
 4. If you are using an assumed role (recommended):
-   1. Create the `FinOpsForCloudAssumeRole` IAM trust policy.
+   1. [Create the `FinOpsForCloudAssumeRole` IAM trust policy](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#create-a-trust-policy-for-access-using-assumed-role).
    2. Create the `FinOpsForCloudAccessRole` IAM role.
 5. If you are using an IAM user with access key:
-   1. [Create the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-a-user-for-finops-for-cloud).
-   2. [Create an access key for the `FinOpsForCloudUser` IAM user](configure-aws-access.md#create-an-access-key-for-finops-for-cloud).
+   1. [Create the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-a-new-iam-user).
+   2. [Create an access key for the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-an-access-key-for-finops-for-cloud).
 6. [Add the standalone account data source to FinOps for Cloud.](../../../finops-for-cloud/getting-started/data-sources.md)
