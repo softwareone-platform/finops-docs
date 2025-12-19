@@ -58,7 +58,7 @@ To add your management account:
 5. If you are using an IAM user with access key:
    1. [Create the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-a-new-iam-user).
    2. [Create an access key for the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-an-access-key-for-finops-for-cloud).
-6. [Add the management account data source to FinOps for Cloud.](../../../finops-for-cloud/getting-started/data-sources.md)&#x20;
+6. [Add the management account data source to FinOps for Cloud.](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/add-your-aws-account-to-finops-for-cloud#adding-a-management-or-standalone-aws-account)&#x20;
 {% endstep %}
 
 {% step %}
@@ -76,7 +76,7 @@ To add your member accounts:
 3. If you are using an IAM user with access key:
    1. [Create the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-a-new-iam-user).
    2. [Create an access key for the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-an-access-key-for-finops-for-cloud).
-4. [Add the member account data source to FinOps for Cloud.](../../../finops-for-cloud/getting-started/data-sources.md)
+4. [Add the member account data source to FinOps for Cloud.](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/add-your-aws-account-to-finops-for-cloud#adding-a-member-aws-account)
 5. Repeat steps 1 - 4 for each member account you want to add.
 {% endstep %}
 {% endstepper %}
@@ -103,4 +103,4 @@ To add a standalone AWS account:
 5. If you are using an IAM user with access key:
    1. [Create the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-a-new-iam-user).
    2. [Create an access key for the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-an-access-key-for-finops-for-cloud).
-6. [Add the standalone account data source to FinOps for Cloud.](../../../finops-for-cloud/getting-started/data-sources.md)
+6. [Add the standalone account data source to FinOps for Cloud.](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/add-your-aws-account-to-finops-for-cloud#adding-a-management-or-standalone-aws-account)
