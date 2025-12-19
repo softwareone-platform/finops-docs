@@ -7,7 +7,7 @@ FinOps for Cloud requires two policies, depending on the type of account being o
 * **Billing import access policy** - This policy allows FinOps for Cloud to read cost and usage data from the configured S3 bucket. This policy is only required when you are onboarding an account that contains a cost and usage report.
 * **Resource discovery access policy** - This policy allows FinOps for Cloud to discover new and changed resources in your AWS account more often than AWS updates the cost and usage reports. This allows FinOps for Cloud to show information about your spend that is more up-to-date than what is contained in the cost and usage report.
 
-### Create a trust policy for access using assumed role <a href="#create-a-policy-for-billing-imports" id="create-a-policy-for-billing-imports"></a>
+### Create a trust policy for access using assumed role <a href="#create-a-trust-policy-for-access-using-assumed-role" id="create-a-trust-policy-for-access-using-assumed-role"></a>
 
 The assumed role trust policy is required when using assumed role rather than access keys.
 
@@ -34,7 +34,7 @@ Using assumed role is the recommend approach to onboarding your AWS accounts
 }
 ```
 
-### Create a role policy for billing imports <a href="#create-a-policy-for-billing-imports" id="create-a-policy-for-billing-imports"></a>
+### Create a role policy for billing imports <a href="#create-a-role-policy-for-billing-imports" id="create-a-role-policy-for-billing-imports"></a>
 
 The billing import access policy is only required for accounts with cost and usage reports configured for FinOps for Cloud.
 
@@ -74,7 +74,7 @@ In the following policy, be sure to replace `<bucket_name>` with a valid name of
 ```
 {% endcode %}
 
-### Create a role policy for resource discovery
+### Create a role policy for resource discovery <a href="#create-a-role-policy-for-resource-discovery" id="create-a-role-policy-for-resource-discovery"></a>
 
 The resource discovery access policy is required for all accounts.
 
@@ -122,7 +122,7 @@ A suggested name for the policy is `FinOpsForCloudResourceDiscovery`.
 
 ## AWS IAM User <a href="#aws-iam-user" id="aws-iam-user"></a>
 
-### Creating a new IAM user <a href="#create-a-user-for-finops-for-cloud" id="create-a-user-for-finops-for-cloud"></a>
+### Creating a new IAM user <a href="#creating-a-new-iam-user" id="creating-a-new-iam-user"></a>
 
 To create a new IAM user for FinOps for Cloud, see [Create an IAM user in your AWS account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) in the AWS IAM User Guide.
 
@@ -134,7 +134,7 @@ When creating the user, use the following settings:
    1. `FinOpsForCloudResourceDiscovery` (always required)
    2. `FinOpsForCloudBillingImport` (required only for accounts with cost and usage reports buckets)
 
-### Creating an access key for FinOps for Cloud <a href="#create-an-access-key-for-finops-for-cloud" id="create-an-access-key-for-finops-for-cloud"></a>
+### Creating an access key for FinOps for Cloud <a href="#creating-an-access-key-for-finops-for-cloud" id="creating-an-access-key-for-finops-for-cloud"></a>
 
 To create an access key for FinOps for Cloud, see [Create an access key for an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-keys-admin-managed.html#admin-create-access-key) in the AWS IAM User Guide.
 
