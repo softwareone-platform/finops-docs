@@ -7,14 +7,14 @@ description: >-
 
 # Configure AWS Access
 
-## AWS IAM Policies <a href="#aws-iam-policies" id="aws-iam-policies"></a>
+## AWS IAM Policies
 
 FinOps for Cloud requires two policies, depending on the type of account being onboarded:
 
 * **Billing import access policy** - This policy allows FinOps for Cloud to read cost and usage data from the configured S3 bucket. This policy is only required when you are onboarding an account that contains a cost and usage report.
 * **Resource discovery access policy** - This policy allows FinOps for Cloud to discover new and changed resources in your AWS account more often than AWS updates the cost and usage reports. This allows FinOps for Cloud to show information about your spend that is more up-to-date than what is contained in the cost and usage report.
 
-### Create a policy for billing imports <a href="#create-a-role-policy-for-billing-imports" id="create-a-role-policy-for-billing-imports"></a>
+### Create a policy for billing imports
 
 The billing import access policy is only required for accounts with cost and usage reports configured for FinOps for Cloud.
 
@@ -54,7 +54,7 @@ In the following policy, be sure to replace `<bucket_name>` with a valid name of
 ```
 {% endcode %}
 
-### Create a policy for resource discovery <a href="#create-a-role-policy-for-resource-discovery" id="create-a-role-policy-for-resource-discovery"></a>
+### Create a policy for resource discovery
 
 The resource discovery access policy is required for all accounts.
 
@@ -100,7 +100,7 @@ A suggested name for the policy is `FinOpsForCloudResourceDiscovery`.
 ```
 {% endcode %}
 
-## AWS IAM assumed role <a href="#aws-iam-user" id="aws-iam-user"></a>
+## AWS IAM assumed role
 
 ### Creating a new IAM role
 
@@ -136,9 +136,9 @@ When creating the role, use the following settings:
 8. Enter your own optional description and add any tags you require.
 9. Click **Create role**.
 
-## AWS IAM user and access key <a href="#aws-iam-user" id="aws-iam-user"></a>
+## AWS IAM user and access key
 
-### Creating a new IAM user <a href="#creating-a-new-iam-user" id="creating-a-new-iam-user"></a>
+### Creating a new IAM user
 
 To create a new IAM user for FinOps for Cloud, see [Create an IAM user in your AWS account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) in the AWS IAM User Guide.
 
@@ -150,7 +150,7 @@ When creating the user, use the following settings:
    1. `FinOpsForCloudResourceDiscovery` (always required)
    2. `FinOpsForCloudBillingImport` (required only for accounts with cost and usage reports buckets)
 
-### Creating an access key for FinOps for Cloud <a href="#creating-an-access-key-for-finops-for-cloud" id="creating-an-access-key-for-finops-for-cloud"></a>
+### Creating an access key for FinOps for Cloud
 
 To create an access key for FinOps for Cloud, see [Create an access key for an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-keys-admin-managed.html#admin-create-access-key) in the AWS IAM User Guide.
 
