@@ -19,7 +19,7 @@ To set up a new password and sign in, the organization administrator must follow
 
 3. Enter the verification code from the email and select **Confirm**.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="484"><figcaption><p>The email verification code.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="484"><figcaption><p>The email verification code.</p></figcaption></figure>
 
 4. Enter your new password and confirm it matches the one you just entered. Then, select **Reset password**.
 5. Select **Proceed to FinOps for Cloud** to sign in to your organization.
