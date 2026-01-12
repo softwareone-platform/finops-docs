@@ -70,7 +70,7 @@ A suggested name for the policy is `FinOpsForCloudResourceDiscovery`.
             "Effect": "Allow",
             "Action": [
                 "bcm-data-exports:GetExport",
-                "bcm-data-exports:ListExports"
+                "bcm-data-exports:ListExports",
                 "cloudwatch:GetMetricStatistics",
                 "cur:DescribeReportDefinitions",
                 "ec2:Describe*",
@@ -109,8 +109,9 @@ To create a new IAM role for FinOps for Cloud, see [Create a role using custom t
 When creating the role, use the following settings:
 
 1. For **Trusted entity type**, choose **Custom trust policy**.
-2. In the **Custom trust policy** box, copy and paste the following trust policy:
+2. Under **Custom trust policy**, copy and paste the following trust policy:
 
+{% code lineNumbers="true" %}
 ```json
 {
     "Version": "2012-10-17",
@@ -118,23 +119,22 @@ When creating the role, use the following settings:
         {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::654035049067:user/ffc-service-user"
+                "AWS": "arn:aws:iam::563690021965:user/ffc-service-user"
             },
             "Action": "sts:AssumeRole"
         }
     ]
 }
 ```
+{% endcode %}
 
-3. Click **Next**.
+3. Select **Next**.
 4. Under **Permissions policies**, select the following policies:
    1. `FinOpsForCloudResourceDiscovery` (always required)
    2. `FinOpsForCloudBillingImport` (required only for management or standalone accounts with cost and usage reports buckets)
-5. Under **Set permissions boundary,** select **Create role without a permissions boundary**.
-6. Click **Next**.
-7. Under **Role name**, enter `FinOpsForCloudAccessRole`.
-8. Enter your own optional description and add any tags you require.
-9. Click **Create role**.
+5. Under **Set permissions boundary,** select **Create role without a permissions boundary**. Then, select **Next**.
+6. Under **Role name**, enter `FinOpsForCloudAccessRole`. Then, enter your own optional description and add any tags you require.
+7. Select **Create role**.
 
 ## AWS IAM user and access key
 
