@@ -91,7 +91,7 @@ A suggested name for the policy is `FinOpsForCloudResourceDiscovery`.
                 "s3:GetMetricsConfiguration",
                 "s3:GetObject",
                 "s3:ListAllMyBuckets",
-                "s3:ListBucket",
+                "s3:ListBucket"
             ],
             "Resource": "*"
         }
@@ -119,7 +119,7 @@ When creating the role, use the following settings:
         {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::563690021965:user/ffc-service-user"
+                "AWS": "arn:aws:iam::654035049067:user/ffc-service-user"
             },
             "Action": "sts:AssumeRole"
         }
