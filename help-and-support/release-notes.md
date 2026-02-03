@@ -6,6 +6,22 @@ description: >-
 
 # Release Notes
 
+## Release Date: 3 February 2026
+
+### **AWS Data Source Configuration Updates (Read‑Only Compliance)**
+
+To strengthen our alignment with a read‑only operating model and least‑privilege security practices, FinOps for Cloud will **no longer offer the ability to&#x20;**_**automatically**_**&#x20;create AWS Cost and Usage Reports (CUR) or provision their associated S3 buckets**.
+
+#### **Required Action**
+
+Administrative users must now **create and configure CUR exports and S3 buckets directly in AWS** before connecting them to FinOps for Cloud.
+
+#### **Continuity of Service**
+
+FinOps for Cloud continues to support **connecting to existing customer‑managed CUR exports** without requiring elevated permissions.&#x20;
+
+***
+
 ## Release Date: 12 December 2025 <a href="#release-date-20-february-2025" id="release-date-20-february-2025"></a>
 
 ### Download Recommendations
@@ -17,6 +33,8 @@ You can now download insights directly from recommendation tiles, making it easi
 * Removed all usages of the deprecated ADAL authentication library and upgraded all Microsoft authentication to MSAL. This is Microsoft's recommended library for all new development. Read about this more at [Microsoft Learn](https://learn.microsoft.com/en-us/entra/identity-platform/msal-migration).
 * Minor improvements to **AWS Assumed Role** data source for better reliability.
 * Various stability, reliability, and performance improvements.
+
+***
 
 ## Release Date: 15 September 2025 <a href="#release-date-20-february-2025" id="release-date-20-february-2025"></a>
 
@@ -54,6 +72,8 @@ Currency values are now presented consistently for better readability and a redu
 ***
 
 ## Release Date: 15 May 2025 <a href="#release-date-20-february-2025" id="release-date-20-february-2025"></a>
+
+### Global Availability
 
 SoftwareOne's  [FinOps for Cloud](https://portal.finops.softwareone.com/) is a new solution designed to help you optimize costs and manage your resources effectively.&#x20;
 
