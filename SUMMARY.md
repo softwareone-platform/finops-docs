@@ -65,6 +65,7 @@
     * [Create Cost and Usage Reports](system/data-sources/amazon-web-services/create-cost-and-usage-reports.md)
     * [Configure AWS Access](system/data-sources/amazon-web-services/configure-aws-access.md)
     * [Add your AWS account to FinOps for Cloud](system/data-sources/amazon-web-services/add-your-aws-account-to-finops-for-cloud.md)
+    * [Switch from Access Key to Assumed Role](system/data-sources/amazon-web-services/switch-from-access-key-to-assumed-role.md)
     * [Migrate from Legacy CUR to CUR 2.0](system/data-sources/amazon-web-services/migrate-from-legacy-cur-to-cur-2.0.md)
     * [Request Historical Data](system/data-sources/amazon-web-services/request-historical-data.md)
   * [Microsoft Azure](system/data-sources/microsoft-azure.md)
