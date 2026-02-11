@@ -12,7 +12,7 @@ Additionally, you might need to complete certain tasks on the cloud provider's s
 Before adding a data source, make sure to go through the following links to understand the prerequisites and onboarding steps for supported data sources:&#x20;
 
 * [Amazon Web Services](../../system/data-sources/amazon-web-services/)
-* [Microsoft Azure](../../system/data-sources/microsoft-azure.md)
+* [Microsoft Azure](../../system/data-sources/microsoft-azure/)
 * [Google Cloud Platform](../../system/data-sources/google-cloud-platform.md)
 
 Then, follow the steps in this section to add your data source to FinOps for Cloud.

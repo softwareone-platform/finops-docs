@@ -7,7 +7,7 @@ Before adding a data source, you must complete certain prerequisites, depending 
 To learn about all the prerequisites and onboarding steps for each of the supported data sources, see the following links:
 
 * [Amazon Web Services](amazon-web-services/)
-* [Microsoft Azure](microsoft-azure.md)
+* [Microsoft Azure](microsoft-azure/)
 * [Google Cloud Platform](google-cloud-platform.md)
 
 To manage the settings of your connected data sources, see [Manage Data Sources](manage-data-sources/).

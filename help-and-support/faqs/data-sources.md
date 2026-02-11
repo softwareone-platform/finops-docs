@@ -15,7 +15,7 @@ Data sources can be added using the **Add** option on the Data Sources page. For
 Yes, adding a data source involves certain prerequisites depending on the type of source you want to add (Azure, AWS, or GCP). For specific details, see the following links:
 
 * [Amazon Web Services](../../system/data-sources/amazon-web-services/)
-* [Microsoft Azure](../../system/data-sources/microsoft-azure.md)
+* [Microsoft Azure](../../system/data-sources/microsoft-azure/)
 * [Google Cloud Platform](../../system/data-sources/google-cloud-platform.md)
 
 </details>
@@ -67,7 +67,7 @@ For any other accounts not covered by an Essentials agreement, a standard 4% con
 
 You can proceed with the tenant-level integration via data sources. However, you will still need to perform role assignment and grant the **Reader** role to each subscription.
 
-To learn more, see [Microsoft Azure](../../system/data-sources/microsoft-azure.md).
+To learn more, see [Microsoft Azure](../../system/data-sources/microsoft-azure/).
 
 </details>
 
