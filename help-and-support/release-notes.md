@@ -8,15 +8,21 @@ description: >-
 
 ## Release Date: 3 February 2026
 
-### **AWS Data Source Configuration Updates (Read‑Only Compliance)**
+### Switch AWS data source from access key to assumed role
+
+FinOps for Cloud now supports seamlessly updating an AWS data source from using an access key to an assumed role.
+
+SoftwareOne and AWS strongly recommend using an assumed role.
+
+{% hint style="warning" %}
+Note: Switching from an access key to an assumed role is permanent. After you make this change, you can’t switch back to using an access key for this data source. For more information, see our [documentation](../system/data-sources/amazon-web-services/switch-from-access-key-to-assumed-role.md).
+{% endhint %}
+
+### Automatic configuration of AWS data sources discontinued
 
 To strengthen our alignment with a read‑only operating model and least‑privilege security practices, FinOps for Cloud will **no longer offer the ability to&#x20;**_**automatically**_**&#x20;create AWS Cost and Usage Reports (CUR) or provision their associated S3 buckets**.
 
-#### **Required Action**
-
 Administrative users must now **create and configure CUR exports and S3 buckets directly in AWS** before connecting them to FinOps for Cloud.
-
-#### **Continuity of Service**
 
 FinOps for Cloud continues to support **connecting to existing customer‑managed CUR exports** without requiring elevated permissions.&#x20;
 
