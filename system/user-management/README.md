@@ -30,7 +30,7 @@ A few practical guidelines for Organization Managers assigning roles:
 
 **Legend**
 
-![](../../.gitbook/assets/dark_mode_icon_supported.png) Allowed\
+<picture><source srcset="../../.gitbook/assets/dark_mode_icon_supported.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/icon_supported.png" alt="" data-size="line"></picture> Allowed
 &#x20;— Not allowed
 
 ### Home
