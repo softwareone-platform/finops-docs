@@ -14,6 +14,10 @@ FinOps for Cloud requires two policies, depending on the type of account being o
 * **Billing import access policy** - This policy allows FinOps for Cloud to read cost and usage data from the configured S3 bucket. This policy is only required when you are onboarding an account that contains a cost and usage report.
 * **Resource discovery access policy** - This policy allows FinOps for Cloud to discover new and changed resources in your AWS account more often than AWS updates the cost and usage reports. This allows FinOps for Cloud to show information about your spend that is more up-to-date than what is contained in the cost and usage report.
 
+{% hint style="warning" %}
+Note that any service control policies configured in your organization may prevent FinOps for Cloud from importing your data. For more information, read about [Service Control Policies](configure-aws-access.md#service-control-policies) below.
+{% endhint %}
+
 ### Create a policy for billing imports
 
 The billing import access policy is only required for accounts with cost and usage reports configured for FinOps for Cloud.
@@ -159,3 +163,25 @@ When creating the access key, choose **Third-party service** as your use case.
 {% hint style="warning" %}
 Be sure to store your access key and secret access key securely. This is your only chance to view or download the newly created access key, as it cannot be recovered later.
 {% endhint %}
+
+## Service Control Policies
+
+When onboarding an AWS datasource, **FinOps for Cloud** requires access to cost, usage, and resource data. This access is granted by attaching an IAM policy with the required permissions (Actions) to the IAM identity used by the assumed role.
+
+In environments governed by AWS Service Control Policies (SCPs), it is important to understand how permission evaluation works:
+
+* **SCPs apply at the organisation level** and define the maximum allowed permissions.
+* **Explicit Deny statements in an SCP always override IAM permissions**, regardless of what is granted in the attached IAM policy.
+* SCPs may restrict access based on conditions such as **AWS Region** or **calling identity**.
+
+If an SCP denies any of the actions required for resource discovery, **FinOps for Cloud** will be unable to retrieve cost, usage, or resource information. This will result in incomplete or failed data ingestion.
+
+### What you need to verify
+
+To ensure successful onboarding and ongoing data collection:
+
+* Confirm that the IAM identity used for the assumed role is **not restricted by SCP Deny rules** for any required actions.
+* Review SCP conditions (e.g. region restrictions or principal constraints) that may unintentionally block access.
+* Ensure that all required actions defined in the Resource Discovery IAM policy are **effectively allowed** after SCP evaluation.
+
+If any required action is denied by an SCP, resource discovery will fail and **FinOps for Cloud** will not function as expected.
