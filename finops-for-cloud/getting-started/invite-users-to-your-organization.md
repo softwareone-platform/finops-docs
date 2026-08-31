@@ -4,7 +4,7 @@ When setting up your FinOps organization, it's important to consider the differe
 
 The roles available within FinOps for Cloud include Organization Manager, Manager, Engineer, and Member. For a description of these roles, see [User Management](../../system/user-management/). Once you have determined the appropriate roles for each individual you want to add to your account, open **User management** to start adding new users.&#x20;
 
-## Inviting users to your organization
+### Invite users to your organization
 
 {% hint style="info" %}
 In FinOps for Cloud, you cannot send an invitation to yourself. If you attempt to invite yourself, the platform displays a message.

@@ -6,7 +6,7 @@ The onboarding process in FinOps requires you to meet certain prerequisites base
 
 Additionally, you might need to complete certain tasks on the cloud provider's side and some in FinOps for Cloud. For instance, if you are connecting an AWS source, you must create Cost and Usage Reports, configure policies in the AWS console, and then add your AWS account to FinOps.&#x20;
 
-## Adding a data source
+## Add a data source
 
 {% hint style="info" %}
 Before adding a data source, make sure to go through the following links to understand the prerequisites and onboarding steps for supported data sources:&#x20;

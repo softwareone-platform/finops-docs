@@ -4,7 +4,7 @@ After signing in to FinOps for Cloud, the first thing you’ll see is the **Home
 
 <figure><img src="../../.gitbook/assets/ffc_homepage.png" alt=""><figcaption><p>The Home page in SoftwareOne FinOps for Cloud.</p></figcaption></figure>
 
-## Home page
+### Home page
 
 The **Home** page is a dashboard that displays your organization’s current spending and projected expenses for the upcoming month.&#x20;
 
@@ -16,7 +16,7 @@ The following sections are available on the dashboard. Note that selecting the f
 * **Policy violations** – Displays all policy violations along with the policy name and type. Select the policy name to open its details page. Pay special attention to the **Status** field. If it's red, it means the policy has been violated.
 * **Pools requiring attention** – Displays the **Exceeded limit** or **Forecast overspend** pools. Use the buttons in the **Actions** column to see the resources list and cost explorer.
 
-## Sidebar
+### Sidebar
 
 The sidebar on the left is the main navigation menu containing these options:
 
@@ -33,7 +33,7 @@ The sidebar on the left is the main navigation menu containing these options:
 * [Events ](../../system/events.md)– Lets you see all events that have occurred within your organization. The events include informational messages, warnings, and error messages.
 * [Settings ](../../system/settings/)– Allows you to view organization details, view pending invitations, and manage email notifications.&#x20;
 
-## Organization selector <a href="#organization-selector" id="organization-selector"></a>
+### Organization selector <a href="#organization-selector" id="organization-selector"></a>
 
 The **Organization** selector is available in the header.&#x20;
 
@@ -41,7 +41,7 @@ It displays your current organization and enables you to switch between organiza
 
 You can also select **Organization overview** for an overview of all organizations and key information for each organization. Organizations that require attention and optimization are marked in red.
 
-## Documentation and profile buttons
+### Documentation and profile buttons
 
 The header also includes these additional options:
 
