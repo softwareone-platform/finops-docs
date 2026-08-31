@@ -1,4 +1,4 @@
-# Manage Email Notifications
+# Manage email notifications
 
 In FinOps for Cloud, you can customize your email notification settings to determine which notifications you want to receive to stay informed about important updates.&#x20;
 
@@ -10,7 +10,7 @@ The notifications are organized into various categories, including:
 * **System notifications** - This includes system status or operational messages.
 * **Account management** - This includes notifications related to account invitations.
 
-### Managing email notifications
+### Manage email notifications
 
 To manage your email notifications:
 

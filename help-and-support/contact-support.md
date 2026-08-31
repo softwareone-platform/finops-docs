@@ -1,10 +1,10 @@
-# Contact Support
+# Contact support
 
 If you experience an issue with FinOps for Cloud, you can contact Marketplace Platform Support.
 
 Our support team is here to assist you with any technical issues and troubleshoot errors you may encounter while using FinOps for Cloud.
 
-### Describing your issue <a href="#describing-your-issue" id="describing-your-issue"></a>
+### Describe your issue <a href="#describing-your-issue" id="describing-your-issue"></a>
 
 When contacting us, we recommend that you provide as much detail as possible, including:
 
@@ -14,7 +14,7 @@ When contacting us, we recommend that you provide as much detail as possible, in
 * Your organization ID (available on the [Settings](../system/settings/) page).
 * If applicable, a screenshot or screen recording of the error message.
 
-### Contacting Marketplace Platform Support <a href="#contacting-marketplace-platform-support" id="contacting-marketplace-platform-support"></a>
+### Contact Marketplace Platform Support <a href="#contacting-marketplace-platform-support" id="contacting-marketplace-platform-support"></a>
 
 Marketplace Platform Support is available Monday to Friday, from 05:30 to 19:30 UTC.&#x20;
 

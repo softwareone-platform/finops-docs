@@ -1,13 +1,8 @@
----
-description: >-
-  Learn how you can add your Azure data sources to the FinOps for Cloud
-  platform. FinOps for Cloud supports both Azure tenants and individual Azure
-  subscriptions.
----
-
 # Microsoft Azure
 
-## Configuring your Azure data sources
+FinOps for Cloud supports both Azure tenants and individual Azure subscriptions. This topic describes how you can add your Azure data sources to the FinOps for Cloud platform.&#x20;
+
+### Configure your Azure data sources
 
 ### Add an Azure tenant
 
@@ -55,8 +50,6 @@ To do this, follow these steps:
 2. [\[Optional\] Reimport historical billing data](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/import-historical-data#performing-a-billing-reimport-in-finops)
 {% endstep %}
 {% endstepper %}
-
-## Important
 
 {% hint style="warning" %}
 Adding the same Azure subscription by adding it under a tenant and also adding it individually will cause problems when importing billing data.

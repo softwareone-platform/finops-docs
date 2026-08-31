@@ -1,14 +1,6 @@
----
-description: >-
-  Microsoft stores up to 13 months of billing data. Follow these steps to import
-  it.
----
+# Import historical data
 
-# Import Historical Data
-
-## Performing a billing reimport in FinOps
-
-To perform a billing reimport in FinOps for Cloud:
+Microsoft stores up to 13 months of billing data. To perform a billing reimport in FinOps for Cloud:
 
 1. Navigate to the **Data sources** page.
 2. Select the Azure data source, then select **Billing reimport**.

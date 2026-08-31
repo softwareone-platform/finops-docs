@@ -4,7 +4,7 @@ The **Resources** page provides a detailed overview of all available cloud resou
 
 The page displays data in graphical format and in a table. The graphic visualization includes various types of charts, such as bar charts and line graphs, helping you understand trends, patterns, and anomalies in your cloud resource usage and expenses. The tabular data includes specific data points and metrics, including columns for different parameters, such as resource type, cost, usage, tags, owner, and more.
 
-<figure><img src="../../.gitbook/assets/ffc_resources.png" alt=""><figcaption><p>The Resources page in FinOps for Cloud.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ffc_resources.png" alt=""><figcaption><p>Use the Resources page to view available cloud resources.</p></figcaption></figure>
 
 ### Using resource filters
 

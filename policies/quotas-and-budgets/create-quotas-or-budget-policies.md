@@ -1,8 +1,8 @@
-# Create Quota or Budget Policies
+# Create quota or budget policies
 
 Organization Managers can create a new quota or budget policy using the **Add** option on the **Quota and budgets** page.
 
-### Creating a new quota or budget
+### Create a new quota or budget
 
 To create a new policy:
 

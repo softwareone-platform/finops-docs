@@ -5,9 +5,9 @@ description: >-
   trusted role (recommended) or IAM user.
 ---
 
-# Configure AWS Access
+# Configure AWS access
 
-## AWS IAM Policies
+### AWS IAM Policies
 
 FinOps for Cloud requires two policies, depending on the type of account being onboarded:
 
@@ -106,7 +106,7 @@ A suggested name for the policy is `FinOpsForCloudResourceDiscovery`.
 
 ## AWS IAM assumed role
 
-### Creating a new IAM role
+### Create a new IAM role
 
 To create a new IAM role for FinOps for Cloud, see [Create a role using custom trust policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-custom.html) in the AWS IAM user guide.
 
@@ -142,7 +142,7 @@ When creating the role, use the following settings:
 
 ## AWS IAM user and access key
 
-### Creating a new IAM user
+### Create a new IAM user
 
 To create a new IAM user for FinOps for Cloud, see [Create an IAM user in your AWS account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) in the AWS IAM User Guide.
 
@@ -154,7 +154,7 @@ When creating the user, use the following settings:
    1. `FinOpsForCloudResourceDiscovery` (always required)
    2. `FinOpsForCloudBillingImport` (required only for accounts with cost and usage reports buckets)
 
-### Creating an access key for FinOps for Cloud
+### Create an access key for FinOps for Cloud
 
 To create an access key for FinOps for Cloud, see [Create an access key for an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-keys-admin-managed.html#admin-create-access-key) in the AWS IAM User Guide.
 
@@ -181,7 +181,7 @@ If an SCP denies any of the actions required for resource discovery, **FinOps fo
 To ensure successful onboarding and ongoing data collection:
 
 * Confirm that the IAM identity used for the assumed role is **not restricted by SCP Deny rules** for any required actions.
-* Review SCP conditions (e.g. region restrictions or principal constraints) that may unintentionally block access.
+* Review SCP conditions (e.g., region restrictions or principal constraints) that may unintentionally block access.
 * Ensure that all required actions defined in the Resource Discovery IAM policy are **effectively allowed** after SCP evaluation.
 
-If any required action is denied by an SCP, resource discovery will fail and **FinOps for Cloud** will not function as expected.
+If any required action is denied by an SCP, resource discovery will fail, and **FinOps for Cloud** will not function as expected.

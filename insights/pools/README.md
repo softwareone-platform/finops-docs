@@ -6,7 +6,7 @@ All pools and sub-pools are organized in a hierarchical structure to help you na
 
 You can also see the pool owner and perform actions, like adding new subpools, viewing the resource list, opening the pool in the cost explorer, and deleting the pool and its subpools.
 
-## About Assignment Rules
+### About Assignment Rules
 
 Newly created resources are automatically distributed into pools based on assignment rules. If the resources have certain tags, they are immediately assigned to the appropriate pool upon first discovery. Resources that don't belong to any pool are assigned to the data source pool, which is created automatically when the data source is connected.
 

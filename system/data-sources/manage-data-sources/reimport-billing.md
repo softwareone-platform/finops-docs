@@ -1,4 +1,4 @@
-# Reimport Billing
+# Reimport billing
 
 The **Billing Reimport** option is available on the details page of a data source in FinOps for Cloud.&#x20;
 
@@ -8,7 +8,7 @@ This feature allows you to manually reimport your billing data starting from a s
 * You have made configuration or permission-related changes that require reimporting data to reflect those updates.
 * You need historical billing data from months that were not previously imported.&#x20;
 
-## Performing a billing reimport
+### Perform a billing reimport
 
 {% hint style="warning" %}
 Before performing a billing reimport, note the following points:

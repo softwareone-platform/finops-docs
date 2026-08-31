@@ -6,7 +6,7 @@ By default, the chart displays data categorized by service along with daily expe
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/anomaly_detection_details.png" alt=""><figcaption><p>The Export chart option to download the chart as a PNG file.</p></figcaption></figure></div>
 
-### Exporting a chart
+### Export a chart
 
 To export the chart as a PNG file:
 

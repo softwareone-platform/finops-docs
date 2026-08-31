@@ -6,7 +6,7 @@ This view provides insight into how resources are assigned and managed within th
 
 Each rule displays key information, including its **Name**, **Owner**, and **Conditions**. The **Conditions** column offers a detailed summary of the criteria defined for each rule, such as **Name/ID contains**, **Tag is**, or **Source is**.
 
-## Viewing pool assignment rules
+### View pool assignment rules
 
 To view the assignment rules for a pool:
 

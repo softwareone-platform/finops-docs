@@ -1,4 +1,4 @@
-# Manage Perspectives
+# Manage perspectives
 
 The **Perspective** feature on the **Resources** page allows you to create new perspectives.
 
@@ -8,15 +8,15 @@ You can create multiple perspectives and save them for future use. When saving p
 
 You can also share the perspective URL with others in your organization, and delete a perspective if it's no longer needed.
 
-### Saving a perspective
+### Save a perspective
 
 To save a custom perspective:
 
-1. From the sidebar, navigate to the **Resources** page.
+1. From the left sidebar, select **Resources**.
 2. Select **Save perspective**.
 3. Under **Save as**, enter a name for your custom perspective, then select **Save**. The configuration is saved as a perspective.
 
-### Applying a saved perspective
+### Apply a saved perspective
 
 Saved perspectives are displayed when you select **Perspective** on the **Resources** page. The option is enabled only if you have previously saved at least one perspective.
 
@@ -27,7 +27,7 @@ To apply a saved perspective:
 
 When the perspective is applied, the **Resources** page updates its title to include the name of the perspective. Additionally, a link to copy the URL appears beside the name, allowing you to share the perspective with others.
 
-### Deleting a perspective
+### Delete a perspective
 
 You can delete perspectives that are no longer needed.
 

@@ -1,10 +1,10 @@
-# View Policy Violation History
+# View policy violation history
 
 A violation history is available for those policies where the resource count or the expenses have exceeded the quota or budget.&#x20;
 
 Violated policies are displayed in red on the **Quotas and budgets** page.
 
-### Viewing the policy violation history
+### View the policy violation history
 
 To view the policy violation history:
 
@@ -15,4 +15,3 @@ To view the policy violation history:
    1. The date and time when the policy violation occurred.
    2. The budgeted expense value vs the actual expense.
    3. The resources linked to the quota or budget.
-

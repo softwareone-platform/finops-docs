@@ -4,10 +4,10 @@ If you no longer need a pool, you can delete it. However, a pool can only be del
 
 Note that to delete a pool, you must have the **Manager** role in the parent of the pool you want to delete.
 
-## Deleting a pool <a href="#pool-deletion" id="pool-deletion"></a>
+### Delete a pool <a href="#pool-deletion" id="pool-deletion"></a>
 
-{% hint style="warning" %}
-Once a pool is deleted, it cannot be recovered
+{% hint style="danger" %}
+Once a pool is deleted, it cannot be recovered.
 {% endhint %}
 
 To delete a pool:

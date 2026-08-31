@@ -1,10 +1,10 @@
-# Configure Assignment Rules
+# Configure assignment rules
 
 There are two ways to configure assignment rules in FinOps for Cloud. You can add them from the **Pools** or **Resources** pages.
 
 When a new rule is added, it's always prioritized across the organization. It means that any discovered resources are first checked against the conditions of this new rule. If the resource doesn't meet the new rule's conditions, it's checked against the remaining rules in descending order until a matching rule is found.
 
-## Configuring a new assignment rule
+### Configure a new assignment rule
 
 To configure a new assignment rule:
 

@@ -1,4 +1,4 @@
-# View and Manage Assignment Rules
+# View and manage assignment rules
 
 The **Assignment rules** page in FinOps for Cloud allows you to add a new automatic resource assignment rule.&#x20;
 
@@ -6,12 +6,12 @@ From this page, you can also reapply the entire ruleset to all resources within 
 
 You can manage existing rules and search for specific rules using filters such as **Name**, **Assigned To**, **Conditions**, and **Priority**.
 
-## Viewing assignment rules
+### View assignment rules
 
 1. Navigate to the **Pools** page.&#x20;
 2. Select **Configure assignment rules**. The list of rules is displayed.&#x20;
 
-<figure><img src="../../.gitbook/assets/assignment_rules.png" alt=""><figcaption><p>The Assignment rules page displaying all rules.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/assignment_rules.png" alt=""><figcaption><p>Use the Assignment rules page to view all rules.</p></figcaption></figure>
 
 For each rule, you can view the following details:
 
@@ -20,7 +20,7 @@ For each rule, you can view the following details:
 * **Conditions** - Shows a summary of the conditions that trigger the rule.
 * **Priority** - Displays the priority used to apply assignment rules to resources.
 
-## Managing assignment rules
+### Manage assignment rules
 
 The **Actions** column on the **Assignment Rules** page contains options you can use to manage your existing rules.
 

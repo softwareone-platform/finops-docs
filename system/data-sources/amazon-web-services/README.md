@@ -1,12 +1,8 @@
----
-description: >-
-  Learn how you can add your AWS data sources to the FinOps platform. FinOps for
-  Cloud supports both AWS organizations and individual AWS standalone accounts.
----
-
 # Amazon Web Services
 
-## Know your account types
+FinOps for Cloud supports both AWS organizations and individual AWS standalone accounts. This topic describesdescibes how you can add your AWS data sources to the FinOps platform.&#x20;
+
+### Know your account types
 
 FinOps for Cloud supports three account types as described in the following table:
 
@@ -14,9 +10,9 @@ FinOps for Cloud supports three account types as described in the following tabl
 If you want to add a member account in an AWS Organization to FinOps for Cloud, but you do not have access to the management account, follow the instructions for a [standalone account](./#aws-standalone-accounts).
 {% endhint %}
 
-<table><thead><tr><th width="179" valign="top">Term</th><th valign="top">Definition and use</th></tr></thead><tbody><tr><td valign="top">Management account</td><td valign="top"><p>A management account is an AWS account you use to create your AWS Organization. The owner of the management account is responsible for paying for all usage, data, and resources used by the accounts in the organization.</p><p></p><p>A management account is also called a root account, master account, billing account, or payer account.</p><p></p><p>In FinOps for Cloud, use this account type when adding an AWS Organization <a href="./#with-access-to-the-management-account">management account</a>.</p></td></tr><tr><td valign="top">Member account</td><td valign="top"><p>A member account is an AWS account, other than the management account, that is part of an AWS Organization. The management account is responsible for paying for all member accounts in the organization.</p><p></p><p>A member account is also referred to as a linked account, child account, usage account, or sub-account.</p><p></p><p>In FinOps for Cloud, use this account type when adding an AWS Organization member account, <a href="./#with-access-to-the-management-account">and the management account has already been added to FinOps for Cloud</a>.</p></td></tr><tr><td valign="top">Standalone account</td><td valign="top"><p>A standalone account refers to an account that is not part of an AWS Organization. It stands on its own, without being linked to any other accounts for consolidated billing, management, or policy control.</p><p></p><p>A standalone account is also referred to as an individual account, non-organizational account, or unlinked account.</p><p></p><p>In FinOps for Cloud, use this account type when:</p><ul><li>Adding <a href="./#aws-standalone-accounts">standalone AWS account</a> that is not part of an AWS Organization</li><li>Adding an AWS member account that is part of an AWS Organization, <a href="./#without-access-to-the-management-account">but access to the management account is not available</a>.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="179" valign="top">Term</th><th valign="top">Definition and use</th></tr></thead><tbody><tr><td valign="top">Management account</td><td valign="top"><p>A management account is an AWS account you use to create your AWS Organization. The owner of the management account is responsible for paying for all usage, data, and resources used by the accounts in the organization.</p><p>A management account is also called a root account, master account, billing account, or payer account.</p><p>In FinOps for Cloud, use this account type when adding an AWS Organization <a href="./#with-access-to-the-management-account">management account</a>.</p></td></tr><tr><td valign="top">Member account</td><td valign="top"><p>A member account is an AWS account, other than the management account, that is part of an AWS Organization. The management account is responsible for paying for all member accounts in the organization.</p><p>A member account is also referred to as a linked account, child account, usage account, or sub-account.</p><p>In FinOps for Cloud, use this account type when adding an AWS Organization member account, <a href="./#with-access-to-the-management-account">and the management account has already been added to FinOps for Cloud</a>.</p></td></tr><tr><td valign="top">Standalone account</td><td valign="top"><p>A standalone account refers to an account that is not part of an AWS Organization. It stands on its own, without being linked to any other accounts for consolidated billing, management, or policy control.</p><p>A standalone account is also referred to as an individual account, non-organizational account, or unlinked account.</p><p>In FinOps for Cloud, use this account type when:</p><ul><li>Adding <a href="./#aws-standalone-accounts">standalone AWS account</a> that is not part of an AWS Organization</li><li>Adding an AWS member account that is part of an AWS Organization, <a href="./#without-access-to-the-management-account">but access to the management account is not available</a>.</li></ul></td></tr></tbody></table>
 
-## Assumed roles vs IAM user access keys
+### Assumed roles vs IAM user access keys
 
 FinOps for Cloud supports adding data sources using two authentication methods:
 
@@ -27,11 +23,11 @@ FinOps for Cloud supports adding data sources using two authentication methods:
 SoftwareOne strongly recommends using assumed roles to configure your data sources.
 {% endhint %}
 
-## Configuring your AWS accounts
+### Configuring your AWS accounts
 
 ### AWS Organizations
 
-Depending on the access to your management account and other member accounts, there are different ways to add AWS data sources to FinOps for Cloud.&#x20;
+Depending on the access to your management account and other member accounts, there are different ways to add AWS data sources to FinOps for Cloud.
 
 {% hint style="info" %}
 If you add only a management account without connecting its member accounts, any expenses from those unconnected member accounts are ignored, even if they appear in the data export file.
@@ -45,7 +41,7 @@ If you have access to create a Cost and Usage Report (CUR) and Identity and Acce
 
 {% stepper %}
 {% step %}
-#### Add your management account
+**Add your management account**
 
 To add your management account:
 
@@ -57,11 +53,11 @@ To add your management account:
 5. If you are using an IAM user with an access key:
    1. [Create the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-a-new-iam-user).
    2. [Create an access key for the `FinOpsForCloudUser` IAM user](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/configure-aws-access#creating-an-access-key-for-finops-for-cloud).
-6. [Add the management account data source to FinOps for Cloud.](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/add-your-aws-account-to-finops-for-cloud#adding-a-management-or-standalone-aws-account)&#x20;
+6. [Add the management account data source to FinOps for Cloud.](https://docs.finops.softwareone.com/system/data-sources/amazon-web-services/add-your-aws-account-to-finops-for-cloud#adding-a-management-or-standalone-aws-account)
 {% endstep %}
 
 {% step %}
-#### Add your member accounts to FinOps for Cloud
+**Add your member accounts to FinOps for Cloud**
 
 {% hint style="info" %}
 When adding a member account, and you have already added the management account, there is no need to create a cost and usage report or create the `FinOpsForCloudBillingImport` policy.

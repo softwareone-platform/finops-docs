@@ -1,4 +1,4 @@
-# Getting Started
+# Getting started
 
 FinOps for Cloud is a SaaS product that is built on top of Optscale [open source](../../help-and-support/open-source.md).&#x20;
 
@@ -26,7 +26,7 @@ See the following links to get started:
 [cost-explorer.md](../../analysis/cost-explorer.md)
 {% endcontent-ref %}
 
-## Additional resources
+### Additional resources
 
 Once your organization is set up within FinOps for Cloud and a data source is connected, you can perform several tasks to optimize your cloud spending and manage overall costs.&#x20;
 

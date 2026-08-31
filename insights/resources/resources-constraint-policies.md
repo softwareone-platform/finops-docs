@@ -1,4 +1,4 @@
-# Apply Constraints
+# Apply constraints
 
 To address the ever-dynamic cloud infrastructure where resources are being created and deleted continuously, FinOps for Cloud contains a set of tools to help limit the related expenses and the lifetime of individual assets.
 
@@ -17,7 +17,7 @@ When a resource hits a constraint, both the Manager and Owner of the resource ar
 FinOps for Cloud sends notifications about violated constraints and doesn't interact with the connected source itself to perform any constraint-related adjustments.
 {% endhint %}
 
-### Applying constraints to a resource <a href="#resources-constraints" id="resources-constraints"></a>
+### Apply constraints to a resource <a href="#resources-constraints" id="resources-constraints"></a>
 
 To apply constraints to a resource:
 
@@ -26,7 +26,7 @@ To apply constraints to a resource:
 
 <figure><img src="../../.gitbook/assets/resources_constraints.png" alt=""><figcaption><p>The Constraints tab on the resource details page.</p></figcaption></figure>
 
-3. Use the slider to enable the required setting. Then, select edit to enter the value. When done, select <img src="../../.gitbook/assets/icon_check.png" alt="pencil" data-size="line"> to save your changes.
+3. Use the slider to enable the required setting. Then, select Edit to enter the value. When done, select <img src="../../.gitbook/assets/icon_check.png" alt="pencil" data-size="line"> to save your changes.
 
 <figure><img src="../../.gitbook/assets/resources_constraints_tab.png" alt=""><figcaption><p>Available constraint type</p></figcaption></figure>
 

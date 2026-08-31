@@ -1,8 +1,6 @@
-# Rename Data Source
+# Rename data sources
 
 The **Rename** option on the details page of a data source allows you to update the name displayed for that source.
-
-## Renaming a data source
 
 To rename a data source:
 

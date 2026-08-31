@@ -1,4 +1,4 @@
-# Edit or Delete Tagging Policies
+# Edit or delete tagging policies
 
 You can delete a tagging policy or edit the policy name at any time. You can't edit tags that are used in policies.
 
@@ -6,7 +6,7 @@ You can delete a tagging policy or edit the policy name at any time. You can't e
 Deleted policies cannot be restored.
 {% endhint %}
 
-### Editing or deleting tagging policies
+### Edit or delete a tagging policy
 
 To edit or delete a tagging policy:
 

@@ -1,10 +1,10 @@
-# Disconnect Data Source
+# Disconnect data sources
 
 The **Disconnect** option on the details page of a data source lets you disconnect and remove a data source from FinOps for Cloud.&#x20;
 
 When a data source has been disconnected, you’ll only be charged for the days the data source was connected. Once it’s disconnected, billing will stop, and you won’t receive any further invoices.&#x20;
 
-## Disconnecting a data source
+### Disconnect a data source
 
 {% hint style="warning" %}
 Disconnecting a data source removes all historical data associated with that source.

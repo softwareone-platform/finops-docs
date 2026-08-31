@@ -8,7 +8,7 @@ When selected, this option reorganizes the resources, even if they were previous
 The option to reapply a ruleset is only available to individuals with Organization Manager or Root Pool Manager permissions.
 {% endhint %}
 
-## Reapplying a ruleset <a href="#re-apply-ruleset" id="re-apply-ruleset"></a>
+### Reapply a ruleset <a href="#re-apply-ruleset" id="re-apply-ruleset"></a>
 
 To reapply a ruleset:
 

@@ -1,4 +1,4 @@
-# View and Manage Users
+# View and manage users
 
 In FinOps for Cloud, the **User management** page shows a list of existing users in your organization and what role they have been assigned. Each page shows up to 50 users.&#x20;
 
@@ -10,11 +10,11 @@ For each user, you can also view the following information:
 
 From this page, you can find a specific user using the **Search** option, invite new users, and remove users who no longer need access to your organization.&#x20;
 
-### Inviting users to your organization
+### Invite a user to your organization
 
 Organization Managers can invite a new user to the FinOps organization by selecting **Invite** on the **Users** **management** page. To learn more, see [Invite Users to Your Organization](../../finops-for-cloud/getting-started/invite-users-to-your-organization.md).
 
-### Removing a user from your organization
+### Remove a user from your organization
 
 Organization Managers can remove an individual from an organization. To remove an individual:
 

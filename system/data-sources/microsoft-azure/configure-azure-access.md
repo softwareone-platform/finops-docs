@@ -5,9 +5,9 @@ description: >-
   subscription.
 ---
 
-# Configure Azure Access
+# Configure Azure access
 
-## Configure Azure for FinOps for Cloud
+### Configure Azure for FinOps for Cloud
 
 FinOps for Cloud requires an app registration to connect to your Azure subscriptions.
 

@@ -4,7 +4,7 @@ If you want to implement policies for an entire pool, instead of a single resour
 
 Only individuals with a **Manager** role can enforce shared constraints across the pool. While shared constraints apply pool-wide, custom resource-specific constraints can still be configured and will override the general policy.
 
-## Creating a pool constraint policy
+### Create a pool constraint policy
 
 To configure pool constraint policies:
 
