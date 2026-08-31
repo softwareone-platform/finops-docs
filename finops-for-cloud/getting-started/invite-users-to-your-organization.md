@@ -1,4 +1,4 @@
-# Invite Users to Your Organization
+# Invite users to your organization
 
 When setting up your FinOps organization, it's important to consider the different roles you need for your account members.&#x20;
 
@@ -15,8 +15,8 @@ To invite new members to your organization:
 1. Navigate to the **User management** page.
 2. Select **Invite**.
 3. On the **Invite users** page, complete the following steps:
-   1. **Email** - Enter the email addresses of the members you want to invite. You can enter multiple addresses.&#x20;
-   2. **Add role** - Select **Add role** to choose a role. You must also select a pool for each member. All pools and sub-pools existing within your environment are displayed. Note that a member with **Manager** and **Engineer** roles can belong to several different pools.
+   1. **Email** – Enter the email addresses of the members you want to invite. You can enter multiple addresses.&#x20;
+   2. **Add role** – Select **Add role** to choose a role. You must also select a pool for each member. All pools and sub-pools existing within your environment are displayed. Note that a member with **Manager** and **Engineer** roles can belong to several different pools.
 4. Select **Invite**.
 
 A confirmation message is displayed stating that the user has been invited, and an invitation email is sent to the individual.&#x20;

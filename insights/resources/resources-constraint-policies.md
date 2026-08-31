@@ -4,10 +4,10 @@ To address the ever-dynamic cloud infrastructure where resources are being creat
 
 This is implemented in the form of constraints that you can set for a specific resource or generally for a pool. You can set two types of constraints:
 
-* **TTL** - Represents time to live. A resource must not live for more than the specified period.
+* **TTL** – Represents time to live. A resource must not live for more than the specified period.
   * For a resource, specify a date and time.
   * For a pool, input an integer between 1 and 720 hours.
-* **Daily expenses limit** - The resource spending must not exceed the specified amount in dollars. Input as an integer, min $ 1, 0 - unlimited.
+* **Daily expenses limit** – The resource spending must not exceed the specified amount in dollars. Input as an integer, min $ 1, 0 - unlimited.
 
 When FinOps discovers active resources in the connected source, it checks that they don't violate any existing pool constraints that were applied as policies before.
 

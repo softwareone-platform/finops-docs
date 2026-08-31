@@ -15,10 +15,10 @@ You can manage existing rules and search for specific rules using filters such a
 
 For each rule, you can view the following details:
 
-* **Name** - The name of the rule. Active rules are marked with green dots next to their names, and inactive ones are marked with grey dots.
-* **Assign to** - The pool and the owner to whom the resource is assigned.
-* **Conditions** - Shows a summary of the conditions that trigger the rule.
-* **Priority** - Displays the priority used to apply assignment rules to resources.
+* **Name** – The name of the rule. Active rules are marked with green dots next to their names, and inactive ones are marked with grey dots.
+* **Assign to** – The pool and the owner to whom the resource is assigned.
+* **Conditions** – Shows a summary of the conditions that trigger the rule.
+* **Priority** – Displays the priority used to apply assignment rules to resources.
 
 ### Manage assignment rules
 

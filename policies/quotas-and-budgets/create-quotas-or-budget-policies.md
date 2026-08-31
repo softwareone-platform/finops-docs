@@ -8,9 +8,9 @@ To create a new policy:
 
 1. Navigate to the **Quota and Budgets** page, then select **Add**.&#x20;
 2. On the **Create quota or budget policy** page, provide a descriptive name for the new policy and select the policy type. The following options are available:
-   * **Resource quota** - Triggers once per day if the current number of resources exceeds the limit.&#x20;
-   * **Recurring budget** - Triggers once per month if the expenses for the current month exceed the limit.
-   * **Expiring budget** - Triggers when the total expenses from the start date exceed the limit.
+   * **Resource quota** – Triggers once per day if the current number of resources exceeds the limit.&#x20;
+   * **Recurring budget** – Triggers once per month if the expenses for the current month exceed the limit.
+   * **Expiring budget** – Triggers when the total expenses from the start date exceed the limit.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/create_quota_budget.png" alt=""><figcaption><p>Create quota or budget policy in FinOps for Cloud. </p></figcaption></figure></div>
 

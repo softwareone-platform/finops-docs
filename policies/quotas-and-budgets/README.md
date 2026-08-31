@@ -1,4 +1,4 @@
-# Quotas and Budgets
+# Quotas and budgets
 
 Quotas and budgets are two crucial concepts to consider when managing cloud storage. These tools help organizations control costs and manage resources efficiently.&#x20;
 
@@ -21,8 +21,8 @@ From the **Quotas and budgets** page, you can create a new policy and view your 
 * Select a policy to view detailed policy information, including violations if applicable.
 * View the timestamp of the last check.&#x20;
 * See the current resource count or expense value in the **Status** column. Use the progress bar to understand how close the current value is to the set threshold. The color of the progress bar reflects the ratio of the current value to the quota or budget.
-  * **Red** - Indicates that the resource count or expenses exceed the quota or budget.
-  * **Yellow** - Indicates that the resource count or expenses are approaching the threshold, specifically in the range of 90% and 100%.
-  * **Green** - Indicates that the values are within the limit and don't exceed the quota or budget.
+  * **Red** – Indicates that the resource count or expenses exceed the quota or budget.
+  * **Yellow** – Indicates that the resource count or expenses are approaching the threshold, specifically in the range of 90% and 100%.
+  * **Green** – Indicates that the values are within the limit and don't exceed the quota or budget.
 * View all filters that display the criteria used to select resources for the quota or budget.
 * View resources connected to a quota or budget by selecting the **Show resources** icon in the **Actions** column.

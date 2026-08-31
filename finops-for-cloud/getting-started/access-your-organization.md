@@ -28,7 +28,7 @@ After signing in, you must connect your data source to FinOps. For more informat
 
 ### FinOps for Cloud users
 
-If you've been added to an organization, you'll receive an invitation email from SoftwareOne FinOps for Cloud.
+If you are added to an organization, you'll receive an invitation email from SoftwareOne FinOps for Cloud.
 
 To join your organization:
 

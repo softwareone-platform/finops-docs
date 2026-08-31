@@ -1,4 +1,4 @@
-# Add Data Sources
+# Add data sources
 
 To start monitoring your cloud resources, you must connect your billing source to FinOps for Cloud. The supported data sources include Amazon Web Services, Google Cloud Platform, and Microsoft Azure.&#x20;
 
@@ -28,9 +28,9 @@ To add a new data source:
 3. On the **Connect data source** page, do the following:
    1. Select the data source you want to add, for example, **AWS**, **Azure**, or **GCP**.&#x20;
    2. Select the connection type:
-      1. **AWS** - Choose if you want to connect a root account or a linked account.
-      2. **Azure** - Choose if you want to connect a tenant or a subscription.&#x20;
-      3. **GCP** - Choose if you want to connect a tenant or a project. &#x20;
+      1. **AWS** – Choose if you want to connect a root account or a linked account.
+      2. **Azure** – Choose if you want to connect a tenant or a subscription.&#x20;
+      3. **GCP** – Choose if you want to connect a tenant or a project. &#x20;
 4. Enter the account credentials. The fields and options vary depending on the source you are connecting.
 5. Select **Connect**.
 
