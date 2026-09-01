@@ -24,16 +24,16 @@ To add an Azure tenant:
 {% step %}
 **Configure Azure Access**
 
-1. [Create the app registration](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/configure-azure-access#create-the-app-registration)
-2. [Create a client secret](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/configure-azure-access#create-a-client-secret)
-3. [Assign the Reader role](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/configure-azure-access#assign-the-reader-role)
+1. [Create the app registration](configure-azure-access.md#create-the-app-registration)
+2. [Create a client secret](configure-azure-access.md#create-a-client-secret)
+3. [Assign the Reader role](configure-azure-access.md#assign-the-reader-role)
 {% endstep %}
 
 {% step %}
 **Add your tenant to FinOps for Cloud**
 
-1. [Add your Azure tenant to FinOps for Cloud](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/add-your-azure-subscriptions-to-finops-for-cloud#adding-an-azure-tenant-to-finops-for-cloud)
-2. [\[Optional\] Reimport historical billing data](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/import-historical-data#performing-a-billing-reimport-in-finops)
+1. [Add your Azure tenant to FinOps for Cloud](add-your-azure-subscriptions-to-finops-for-cloud.md)
+2. [\[Optional\] Reimport historical billing data](import-historical-data.md)
 {% endstep %}
 {% endstepper %}
 
@@ -47,17 +47,17 @@ To add individual Azure subscriptions:
 {% step %}
 **Configure Azure access**
 
-1. [Create the app registration](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/configure-azure-access#create-the-app-registration)
-2. [Create a client secret](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/configure-azure-access#create-a-client-secret)
-3. [Find your Azure subscription IDs](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/configure-azure-access#create-a-client-secret)
-4. [Assign the Reader role](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/configure-azure-access#assign-the-reader-role)
+1. [Create the app registration](configure-azure-access.md#create-the-app-registration)
+2. [Create a client secret](configure-azure-access.md#create-a-client-secret)
+3. [Find your Azure subscription IDs](configure-azure-access.md#find-your-subscription-ids)
+4. [Assign the Reader role](configure-azure-access.md#assign-the-reader-role)
 {% endstep %}
 
 {% step %}
 **Add your tenant to FinOps for Cloud**
 
-1. [Add your Azure subscriptions to FinOps for Cloud](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/add-your-azure-subscriptions-to-finops-for-cloud#adding-an-individual-azure-subscription-to-finops-for-cloud)
-2. [\[Optional\] Reimport historical billing data](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/import-historical-data#performing-a-billing-reimport-in-finops)
+1. [Add your Azure subscriptions to FinOps for Cloud](add-your-azure-subscriptions-to-finops-for-cloud.md)
+2. [\[Optional\] Reimport historical billing data](import-historical-data.md)
 {% endstep %}
 {% endstepper %}
 
