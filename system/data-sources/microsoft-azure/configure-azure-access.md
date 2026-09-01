@@ -1,11 +1,6 @@
----
-description: >-
-  Configuring access to your Azure subscriptions for FinOps for Cloud requires
-  the creation of an App Registration and assigning the Reader role in each
-  subscription.
----
-
 # Configure Azure access
+
+Configuring access to your Azure subscriptions for FinOps for Cloud requires creating an App Registration and assigning the Reader role in each subscription.
 
 ### Configure Azure for FinOps for Cloud
 

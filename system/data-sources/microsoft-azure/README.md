@@ -2,13 +2,23 @@
 
 FinOps for Cloud supports both Azure tenants and individual Azure subscriptions. This topic describes how you can add your Azure data sources to the FinOps for Cloud platform.&#x20;
 
-### Configure your Azure data sources
+### Prerequisites&#x20;
+
+Before connecting Microsoft Azure to FinOps for Cloud, ensure:
+
+* Azure subscriptions are active.
+* Required permissions are assigned. See [Configure Azure Access](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/configure-azure-access) for the Azure roles and permissions required to connect Azure to FinOps for Cloud.
+* Azure Cost Management is enabled and accessible for the subscriptions being onboarded.
+
+FinOps for Cloud retrieves Azure cost and usage information through Azure Cost Management.&#x20;
+
+If Azure Cost Management data is unavailable or access is restricted, cost and consumption data cannot be imported into the platform.
 
 ### Add an Azure tenant
 
-Adding an Azure tenant requires the creation of an app registration and the assignment of the Reader role to each Azure subscription.
+Adding an Azure tenant requires creating an app registration and assigning the Reader role to each Azure subscription.
 
-To do this, follow these steps:
+To add an Azure tenant:
 
 {% stepper %}
 {% step %}
@@ -29,13 +39,13 @@ To do this, follow these steps:
 
 ### Add individual Azure subscriptions
 
-Adding individual Azure subscriptions requires the creation of an app registration and the assignment of the Reader role to each Azure subscription.
+Adding individual Azure subscriptions requires creating an app registration and assigning the Reader role to each Azure subscription.
 
-To do this, follow these steps:
+To add individual Azure subscriptions:
 
 {% stepper %}
 {% step %}
-**Configure Azure Access**
+**Configure Azure access**
 
 1. [Create the app registration](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/configure-azure-access#create-the-app-registration)
 2. [Create a client secret](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/configure-azure-access#create-a-client-secret)
@@ -52,5 +62,5 @@ To do this, follow these steps:
 {% endstepper %}
 
 {% hint style="warning" %}
-Adding the same Azure subscription by adding it under a tenant and also adding it individually will cause problems when importing billing data.
+Adding the same Azure subscription under a tenant and individually can cause problems when importing billing data.
 {% endhint %}
