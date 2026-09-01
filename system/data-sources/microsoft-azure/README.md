@@ -7,7 +7,7 @@ FinOps for Cloud supports both Azure tenants and individual Azure subscriptions.
 Before connecting Microsoft Azure to FinOps for Cloud, ensure:
 
 * Azure subscriptions are active.
-* Required permissions are assigned. See [Configure Azure Access](https://docs.finops.softwareone.com/system/data-sources/microsoft-azure/configure-azure-access) for the Azure roles and permissions required to connect Azure to FinOps for Cloud.
+* Required permissions are assigned. See [Configure Azure Access](configure-azure-access.md) for the Azure roles and permissions required to connect Azure to FinOps for Cloud.
 * Azure Cost Management is enabled and accessible for the subscriptions being onboarded.
 
 FinOps for Cloud retrieves Azure cost and usage information through Azure Cost Management.&#x20;
